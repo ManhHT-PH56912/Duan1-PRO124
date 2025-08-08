@@ -136,6 +136,45 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -372,7 +411,17 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      64x64_Atlas_HorseRider_MountRaise_0: 696821836097140364
+      64x64_Atlas_HorseRider_MountRaise_1: -300188550993801658
+      64x64_Atlas_HorseRider_MountRaise_2: 132544769573544225
+      64x64_Atlas_HorseRider_MountRaise_3: 102826106581693727
+      64x64_Atlas_HorseRider_MountRaise_4: -619711584001109941
+      64x64_Atlas_HorseRider_MountRaise_5: 515894254470480318
+      64x64_Atlas_HorseRider_MountRaise_6: 4870220736408520740
+      64x64_Atlas_HorseRider_MountRaise_7: 488449895938121265
+      64x64_Atlas_HorseRider_MountRaise_8: 6132549254902113370
+      64x64_Atlas_HorseRider_MountRaise_9: -461514129262185520
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

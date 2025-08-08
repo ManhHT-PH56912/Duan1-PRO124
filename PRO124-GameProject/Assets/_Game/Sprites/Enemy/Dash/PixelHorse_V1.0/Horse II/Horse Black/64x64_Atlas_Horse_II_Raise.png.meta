@@ -136,6 +136,45 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -372,7 +411,17 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      64x64_Atlas_Horse_II_Raise_0: 1862015067307871810
+      64x64_Atlas_Horse_II_Raise_1: -6067142220336190297
+      64x64_Atlas_Horse_II_Raise_2: 5182609956664136882
+      64x64_Atlas_Horse_II_Raise_3: -3010484954168441321
+      64x64_Atlas_Horse_II_Raise_4: 1378413001183383000
+      64x64_Atlas_Horse_II_Raise_5: 6693543957120984944
+      64x64_Atlas_Horse_II_Raise_6: 3480724359689012744
+      64x64_Atlas_Horse_II_Raise_7: 6203543662331004361
+      64x64_Atlas_Horse_II_Raise_8: -6484643677637880840
+      64x64_Atlas_Horse_II_Raise_9: 9119681578326785946
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

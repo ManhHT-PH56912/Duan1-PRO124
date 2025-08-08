@@ -223,6 +223,45 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -1097,7 +1136,46 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      64x64_Atlas_Horse_Base_0: -1639894968044601680
+      64x64_Atlas_Horse_Base_1: 5632875364507277280
+      64x64_Atlas_Horse_Base_10: -3913131262271396275
+      64x64_Atlas_Horse_Base_11: 6034392672289964517
+      64x64_Atlas_Horse_Base_12: -1799034894981444042
+      64x64_Atlas_Horse_Base_13: -4247786609107349220
+      64x64_Atlas_Horse_Base_14: 6112812733558994048
+      64x64_Atlas_Horse_Base_15: 2036438661854338282
+      64x64_Atlas_Horse_Base_16: -67623118932969345
+      64x64_Atlas_Horse_Base_17: -8832799418685056223
+      64x64_Atlas_Horse_Base_18: 6033010127462109765
+      64x64_Atlas_Horse_Base_19: 3030417236263354089
+      64x64_Atlas_Horse_Base_2: 8731766289144550924
+      64x64_Atlas_Horse_Base_20: -4282828845066800816
+      64x64_Atlas_Horse_Base_21: 6719928681654102543
+      64x64_Atlas_Horse_Base_22: -3778461738797456460
+      64x64_Atlas_Horse_Base_23: 8192287672220894817
+      64x64_Atlas_Horse_Base_24: -7760798567929609701
+      64x64_Atlas_Horse_Base_25: 4641727525140382496
+      64x64_Atlas_Horse_Base_26: -7260936923900470247
+      64x64_Atlas_Horse_Base_27: 1460043882285199549
+      64x64_Atlas_Horse_Base_28: 7527295641911564263
+      64x64_Atlas_Horse_Base_29: 2171115317434549346
+      64x64_Atlas_Horse_Base_3: 5886357781872637112
+      64x64_Atlas_Horse_Base_30: -2530282296657791859
+      64x64_Atlas_Horse_Base_31: 1442592067580422807
+      64x64_Atlas_Horse_Base_32: -4292829430250397244
+      64x64_Atlas_Horse_Base_33: 144656637479162511
+      64x64_Atlas_Horse_Base_34: 6145898445587688877
+      64x64_Atlas_Horse_Base_35: 3857692270138521522
+      64x64_Atlas_Horse_Base_36: 1569477388993223626
+      64x64_Atlas_Horse_Base_37: 7682730904219534074
+      64x64_Atlas_Horse_Base_38: 1489500874837542274
+      64x64_Atlas_Horse_Base_4: -7389893271806656465
+      64x64_Atlas_Horse_Base_5: 324140488207912273
+      64x64_Atlas_Horse_Base_6: -7661720136659832067
+      64x64_Atlas_Horse_Base_7: 5860186034011511599
+      64x64_Atlas_Horse_Base_8: -1678710320803286254
+      64x64_Atlas_Horse_Base_9: -664795217520305377
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
