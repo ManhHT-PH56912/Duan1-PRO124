@@ -138,7 +138,7 @@ public class RangedEnemy : EnemyBase, IObserver
         {
             GameObject bullet = Instantiate(bulletPrefab, firePoint.position, Quaternion.identity);
             Vector2 direction = transform.localScale.x > 0 ? Vector2.right : Vector2.left;
-            bullet.GetComponent<Bullet>()?.Init(direction);
+            bullet.GetComponent<Arrow>()?.Init(direction);
         }
     }
 

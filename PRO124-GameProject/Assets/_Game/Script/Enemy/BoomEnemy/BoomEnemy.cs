@@ -122,10 +122,11 @@ public class EnemyBOOM : EnemyBase, IObserver
         Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, explosionRadius);
         foreach (var hit in hits)
         {
-            if (hit.CompareTag("Player"))
+            PlayerStats playerStats = hit.GetComponent<PlayerStats>();
+            if (playerStats != null)
             {
-                // hit.GetComponent<PlayerHealth>()?.TakeDamage(explosionDamage);
-                Debug.Log("BoomEnemy gây sát thương cho Player");
+                playerStats.TakeDamage(explosionDamage);
+                Debug.Log($"BoomEnemy gây {explosionDamage} sát thương cho Player");
             }
         }
 

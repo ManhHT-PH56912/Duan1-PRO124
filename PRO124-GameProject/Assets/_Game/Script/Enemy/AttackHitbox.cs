@@ -9,13 +9,11 @@ public class AttackHitbox : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             Debug.Log("Hit player!");
-
-            // Gọi hàm mất máu từ Player
-            // PlayerHealth player = other.GetComponent<PlayerHealth>();
-            // if (player != null)
-            // {
-            //     player.TakeDamage(damage);
-            // }                                            
+            PlayerStats stats = other.GetComponent<PlayerStats>();
+            if (stats != null)
+            {
+                stats.TakeDamage(damage);
+            }
         }
     }
 
