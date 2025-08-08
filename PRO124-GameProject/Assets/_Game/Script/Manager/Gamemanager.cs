@@ -13,17 +13,17 @@ public enum GameState
 public class GameManager : Singleton<GameManager>
 {
     public static GameState gameState;
+    private bool isPaused = false;
+
     protected override void Awake()
     {
         base.Awake();
-        DontDestroyOnLoad(gameObject);
         if (gameState == GameState.None)
         {
             gameState = GameState.Start;
         }
     }
 
-    [System.Obsolete]
     private void Start()
     {
         if (gameState == GameState.Start)
@@ -31,5 +31,15 @@ public class GameManager : Singleton<GameManager>
             Debug.Log("Game started.");
             LoadingSceneManager.Instance.LoadScene(SceneIndexs.AUTH);
         }
+    }
+
+    public bool IsPaused => isPaused;
+
+    public void TogglePause()
+    {
+        isPaused = !isPaused;
+        Time.timeScale = isPaused ? 0f : 1f;
+        gameState = isPaused ? GameState.Pause : GameState.Playing;
+        Debug.Log($"Game {(isPaused ? "paused" : "resumed")}.");
     }
 }

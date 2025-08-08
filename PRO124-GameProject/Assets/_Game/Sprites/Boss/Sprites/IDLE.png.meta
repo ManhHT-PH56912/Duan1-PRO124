@@ -1,0 +1,725 @@
+fileFormatVersion: 2
+<<<<<<< HEAD
+<<<<<<<< HEAD:PRO124-GameProject/Assets/_Game/Sprites/Boss/Sprites/IDLE.png.meta
+=======
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+guid: 5bd62d78d424e1646a196b6549aa6c9b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 815424164945274260
+    second: IDLE_0
+  - first:
+      213: -270785710348516584
+    second: IDLE_1
+  - first:
+      213: 8443794771774750484
+    second: IDLE_2
+  - first:
+      213: 1777182293076053196
+    second: IDLE_3
+  - first:
+      213: 6114163804962241700
+    second: IDLE_4
+  - first:
+      213: -7154528564402915179
+    second: IDLE_5
+  - first:
+      213: -8112586356116296526
+    second: IDLE_6
+  - first:
+      213: 6124698253077029035
+    second: IDLE_7
+  - first:
+      213: 900705793506851975
+    second: IDLE_8
+  - first:
+      213: -705124532602476047
+    second: IDLE_9
+<<<<<<< HEAD
+========
+guid: 5c0a0d2a7a67ca34c8a6893f8f6c2188
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8911396670257357595
+    second: Smoke Dark - 5_0
+  - first:
+      213: 4241886523957363969
+    second: Smoke Dark - 5_1
+  - first:
+      213: -1969780575439803293
+    second: Smoke Dark - 5_2
+  - first:
+      213: 997989331549811454
+    second: Smoke Dark - 5_3
+  - first:
+      213: -204697701518624182
+    second: Smoke Dark - 5_4
+  - first:
+      213: 3862331756490228868
+    second: Smoke Dark - 5_5
+  - first:
+      213: -8311084214220701184
+    second: Smoke Dark - 5_6
+  - first:
+      213: 2173865232668970939
+    second: Smoke Dark - 5_7
+  - first:
+      213: -7472587478641662841
+    second: Smoke Dark - 5_8
+  - first:
+      213: -6286148095763352512
+    second: Smoke Dark - 5_9
+  - first:
+      213: 1416930661697531491
+    second: Smoke Dark - 5_10
+>>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset smoke/Smoke Dark - 5/Smoke Dark - 5.png.meta
+=======
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<<< HEAD:PRO124-GameProject/Assets/_Game/Sprites/Boss/Sprites/IDLE.png.meta
+=======
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+      name: IDLE_0
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 14
+        width: 22
+        height: 36
+<<<<<<< HEAD
+========
+      name: Smoke Dark - 5_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 12
+        width: 44
+        height: 113
+>>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset smoke/Smoke Dark - 5/Smoke Dark - 5.png.meta
+=======
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+<<<<<<< HEAD
+<<<<<<<< HEAD:PRO124-GameProject/Assets/_Game/Sprites/Boss/Sprites/IDLE.png.meta
+      spriteID: 49525dc25f7f05b00800000000000000
+      internalID: 815424164945274260
+========
+      spriteID: 5ec16b861fb545480800000000000000
+      internalID: -8911396670257357595
+>>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset smoke/Smoke Dark - 5/Smoke Dark - 5.png.meta
+=======
+      spriteID: 49525dc25f7f05b00800000000000000
+      internalID: 815424164945274260
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<<< HEAD:PRO124-GameProject/Assets/_Game/Sprites/Boss/Sprites/IDLE.png.meta
+=======
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+      name: IDLE_1
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 14
+        width: 23
+        height: 35
+<<<<<<< HEAD
+========
+      name: Smoke Dark - 5_1
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 6
+        width: 10
+        height: 10
+>>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset smoke/Smoke Dark - 5/Smoke Dark - 5.png.meta
+=======
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+<<<<<<< HEAD
+<<<<<<<< HEAD:PRO124-GameProject/Assets/_Game/Sprites/Boss/Sprites/IDLE.png.meta
+      spriteID: 813cc64c4d9fd3cf0800000000000000
+      internalID: -270785710348516584
+========
+      spriteID: 105cefda1553eda30800000000000000
+      internalID: 4241886523957363969
+>>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset smoke/Smoke Dark - 5/Smoke Dark - 5.png.meta
+=======
+      spriteID: 813cc64c4d9fd3cf0800000000000000
+      internalID: -270785710348516584
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<<< HEAD:PRO124-GameProject/Assets/_Game/Sprites/Boss/Sprites/IDLE.png.meta
+=======
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+      name: IDLE_2
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 14
+        width: 23
+        height: 34
+<<<<<<< HEAD
+========
+      name: Smoke Dark - 5_2
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 8
+        width: 46
+        height: 113
+>>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset smoke/Smoke Dark - 5/Smoke Dark - 5.png.meta
+=======
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+<<<<<<< HEAD
+<<<<<<<< HEAD:PRO124-GameProject/Assets/_Game/Sprites/Boss/Sprites/IDLE.png.meta
+      spriteID: 41f3fe79b926e2570800000000000000
+      internalID: 8443794771774750484
+========
+      spriteID: 36c2273c00fe9a4e0800000000000000
+      internalID: -1969780575439803293
+>>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset smoke/Smoke Dark - 5/Smoke Dark - 5.png.meta
+=======
+      spriteID: 41f3fe79b926e2570800000000000000
+      internalID: 8443794771774750484
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<<< HEAD:PRO124-GameProject/Assets/_Game/Sprites/Boss/Sprites/IDLE.png.meta
+=======
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+      name: IDLE_3
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 14
+        width: 23
+        height: 33
+<<<<<<< HEAD
+========
+      name: Smoke Dark - 5_3
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 8
+        width: 46
+        height: 114
+>>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset smoke/Smoke Dark - 5/Smoke Dark - 5.png.meta
+=======
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+<<<<<<< HEAD
+<<<<<<<< HEAD:PRO124-GameProject/Assets/_Game/Sprites/Boss/Sprites/IDLE.png.meta
+      spriteID: ccc89ef21e1d9a810800000000000000
+      internalID: 1777182293076053196
+========
+      spriteID: ef2f7ac620299dd00800000000000000
+      internalID: 997989331549811454
+>>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset smoke/Smoke Dark - 5/Smoke Dark - 5.png.meta
+=======
+      spriteID: ccc89ef21e1d9a810800000000000000
+      internalID: 1777182293076053196
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<<< HEAD:PRO124-GameProject/Assets/_Game/Sprites/Boss/Sprites/IDLE.png.meta
+=======
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+      name: IDLE_4
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 14
+        width: 23
+        height: 34
+<<<<<<< HEAD
+========
+      name: Smoke Dark - 5_4
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 10
+        width: 43
+        height: 111
+>>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset smoke/Smoke Dark - 5/Smoke Dark - 5.png.meta
+=======
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+<<<<<<< HEAD
+<<<<<<<< HEAD:PRO124-GameProject/Assets/_Game/Sprites/Boss/Sprites/IDLE.png.meta
+      spriteID: 4ac335d169fd9d450800000000000000
+      internalID: 6114163804962241700
+========
+      spriteID: a4ab4a66684c82df0800000000000000
+      internalID: -204697701518624182
+>>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset smoke/Smoke Dark - 5/Smoke Dark - 5.png.meta
+=======
+      spriteID: 4ac335d169fd9d450800000000000000
+      internalID: 6114163804962241700
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<<< HEAD:PRO124-GameProject/Assets/_Game/Sprites/Boss/Sprites/IDLE.png.meta
+=======
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+      name: IDLE_5
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 14
+        width: 24
+        height: 34
+<<<<<<< HEAD
+========
+      name: Smoke Dark - 5_5
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 7
+        width: 45
+        height: 116
+>>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset smoke/Smoke Dark - 5/Smoke Dark - 5.png.meta
+=======
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+<<<<<<< HEAD
+<<<<<<<< HEAD:PRO124-GameProject/Assets/_Game/Sprites/Boss/Sprites/IDLE.png.meta
+      spriteID: 598f06f4d2206bc90800000000000000
+      internalID: -7154528564402915179
+========
+      spriteID: 4848f4ed442c99530800000000000000
+      internalID: 3862331756490228868
+>>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset smoke/Smoke Dark - 5/Smoke Dark - 5.png.meta
+=======
+      spriteID: 598f06f4d2206bc90800000000000000
+      internalID: -7154528564402915179
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<<< HEAD:PRO124-GameProject/Assets/_Game/Sprites/Boss/Sprites/IDLE.png.meta
+=======
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+      name: IDLE_6
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 14
+        width: 24
+        height: 34
+<<<<<<< HEAD
+========
+      name: Smoke Dark - 5_6
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 11
+        width: 45
+        height: 113
+>>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset smoke/Smoke Dark - 5/Smoke Dark - 5.png.meta
+=======
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+<<<<<<< HEAD
+<<<<<<<< HEAD:PRO124-GameProject/Assets/_Game/Sprites/Boss/Sprites/IDLE.png.meta
+      spriteID: 2bce10201bd4a6f80800000000000000
+      internalID: -8112586356116296526
+========
+      spriteID: 002c401f0f819ac80800000000000000
+      internalID: -8311084214220701184
+>>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset smoke/Smoke Dark - 5/Smoke Dark - 5.png.meta
+=======
+      spriteID: 2bce10201bd4a6f80800000000000000
+      internalID: -8112586356116296526
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<<< HEAD:PRO124-GameProject/Assets/_Game/Sprites/Boss/Sprites/IDLE.png.meta
+=======
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+      name: IDLE_7
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 14
+        width: 24
+        height: 34
+<<<<<<< HEAD
+========
+      name: Smoke Dark - 5_7
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 9
+        width: 10
+        height: 10
+>>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset smoke/Smoke Dark - 5/Smoke Dark - 5.png.meta
+=======
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+<<<<<<< HEAD
+<<<<<<<< HEAD:PRO124-GameProject/Assets/_Game/Sprites/Boss/Sprites/IDLE.png.meta
+      spriteID: ba0ac137c9c4ff450800000000000000
+      internalID: 6124698253077029035
+========
+      spriteID: bbf4ec659ee1b2e10800000000000000
+      internalID: 2173865232668970939
+>>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset smoke/Smoke Dark - 5/Smoke Dark - 5.png.meta
+=======
+      spriteID: ba0ac137c9c4ff450800000000000000
+      internalID: 6124698253077029035
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<<< HEAD:PRO124-GameProject/Assets/_Game/Sprites/Boss/Sprites/IDLE.png.meta
+=======
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+      name: IDLE_8
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 14
+        width: 24
+        height: 34
+<<<<<<< HEAD
+========
+      name: Smoke Dark - 5_8
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 13
+        width: 43
+        height: 112
+>>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset smoke/Smoke Dark - 5/Smoke Dark - 5.png.meta
+=======
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+<<<<<<< HEAD
+<<<<<<<< HEAD:PRO124-GameProject/Assets/_Game/Sprites/Boss/Sprites/IDLE.png.meta
+      spriteID: 78cbc15a523ff7c00800000000000000
+      internalID: 900705793506851975
+========
+      spriteID: 784288697490c4890800000000000000
+      internalID: -7472587478641662841
+>>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset smoke/Smoke Dark - 5/Smoke Dark - 5.png.meta
+=======
+      spriteID: 78cbc15a523ff7c00800000000000000
+      internalID: 900705793506851975
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<<< HEAD:PRO124-GameProject/Assets/_Game/Sprites/Boss/Sprites/IDLE.png.meta
+=======
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+      name: IDLE_9
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 14
+        width: 23
+        height: 36
+<<<<<<< HEAD
+========
+      name: Smoke Dark - 5_9
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 10
+        width: 11
+        height: 11
+>>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset smoke/Smoke Dark - 5/Smoke Dark - 5.png.meta
+=======
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+<<<<<<< HEAD
+<<<<<<<< HEAD:PRO124-GameProject/Assets/_Game/Sprites/Boss/Sprites/IDLE.png.meta
+      spriteID: 1f9e0d739f4e636f0800000000000000
+      internalID: -705124532602476047
+========
+      spriteID: 044f682cc9d13c8a0800000000000000
+      internalID: -6286148095763352512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smoke Dark - 5_10
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 11
+        width: 44
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36e27d9fde2f9a310800000000000000
+      internalID: 1416930661697531491
+>>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset smoke/Smoke Dark - 5/Smoke Dark - 5.png.meta
+=======
+      spriteID: 1f9e0d739f4e636f0800000000000000
+      internalID: -705124532602476047
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+<<<<<<< HEAD
+<<<<<<<< HEAD:PRO124-GameProject/Assets/_Game/Sprites/Boss/Sprites/IDLE.png.meta
+    nameFileIdTable:
+      IDLE_0: 815424164945274260
+      IDLE_1: -270785710348516584
+      IDLE_2: 8443794771774750484
+      IDLE_3: 1777182293076053196
+      IDLE_4: 6114163804962241700
+      IDLE_5: -7154528564402915179
+      IDLE_6: -8112586356116296526
+      IDLE_7: 6124698253077029035
+      IDLE_8: 900705793506851975
+      IDLE_9: -705124532602476047
+========
+    nameFileIdTable: {}
+>>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset smoke/Smoke Dark - 5/Smoke Dark - 5.png.meta
+=======
+    nameFileIdTable: {}
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,554 @@
+fileFormatVersion: 2
+<<<<<<< HEAD
+<<<<<<<< HEAD:PRO124-GameProject/Assets/_Game/Sprites/Boss/Sprites/ATTACK 1.png.meta
+=======
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+guid: 3e8dbc9ff0fc284459dc033ac8747583
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8886490851947454144
+    second: ATTACK 1_0
+  - first:
+      213: 6548489276043825817
+    second: ATTACK 1_1
+  - first:
+      213: 4970056502602508726
+    second: ATTACK 1_2
+  - first:
+      213: 1935231433567745852
+    second: ATTACK 1_3
+  - first:
+      213: 8810267081325647525
+    second: ATTACK 1_4
+  - first:
+      213: 4172772526038875549
+    second: ATTACK 1_5
+  - first:
+      213: -9022913262071093832
+    second: ATTACK 1_6
+<<<<<<< HEAD
+========
+guid: 529aaf93ecb95ce419a7cd55bfb0fb85
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 813330312621097174
+    second: Group 4 - 5_0
+  - first:
+      213: -8831158844976554186
+    second: Group 4 - 5_1
+  - first:
+      213: 7630169615223618631
+    second: Group 4 - 5_2
+  - first:
+      213: -1635782892475669804
+    second: Group 4 - 5_3
+  - first:
+      213: 5650333116045254489
+    second: Group 4 - 5_4
+  - first:
+      213: -1465195592517552677
+    second: Group 4 - 5_5
+  - first:
+      213: 5073794907755793707
+    second: Group 4 - 5_6
+  - first:
+      213: -7062032087941844537
+    second: Group 4 - 5_7
+>>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset blue/Group 4 - 5/Group 4 - 5.png.meta
+=======
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<<< HEAD:PRO124-GameProject/Assets/_Game/Sprites/Boss/Sprites/ATTACK 1.png.meta
+=======
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+      name: ATTACK 1_0
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 14
+        width: 23
+<<<<<<< HEAD
+========
+      name: Group 4 - 5_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 0
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d086d03c97894b00800000000000000
+      internalID: 813330312621097174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Group 4 - 5_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 0
+        width: 26
+>>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset blue/Group 4 - 5/Group 4 - 5.png.meta
+=======
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+<<<<<<< HEAD
+<<<<<<<< HEAD:PRO124-GameProject/Assets/_Game/Sprites/Boss/Sprites/ATTACK 1.png.meta
+      spriteID: 0ce1612e858235b70800000000000000
+      internalID: 8886490851947454144
+========
+      spriteID: 63f9f1ae1db617580800000000000000
+      internalID: -8831158844976554186
+>>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset blue/Group 4 - 5/Group 4 - 5.png.meta
+=======
+      spriteID: 0ce1612e858235b70800000000000000
+      internalID: 8886490851947454144
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<<< HEAD:PRO124-GameProject/Assets/_Game/Sprites/Boss/Sprites/ATTACK 1.png.meta
+=======
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+      name: ATTACK 1_1
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 14
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9921c0a1d48e0ea50800000000000000
+      internalID: 6548489276043825817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATTACK 1_2
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 14
+        width: 22
+        height: 30
+<<<<<<< HEAD
+========
+      name: Group 4 - 5_2
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 0
+        width: 25
+        height: 29
+>>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset blue/Group 4 - 5/Group 4 - 5.png.meta
+=======
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+<<<<<<< HEAD
+<<<<<<<< HEAD:PRO124-GameProject/Assets/_Game/Sprites/Boss/Sprites/ATTACK 1.png.meta
+      spriteID: 6b92e3f7e0039f440800000000000000
+      internalID: 4970056502602508726
+========
+      spriteID: 74cf163b6dec3e960800000000000000
+      internalID: 7630169615223618631
+>>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset blue/Group 4 - 5/Group 4 - 5.png.meta
+=======
+      spriteID: 6b92e3f7e0039f440800000000000000
+      internalID: 4970056502602508726
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<<< HEAD:PRO124-GameProject/Assets/_Game/Sprites/Boss/Sprites/ATTACK 1.png.meta
+=======
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+      name: ATTACK 1_3
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 14
+        width: 22
+<<<<<<< HEAD
+========
+      name: Group 4 - 5_3
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 0
+        width: 26
+>>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset blue/Group 4 - 5/Group 4 - 5.png.meta
+=======
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+<<<<<<< HEAD
+<<<<<<<< HEAD:PRO124-GameProject/Assets/_Game/Sprites/Boss/Sprites/ATTACK 1.png.meta
+      spriteID: c37b9fb4cb25bda10800000000000000
+      internalID: 1935231433567745852
+========
+      spriteID: 4d2a35440288c49e0800000000000000
+      internalID: -1635782892475669804
+>>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset blue/Group 4 - 5/Group 4 - 5.png.meta
+=======
+      spriteID: c37b9fb4cb25bda10800000000000000
+      internalID: 1935231433567745852
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<<< HEAD:PRO124-GameProject/Assets/_Game/Sprites/Boss/Sprites/ATTACK 1.png.meta
+=======
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+      name: ATTACK 1_4
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 13
+        width: 58
+        height: 35
+<<<<<<< HEAD
+========
+      name: Group 4 - 5_4
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 0
+        width: 26
+        height: 32
+>>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset blue/Group 4 - 5/Group 4 - 5.png.meta
+=======
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+<<<<<<< HEAD
+<<<<<<<< HEAD:PRO124-GameProject/Assets/_Game/Sprites/Boss/Sprites/ATTACK 1.png.meta
+      spriteID: 5a69bbe4b3b544a70800000000000000
+      internalID: 8810267081325647525
+========
+      spriteID: 95fd08448040a6e40800000000000000
+      internalID: 5650333116045254489
+>>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset blue/Group 4 - 5/Group 4 - 5.png.meta
+=======
+      spriteID: 5a69bbe4b3b544a70800000000000000
+      internalID: 8810267081325647525
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<<< HEAD:PRO124-GameProject/Assets/_Game/Sprites/Boss/Sprites/ATTACK 1.png.meta
+=======
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+      name: ATTACK 1_5
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 14
+        width: 51
+        height: 34
+<<<<<<< HEAD
+========
+      name: Group 4 - 5_5
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 0
+        width: 26
+        height: 31
+>>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset blue/Group 4 - 5/Group 4 - 5.png.meta
+=======
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+<<<<<<< HEAD
+<<<<<<<< HEAD:PRO124-GameProject/Assets/_Game/Sprites/Boss/Sprites/ATTACK 1.png.meta
+      spriteID: d9d7e0f018aa8e930800000000000000
+      internalID: 4172772526038875549
+========
+      spriteID: bd5f58d1f549aabe0800000000000000
+      internalID: -1465195592517552677
+>>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset blue/Group 4 - 5/Group 4 - 5.png.meta
+=======
+      spriteID: d9d7e0f018aa8e930800000000000000
+      internalID: 4172772526038875549
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<<< HEAD:PRO124-GameProject/Assets/_Game/Sprites/Boss/Sprites/ATTACK 1.png.meta
+=======
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+      name: ATTACK 1_6
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 14
+        width: 40
+        height: 34
+<<<<<<< HEAD
+========
+      name: Group 4 - 5_6
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 0
+        width: 26
+        height: 32
+>>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset blue/Group 4 - 5/Group 4 - 5.png.meta
+=======
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+<<<<<<< HEAD
+<<<<<<<< HEAD:PRO124-GameProject/Assets/_Game/Sprites/Boss/Sprites/ATTACK 1.png.meta
+      spriteID: 8b5671f813c28c280800000000000000
+      internalID: -9022913262071093832
+========
+      spriteID: b2d48f3269db96640800000000000000
+      internalID: 5073794907755793707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Group 4 - 5_7
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 0
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c1f0d57b3f9efd90800000000000000
+      internalID: -7062032087941844537
+>>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset blue/Group 4 - 5/Group 4 - 5.png.meta
+=======
+      spriteID: 8b5671f813c28c280800000000000000
+      internalID: -9022913262071093832
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+<<<<<<< HEAD
+<<<<<<<< HEAD:PRO124-GameProject/Assets/_Game/Sprites/Boss/Sprites/ATTACK 1.png.meta
+    nameFileIdTable:
+      ATTACK 1_0: 8886490851947454144
+      ATTACK 1_1: 6548489276043825817
+      ATTACK 1_2: 4970056502602508726
+      ATTACK 1_3: 1935231433567745852
+      ATTACK 1_4: 8810267081325647525
+      ATTACK 1_5: 4172772526038875549
+      ATTACK 1_6: -9022913262071093832
+========
+    nameFileIdTable: {}
+>>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset blue/Group 4 - 5/Group 4 - 5.png.meta
+=======
+    nameFileIdTable: {}
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

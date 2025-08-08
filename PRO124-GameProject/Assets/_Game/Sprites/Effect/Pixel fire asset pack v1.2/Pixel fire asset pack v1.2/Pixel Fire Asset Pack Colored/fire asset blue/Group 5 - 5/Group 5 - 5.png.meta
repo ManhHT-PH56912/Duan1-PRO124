@@ -1,0 +1,578 @@
+fileFormatVersion: 2
+<<<<<<< HEAD
+<<<<<<<< HEAD:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset blue/Group 5 - 5/Group 5 - 5.png.meta
+=======
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+guid: 5916be13bfa163240b75e9712d850169
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7905655380189046347
+    second: Group 5 - 5_0
+  - first:
+      213: -5510998888198408066
+    second: Group 5 - 5_1
+  - first:
+      213: -7191827810553043980
+    second: Group 5 - 5_2
+  - first:
+      213: -537762691251860021
+    second: Group 5 - 5_3
+  - first:
+      213: -2554307514934771133
+    second: Group 5 - 5_4
+  - first:
+      213: 5441813778931249778
+    second: Group 5 - 5_5
+  - first:
+      213: -5303440364718538800
+    second: Group 5 - 5_6
+  - first:
+      213: 1277650943539987997
+    second: Group 5 - 5_7
+<<<<<<< HEAD
+========
+guid: 40a44b4460942b145baaaad1d1dede06
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1013820552493955012
+    second: Group 7 - 5_0
+  - first:
+      213: -2645523915785259235
+    second: Group 7 - 5_1
+  - first:
+      213: -5321725860466273399
+    second: Group 7 - 5_2
+  - first:
+      213: 3340020903767669954
+    second: Group 7 - 5_3
+  - first:
+      213: -4491982582123504100
+    second: Group 7 - 5_4
+  - first:
+      213: 3052398171551326789
+    second: Group 7 - 5_5
+  - first:
+      213: 8317020721143431003
+    second: Group 7 - 5_6
+  - first:
+      213: -6858885336946526195
+    second: Group 7 - 5_7
+>>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset blue/Group 7 - 5/Group 7 - 5.png.meta
+=======
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<<< HEAD:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset blue/Group 5 - 5/Group 5 - 5.png.meta
+=======
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+      name: Group 5 - 5_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 0
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b46e2dcaea786bd60800000000000000
+      internalID: 7905655380189046347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Group 5 - 5_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 0
+        width: 25
+<<<<<<< HEAD
+========
+      name: Group 7 - 5_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 0
+        width: 29
+>>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset blue/Group 7 - 5/Group 7 - 5.png.meta
+=======
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+<<<<<<< HEAD
+<<<<<<<< HEAD:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset blue/Group 5 - 5/Group 5 - 5.png.meta
+      spriteID: e787c5fa5bff483b0800000000000000
+      internalID: -5510998888198408066
+========
+      spriteID: 4c77469cb60d11e00800000000000000
+      internalID: 1013820552493955012
+>>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset blue/Group 7 - 5/Group 7 - 5.png.meta
+=======
+      spriteID: e787c5fa5bff483b0800000000000000
+      internalID: -5510998888198408066
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<<< HEAD:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset blue/Group 5 - 5/Group 5 - 5.png.meta
+=======
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+      name: Group 5 - 5_2
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 0
+        width: 25
+<<<<<<< HEAD
+========
+      name: Group 7 - 5_1
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 0
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d17b1d2e306394bd0800000000000000
+      internalID: -2645523915785259235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Group 7 - 5_2
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 28
+>>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset blue/Group 7 - 5/Group 7 - 5.png.meta
+=======
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+<<<<<<< HEAD
+<<<<<<<< HEAD:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset blue/Group 5 - 5/Group 5 - 5.png.meta
+      spriteID: 4f3e532d5be713c90800000000000000
+      internalID: -7191827810553043980
+========
+      spriteID: 983d5ee868e6526b0800000000000000
+      internalID: -5321725860466273399
+>>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset blue/Group 7 - 5/Group 7 - 5.png.meta
+=======
+      spriteID: 4f3e532d5be713c90800000000000000
+      internalID: -7191827810553043980
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<<< HEAD:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset blue/Group 5 - 5/Group 5 - 5.png.meta
+=======
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+      name: Group 5 - 5_3
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 0
+        width: 26
+<<<<<<< HEAD
+========
+      name: Group 7 - 5_3
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 0
+        width: 28
+>>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset blue/Group 7 - 5/Group 7 - 5.png.meta
+=======
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+<<<<<<< HEAD
+<<<<<<<< HEAD:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset blue/Group 5 - 5/Group 5 - 5.png.meta
+      spriteID: bcd89767eab7988f0800000000000000
+      internalID: -537762691251860021
+========
+      spriteID: 2cc7377d0532a5e20800000000000000
+      internalID: 3340020903767669954
+>>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset blue/Group 7 - 5/Group 7 - 5.png.meta
+=======
+      spriteID: bcd89767eab7988f0800000000000000
+      internalID: -537762691251860021
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<<< HEAD:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset blue/Group 5 - 5/Group 5 - 5.png.meta
+=======
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+      name: Group 5 - 5_4
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 0
+        width: 25
+<<<<<<< HEAD
+========
+      name: Group 7 - 5_4
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 0
+        width: 28
+>>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset blue/Group 7 - 5/Group 7 - 5.png.meta
+=======
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+<<<<<<< HEAD
+<<<<<<<< HEAD:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset blue/Group 5 - 5/Group 5 - 5.png.meta
+      spriteID: 342c33539d64d8cd0800000000000000
+      internalID: -2554307514934771133
+========
+      spriteID: c1e594f14a549a1c0800000000000000
+      internalID: -4491982582123504100
+>>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset blue/Group 7 - 5/Group 7 - 5.png.meta
+=======
+      spriteID: 342c33539d64d8cd0800000000000000
+      internalID: -2554307514934771133
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<<< HEAD:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset blue/Group 5 - 5/Group 5 - 5.png.meta
+=======
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+      name: Group 5 - 5_5
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 0
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 272f50bccc4358b40800000000000000
+      internalID: 5441813778931249778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Group 5 - 5_6
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 0
+        width: 26
+        height: 31
+<<<<<<< HEAD
+========
+      name: Group 7 - 5_5
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 0
+        width: 29
+        height: 32
+>>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset blue/Group 7 - 5/Group 7 - 5.png.meta
+=======
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+<<<<<<< HEAD
+<<<<<<<< HEAD:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset blue/Group 5 - 5/Group 5 - 5.png.meta
+      spriteID: 0dfbb7d46156666b0800000000000000
+      internalID: -5303440364718538800
+========
+      spriteID: 5426e58f6fb4c5a20800000000000000
+      internalID: 3052398171551326789
+>>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset blue/Group 7 - 5/Group 7 - 5.png.meta
+=======
+      spriteID: 0dfbb7d46156666b0800000000000000
+      internalID: -5303440364718538800
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<<< HEAD:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset blue/Group 5 - 5/Group 5 - 5.png.meta
+=======
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+      name: Group 5 - 5_7
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 0
+        width: 26
+        height: 31
+<<<<<<< HEAD
+========
+      name: Group 7 - 5_6
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 0
+        width: 29
+        height: 30
+>>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset blue/Group 7 - 5/Group 7 - 5.png.meta
+=======
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+<<<<<<< HEAD
+<<<<<<<< HEAD:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset blue/Group 5 - 5/Group 5 - 5.png.meta
+      spriteID: d16c4ac83c02bb110800000000000000
+      internalID: 1277650943539987997
+========
+      spriteID: b5f3159c74efb6370800000000000000
+      internalID: 8317020721143431003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Group 7 - 5_7
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 0
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d08ba20402850d0a0800000000000000
+      internalID: -6858885336946526195
+>>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset blue/Group 7 - 5/Group 7 - 5.png.meta
+=======
+      spriteID: d16c4ac83c02bb110800000000000000
+      internalID: 1277650943539987997
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+<<<<<<< HEAD
+<<<<<<<< HEAD:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset blue/Group 5 - 5/Group 5 - 5.png.meta
+    nameFileIdTable:
+      Group 5 - 5_0: 7905655380189046347
+      Group 5 - 5_1: -5510998888198408066
+      Group 5 - 5_2: -7191827810553043980
+      Group 5 - 5_3: -537762691251860021
+      Group 5 - 5_4: -2554307514934771133
+      Group 5 - 5_5: 5441813778931249778
+      Group 5 - 5_6: -5303440364718538800
+      Group 5 - 5_7: 1277650943539987997
+========
+    nameFileIdTable: {}
+>>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset blue/Group 7 - 5/Group 7 - 5.png.meta
+=======
+    nameFileIdTable: {}
+>>>>>>> 38cd303206e1f86c384241ab564c9ef63022e34e
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
