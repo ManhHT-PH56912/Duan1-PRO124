@@ -1,8 +1,10 @@
 using UnityEngine;
 
+[RequireComponent(typeof(Rigidbody2D))]
 public class PlayerJumpBounce : MonoBehaviour
 {
-    [SerializeField] private float bounceForce;
+    public float bounceForce = 2f; // Lực nảy khi đạp enemy
+
     private Rigidbody2D rb;
 
     private void Awake()
@@ -12,6 +14,10 @@ public class PlayerJumpBounce : MonoBehaviour
 
     public void Bounce()
     {
-        rb.linearVelocity = new Vector2(rb.linearVelocity.x, bounceForce);
+        // Reset velocity trước khi nảy lên
+        rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0f);
+
+        // Thêm lực theo hướng lên
+        rb.AddForce(Vector2.up * bounceForce, ForceMode2D.Impulse);
     }
 }
