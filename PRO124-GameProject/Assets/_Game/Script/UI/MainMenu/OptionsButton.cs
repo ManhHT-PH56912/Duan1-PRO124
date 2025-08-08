@@ -1,6 +1,3 @@
-
-
-// Concrete class for Options button
 using UnityEngine;
 
 public class OptionsButton : BaseButtom
