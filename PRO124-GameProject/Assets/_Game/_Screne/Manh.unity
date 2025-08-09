@@ -461,6 +461,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.20784315
       objectReference: {fileID: 0}
+    - target: {fileID: 8205324405737360045, guid: 7b122e05a6e63174ca4052239ed0234e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8931913872827308957, guid: 7b122e05a6e63174ca4052239ed0234e, type: 3}
       propertyPath: m_Color.b
       value: 0
@@ -601,6 +605,10 @@ PrefabInstance:
     - target: {fileID: 6756276229893592785, guid: 5ccc9f341f9bc9246a4ba2b73ce2fdd9, type: 3}
       propertyPath: m_Name
       value: UImanager
+      objectReference: {fileID: 0}
+    - target: {fileID: 6756276229893592785, guid: 5ccc9f341f9bc9246a4ba2b73ce2fdd9, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
