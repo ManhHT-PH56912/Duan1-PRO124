@@ -27,14 +27,14 @@ public class Attack1State : BossBaseState
         slashCount = 0;
         slashTimer = 0f;
         isSlashing = false;
-
-        boss.animator.Play("Atk");
     }
 
     public override void LogicUpdate()
     {
         if (!isSlashing)
         {
+
+            boss.animator.Play("Atk5");
             boss.allowFlip = false;
             // Giai đoạn hút player
             suckTimer += Time.deltaTime;
@@ -83,11 +83,12 @@ public class Attack1State : BossBaseState
 
     private void StartSlashing()
     {
+
+        boss.animator.Play("Atk1");
         boss.allowFlip = false;
         isSlashing = true;
         slashCount = 1;
         slashTimer = 0f;
-        boss.animator.Play("Atk");
         boss.allowFlip = true;
         boss.EnableSlash();
         boss.StartCoroutine(boss.DisableSlashAfterDelay(0.3f));

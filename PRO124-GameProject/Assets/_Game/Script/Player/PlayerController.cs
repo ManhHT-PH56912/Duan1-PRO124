@@ -57,6 +57,8 @@ public class PlayerController : MonoBehaviour
     private float ability2Timer = 0f;
 
     private PlayerStats stats;
+    [SerializeField] private GameObject rhitbox;
+    [SerializeField] private GameObject lhitbox;
 
 
     void Start()
@@ -158,12 +160,12 @@ public class PlayerController : MonoBehaviour
 
     private void HandleCrouching()
     {
-        if (Input.GetKeyDown(KeyCode.C))
+        if (Input.GetKeyDown(KeyCode.LeftControl))
         {
             isCrouching = true;
             animator.SetBool("isCrouching", isCrouching);
         }
-        else if (Input.GetKeyUp(KeyCode.C))
+        else if (Input.GetKeyUp(KeyCode.LeftControl))
         {
             isCrouching = false;
             animator.SetBool("isCrouching", isCrouching);
@@ -191,6 +193,24 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    public void EnableRightHitbox()
+    {
+        rhitbox.SetActive(true);
+    }
+
+    public void DisableRightHitbox()
+    {
+        rhitbox.SetActive(false);
+    }
+    public void EnableLeftHitbox()
+    {
+        lhitbox.SetActive(true);
+    }
+
+    public void DisableLeftHitbox()
+    {
+        lhitbox.SetActive(false);
+    }
     IEnumerator ApplyRunningAttackForce(float direction)
     {
         float initialForce = 2f; // Set this to your desired force to keep the player moving in the attack direction
@@ -241,12 +261,6 @@ public class PlayerController : MonoBehaviour
         isCurrentlyJumping = true;
         jumpCount++;
     }
-
-
-
-
-
-
 
     IEnumerator PerformJump()
     {
@@ -315,7 +329,7 @@ public class PlayerController : MonoBehaviour
         isWallHanging = false;
         rb.gravityScale = 1;
         isCurrentlyJumping = false;
-        Vector3 spawnPos = transform.position + new Vector3(0, -0.5f, 0);
+        Vector3 spawnPos = transform.position + new Vector3(0, -1f, 0);
         bool isMoving = Mathf.Abs(rb.linearVelocity.x) > 0;
         if (isAirSlamming && isGrounded)
         {
@@ -488,13 +502,6 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
-
-
-
-
-
-
-
     void FixedUpdate()
     {
         // Check for wall climbing and jumping animations

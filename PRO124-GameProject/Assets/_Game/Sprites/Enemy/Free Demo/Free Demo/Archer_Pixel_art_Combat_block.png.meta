@@ -1,0 +1,1655 @@
+fileFormatVersion: 2
+guid: df92db314d0ff1041abd16f49fdbccb0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4485921326172801275
+    second: Archer_Pixel_art_Combat_block_0
+  - first:
+      213: 4418508271925628134
+    second: Archer_Pixel_art_Combat_block_1
+  - first:
+      213: 371577004155603192
+    second: Archer_Pixel_art_Combat_block_2
+  - first:
+      213: -5077514980006587376
+    second: Archer_Pixel_art_Combat_block_3
+  - first:
+      213: 4232457579914549076
+    second: Archer_Pixel_art_Combat_block_4
+  - first:
+      213: -2494308552534103459
+    second: Archer_Pixel_art_Combat_block_5
+  - first:
+      213: -103856043829875889
+    second: Archer_Pixel_art_Combat_block_6
+  - first:
+      213: 7776450732877185066
+    second: Archer_Pixel_art_Combat_block_7
+  - first:
+      213: -3313888634464234337
+    second: Archer_Pixel_art_Combat_block_8
+  - first:
+      213: 5119077943617546792
+    second: Archer_Pixel_art_Combat_block_9
+  - first:
+      213: 7665846028688383247
+    second: Archer_Pixel_art_Combat_block_10
+  - first:
+      213: -1314384538630127535
+    second: Archer_Pixel_art_Combat_block_11
+  - first:
+      213: -7610429798799282972
+    second: Archer_Pixel_art_Combat_block_12
+  - first:
+      213: 3340879740718201778
+    second: Archer_Pixel_art_Combat_block_13
+  - first:
+      213: -7120955175872975298
+    second: Archer_Pixel_art_Combat_block_14
+  - first:
+      213: -6046090785472001148
+    second: Archer_Pixel_art_Combat_block_15
+  - first:
+      213: 5242457133327231801
+    second: Archer_Pixel_art_Combat_block_16
+  - first:
+      213: -7673343467507782357
+    second: Archer_Pixel_art_Combat_block_17
+  - first:
+      213: 3857024841785676601
+    second: Archer_Pixel_art_Combat_block_18
+  - first:
+      213: 1512780173103699175
+    second: Archer_Pixel_art_Combat_block_19
+  - first:
+      213: -5296751644554541584
+    second: Archer_Pixel_art_Combat_block_20
+  - first:
+      213: -2551677419730465975
+    second: Archer_Pixel_art_Combat_block_21
+  - first:
+      213: -4274455555321256475
+    second: Archer_Pixel_art_Combat_block_22
+  - first:
+      213: 6438629950431813848
+    second: Archer_Pixel_art_Combat_block_23
+  - first:
+      213: 3204082187978970127
+    second: Archer_Pixel_art_Combat_block_24
+  - first:
+      213: 3752600138328626611
+    second: Archer_Pixel_art_Combat_block_25
+  - first:
+      213: 1989628501336790701
+    second: Archer_Pixel_art_Combat_block_26
+  - first:
+      213: -4276000014867361555
+    second: Archer_Pixel_art_Combat_block_27
+  - first:
+      213: 5856782336408722263
+    second: Archer_Pixel_art_Combat_block_28
+  - first:
+      213: -3606641938266202100
+    second: Archer_Pixel_art_Combat_block_29
+  - first:
+      213: -1912715885387611734
+    second: Archer_Pixel_art_Combat_block_30
+  - first:
+      213: -6067548032606801374
+    second: Archer_Pixel_art_Combat_block_31
+  - first:
+      213: -6813940851705965905
+    second: Archer_Pixel_art_Combat_block_32
+  - first:
+      213: 4859345995085904831
+    second: Archer_Pixel_art_Combat_block_33
+  - first:
+      213: -56252001285818904
+    second: Archer_Pixel_art_Combat_block_34
+  - first:
+      213: -5853671611963442173
+    second: Archer_Pixel_art_Combat_block_35
+  - first:
+      213: 1136246608690184004
+    second: Archer_Pixel_art_Combat_block_36
+  - first:
+      213: 1657107689466815072
+    second: Archer_Pixel_art_Combat_block_37
+  - first:
+      213: -712592489789667364
+    second: Archer_Pixel_art_Combat_block_38
+  - first:
+      213: 5521384247764418361
+    second: Archer_Pixel_art_Combat_block_39
+  - first:
+      213: -1015628094118960348
+    second: Archer_Pixel_art_Combat_block_40
+  - first:
+      213: 4523514785998988748
+    second: Archer_Pixel_art_Combat_block_41
+  - first:
+      213: -4499662621588793605
+    second: Archer_Pixel_art_Combat_block_42
+  - first:
+      213: 183598116590156776
+    second: Archer_Pixel_art_Combat_block_43
+  - first:
+      213: 2383272371732982603
+    second: Archer_Pixel_art_Combat_block_44
+  - first:
+      213: -850117066347236019
+    second: Archer_Pixel_art_Combat_block_45
+  - first:
+      213: -4748108918102317023
+    second: Archer_Pixel_art_Combat_block_46
+  - first:
+      213: 4773971999054230664
+    second: Archer_Pixel_art_Combat_block_47
+  - first:
+      213: -6672364766102449288
+    second: Archer_Pixel_art_Combat_block_48
+  - first:
+      213: 1244092535185245680
+    second: Archer_Pixel_art_Combat_block_49
+  - first:
+      213: 8532956320604032824
+    second: Archer_Pixel_art_Combat_block_50
+  - first:
+      213: -206130789854144400
+    second: Archer_Pixel_art_Combat_block_51
+  - first:
+      213: -1920063841698405100
+    second: Archer_Pixel_art_Combat_block_52
+  - first:
+      213: 4827748091182052019
+    second: Archer_Pixel_art_Combat_block_53
+  - first:
+      213: 7025721156905832421
+    second: Archer_Pixel_art_Combat_block_54
+  - first:
+      213: 6067690787816992789
+    second: Archer_Pixel_art_Combat_block_55
+  - first:
+      213: -4784777986379882241
+    second: Archer_Pixel_art_Combat_block_56
+  - first:
+      213: 1598543270938515982
+    second: Archer_Pixel_art_Combat_block_57
+  - first:
+      213: -8750459162135575265
+    second: Archer_Pixel_art_Combat_block_58
+  - first:
+      213: 4691568501564454830
+    second: Archer_Pixel_art_Combat_block_59
+  - first:
+      213: 4150307692941196092
+    second: Archer_Pixel_art_Combat_block_60
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_block_0
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 639
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 507fe1f325eceb1c0800000000000000
+      internalID: -4485921326172801275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_block_1
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 639
+        width: 53
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ec8041fcd1b15d30800000000000000
+      internalID: 4418508271925628134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_block_2
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 639
+        width: 52
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f8066b015b182500800000000000000
+      internalID: 371577004155603192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_block_3
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 639
+        width: 50
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0149bfa070b0989b0800000000000000
+      internalID: -5077514980006587376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_block_4
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 639
+        width: 49
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45757b19eb5bcba30800000000000000
+      internalID: 4232457579914549076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_block_5
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 702
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5a6cfd369f626dd0800000000000000
+      internalID: -2494308552534103459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_block_6
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 639
+        width: 49
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4b2eb77a770f8ef0800000000000000
+      internalID: -103856043829875889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_block_7
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 639
+        width: 51
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a20887a7db08beb60800000000000000
+      internalID: 7776450732877185066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_block_8
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 639
+        width: 52
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f941e8d38d3b202d0800000000000000
+      internalID: -3313888634464234337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_block_9
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 639
+        width: 52
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82a6cd6844e9a0740800000000000000
+      internalID: 5119077943617546792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_block_10
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 639
+        width: 53
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0d5fc2095e826a60800000000000000
+      internalID: 7665846028688383247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_block_11
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 511
+        width: 52
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1508facd93e52cde0800000000000000
+      internalID: -1314384538630127535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_block_12
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 511
+        width: 50
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ec65867b62526690800000000000000
+      internalID: -7610429798799282972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_block_13
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 511
+        width: 47
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bbbec66c603d5e20800000000000000
+      internalID: 3340879740718201778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_block_14
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 511
+        width: 45
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3eac98fef84d2d90800000000000000
+      internalID: -7120955175872975298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_block_15
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 511
+        width: 45
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48bcd24d678f71ca0800000000000000
+      internalID: -6046090785472001148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_block_16
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 511
+        width: 45
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93bae2eacf2f0c840800000000000000
+      internalID: 5242457133327231801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_block_17
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 511
+        width: 44
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2d62ab75cec28590800000000000000
+      internalID: -7673343467507782357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_block_18
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 511
+        width: 43
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9331e7088a7e68530800000000000000
+      internalID: 3857024841785676601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_block_19
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 511
+        width: 42
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e499196d897ef410800000000000000
+      internalID: 1512780173103699175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_block_20
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 511
+        width: 43
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f54cd251782e76b0800000000000000
+      internalID: -5296751644554541584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_block_21
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 383
+        width: 44
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94b8497f7ee969cd0800000000000000
+      internalID: -2551677419730465975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_block_22
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 383
+        width: 44
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e5a1e8c1551ea4c0800000000000000
+      internalID: -4274455555321256475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_block_23
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 383
+        width: 44
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d0edab93db9a5950800000000000000
+      internalID: 6438629950431813848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_block_24
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 383
+        width: 44
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0494a526cf277c20800000000000000
+      internalID: 3204082187978970127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_block_25
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 383
+        width: 44
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b5d82591f9e31430800000000000000
+      internalID: 3752600138328626611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_block_26
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 383
+        width: 45
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da61c2994949c9b10800000000000000
+      internalID: 1989628501336790701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_block_27
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 383
+        width: 45
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de0144644a898a4c0800000000000000
+      internalID: -4276000014867361555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_block_28
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 383
+        width: 45
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75b9c602188774150800000000000000
+      internalID: 5856782336408722263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_block_29
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 383
+        width: 45
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c00ed951442a2fdc0800000000000000
+      internalID: -3606641938266202100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_block_30
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 383
+        width: 45
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa18937490ba475e0800000000000000
+      internalID: -1912715885387611734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_block_31
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 255
+        width: 45
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 222f9da263dbbcba0800000000000000
+      internalID: -6067548032606801374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_block_32
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 255
+        width: 45
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa21b8da5e40071a0800000000000000
+      internalID: -6813940851705965905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_block_33
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 255
+        width: 45
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbbffc5cf6ddf6340800000000000000
+      internalID: 4859345995085904831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_block_34
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 255
+        width: 45
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e534755a17283ff0800000000000000
+      internalID: -56252001285818904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_block_35
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 255
+        width: 44
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30c7129dea493cea0800000000000000
+      internalID: -5853671611963442173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_block_36
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 255
+        width: 43
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44f78304542c4cf00800000000000000
+      internalID: 1136246608690184004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_block_37
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 255
+        width: 42
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 062ec31f9aa3ff610800000000000000
+      internalID: 1657107689466815072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_block_38
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 255
+        width: 43
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd7c970f7ec5c16f0800000000000000
+      internalID: -712592489789667364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_block_39
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 255
+        width: 43
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93f7f6448b5ef9c40800000000000000
+      internalID: 5521384247764418361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_block_40
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 255
+        width: 43
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 423e12221a3c7e1f0800000000000000
+      internalID: -1015628094118960348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_block_41
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 127
+        width: 43
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc562b33bb0c6ce30800000000000000
+      internalID: 4523514785998988748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_block_42
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 127
+        width: 43
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf6d8179facfd81c0800000000000000
+      internalID: -4499662621588793605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_block_43
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 127
+        width: 43
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eb79c8a3854c8200800000000000000
+      internalID: 183598116590156776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_block_44
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 127
+        width: 44
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4ba5205895131120800000000000000
+      internalID: 2383272371732982603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_block_45
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 127
+        width: 45
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4530e24807c334f0800000000000000
+      internalID: -850117066347236019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_block_46
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 191
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 128a5a578145b1eb0800000000000000
+      internalID: -4748108918102317023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_block_47
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 127
+        width: 46
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 884f9435d3e804240800000000000000
+      internalID: 4773971999054230664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_block_48
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 127
+        width: 46
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87391a0d89ff663a0800000000000000
+      internalID: -6672364766102449288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_block_49
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 127
+        width: 49
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f58e6bb197e34110800000000000000
+      internalID: 1244092535185245680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_block_50
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 192
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83f078560962b6670800000000000000
+      internalID: 8532956320604032824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_block_51
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 127
+        width: 49
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0781975832da32df0800000000000000
+      internalID: -206130789854144400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_block_52
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 127
+        width: 49
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 415ae71eb109a55e0800000000000000
+      internalID: -1920063841698405100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_block_53
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 0
+        width: 51
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b2f9f77f4b9ff240800000000000000
+      internalID: 4827748091182052019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_block_54
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 0
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ef81581b20608160800000000000000
+      internalID: 7025721156905832421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_block_55
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 53
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 510fdbe9f94c43450800000000000000
+      internalID: 6067690787816992789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_block_56
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 0
+        width: 53
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff0e7b0b5cd099db0800000000000000
+      internalID: -4784777986379882241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_block_57
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 0
+        width: 53
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0a916ea2aa2f2610800000000000000
+      internalID: 1598543270938515982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_block_58
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 0
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f15c85301cf109680800000000000000
+      internalID: -8750459162135575265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_block_59
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 0
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea73927f1bccb1140800000000000000
+      internalID: 4691568501564454830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_block_60
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 0
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3bb4528bdad89930800000000000000
+      internalID: 4150307692941196092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -7,11 +7,13 @@ public class Attack2State : BossBaseState
 
     private float backStepDuration = 0.3f;
     private float pauseDuration = 0.3f;
-    private float dashDuration = 0.7f;
+    private float dashDuration = 0.5f;
 
     private float timer;
     private Vector2 dashDir;
     private bool hasDashed = false;
+    private float decelRate = 40f; // tốc độ giảm vận tốc (unit/giây)
+    private Vector2 currentVelocity;
 
     public Attack2State(BossController boss, BossStateMachine stateMachine) : base(boss, stateMachine) { }
 
@@ -20,7 +22,6 @@ public class Attack2State : BossBaseState
         currentPhase = Phase.BackStep;
         timer = 0f;
         hasDashed = false;
-        boss.animator.Play("Flash");
 
         // Xoay mặt về phía player trước khi lùi
         if (boss.player.position.x < boss.transform.position.x)
@@ -41,21 +42,26 @@ public class Attack2State : BossBaseState
 
             case Phase.Pause:
                 if (timer >= pauseDuration)
-                {
                     StartDash();
-                }
                 break;
 
             case Phase.Dash:
                 if (timer >= dashDuration)
-                {
                     EndDash();
-                }
                 break;
 
             case Phase.End:
-                if (timer >= 0.3f)
+                // Giảm tốc mượt
+                currentVelocity = Vector2.MoveTowards(
+                    currentVelocity,
+                    Vector2.zero,
+                    decelRate * Time.deltaTime
+                );
+                boss.rb.linearVelocity = currentVelocity;
+
+                if (currentVelocity.magnitude <= 0.05f)
                 {
+                    boss.rb.linearVelocity = Vector2.zero;
                     stateMachine.ChangeState(new ÔMaNhiIdleState(boss, stateMachine));
                 }
                 break;
@@ -64,6 +70,7 @@ public class Attack2State : BossBaseState
 
     private void DoBackStep()
     {
+        boss.animator.Play("backStep");
         Vector2 backDir = boss.IsFacingRight ? Vector2.left : Vector2.right;
         boss.rb.linearVelocity = backDir * 5f;
 
@@ -77,7 +84,7 @@ public class Attack2State : BossBaseState
 
     private void StartDash()
     {
-        boss.animator.Play("Atk");
+        boss.animator.Play("startAtk2");
 
         dashDir = boss.IsFacingRight ? Vector2.right : Vector2.left;
         boss.rb.linearVelocity = dashDir * 20f;
@@ -91,7 +98,9 @@ public class Attack2State : BossBaseState
 
     private void EndDash()
     {
-        boss.rb.linearVelocity = Vector2.zero;
+        boss.animator.Play("endAtk2");
+        // Lưu vận tốc hiện tại để bắt đầu giảm dần
+        currentVelocity = boss.rb.linearVelocity;
         timer = 0f;
         currentPhase = Phase.End;
     }

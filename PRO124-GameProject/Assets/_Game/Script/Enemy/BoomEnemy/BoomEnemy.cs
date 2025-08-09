@@ -134,7 +134,7 @@ public class EnemyBOOM : EnemyBase, IObserver
         StartCoroutine(DelayedDie(1.5f));
     }
 
-    public override void TakeDamage(int damage)
+    public override void TakeDamage(int damage, MonoBehaviour attacker)
     {
         Health -= damage;
         if (Health <= 0 && currentState != State.Die)

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3541273859355731518}
   - component: {fileID: 6698493711195194446}
   - component: {fileID: 5857431597028621441}
+  - component: {fileID: 466125528706072348}
   m_Layer: 0
   m_Name: Boom
   m_TagString: Untagged
@@ -170,3 +171,23 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.5
+--- !u!114 &466125528706072348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2860447153356942121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 585dcc8ffb898594bae97ac8760f4a1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bloodEffects:
+  - {fileID: 4478380286036653568, guid: adfe0700d05ef614f9d4d698e72b0a50, type: 3}
+  - {fileID: 7812957255184508892, guid: 50e419f7c349f0d458227ae9f372a5bd, type: 3}
+  - {fileID: 5191340609197886484, guid: ea1400f1dbcb53649826ca1ac76458d4, type: 3}
+  - {fileID: 2446177645138799456, guid: f4b4e7a6ab24fad4fa2225ef308123dd, type: 3}
+  - {fileID: 3609684716165276097, guid: 44b01df47e4aa624e92cc1a8ee2c31ba, type: 3}
+  - {fileID: 1984946592765445983, guid: 35bc71ac009f185478a6e3d7f186fa59, type: 3}
+  - {fileID: 1942600419603099259, guid: 13e588135b2a76d40a77456e7bfab92d, type: 3}

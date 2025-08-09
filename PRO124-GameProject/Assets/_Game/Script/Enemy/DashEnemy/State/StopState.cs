@@ -3,9 +3,8 @@ using UnityEngine;
 public class StopState : EnemyState
 {
     private float timer;
-    private float duration = 1f; // thời gian giảm tốc
+    private float duration = 1f;
     private Vector2 initialVelocity;
-    private Vector2 dir;
 
     public StopState(DashEnemy enemy, DashEnemyStateMachine stateMachine) : base(enemy, stateMachine) { }
 
@@ -33,9 +32,8 @@ public class StopState : EnemyState
     public override void Exit()
     {
         enemy.rb.linearVelocity = Vector2.zero;
-        enemy.rb.isKinematic = false;
-        // enemy.col.isTrigger = false;
+        // enemy.col.isTrigger = false; // Bật lại va chạm
         float directionX = enemy.GetPlayer().position.x - enemy.transform.position.x;
-        enemy.Flip(directionX);
+        // enemy.Flip(directionX);
     }
 }

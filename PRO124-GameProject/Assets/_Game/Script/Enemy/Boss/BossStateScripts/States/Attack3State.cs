@@ -26,7 +26,7 @@ public class Attack3State : BossBaseState
     public override void Enter()
     {
 
-        boss.animator.Play("Idle");
+        boss.animator.Play("Atk5");
 
         currentWave = 0;
         waveTimer = 0f;

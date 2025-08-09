@@ -29,9 +29,12 @@ public class MeeleEnemy : EnemyBase, IObserver
     private int patrolDir = 1;
     private float lastAttackTime = -999f;
     private bool isAttacking = false;
+    [Header("Blood Effect")]
+    public BloodEffectSpawner bloodSpawner;
 
     private void Awake()
     {
+        bloodSpawner = FindObjectOfType<BloodEffectSpawner>();
     }
 
     private void Start()
@@ -46,7 +49,8 @@ public class MeeleEnemy : EnemyBase, IObserver
 
     private void Update()
     {
-        Debug.Log($"Current State: {currentState}");
+        if (currentState != currentState)
+            Debug.Log($"Current State: {currentState}");
         if (currentState != State.Die)
         {
             EvaluateState();
@@ -152,19 +156,22 @@ public class MeeleEnemy : EnemyBase, IObserver
         isAttacking = false;
     }
 
-    public override void TakeDamage(int damage)
+    public override void TakeDamage(int damage, MonoBehaviour attacker)
     {
         Health -= damage;
+        Debug.Log($"MeeleEnemy took {damage} damage, remaining health: {Health}");
         if (Health <= 0 && currentState != State.Die)
         {
             currentState = State.Die;
         }
+        bloodSpawner.SpawnBlood(transform.position);
     }
 
     public override void Die()
     {
         Debug.Log("MeeleEnemy died");
-        ReturnPool();
+        Destroy(gameObject);
+        // ReturnPool();
     }
 
     public void Flip(float dirX)
