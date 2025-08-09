@@ -151,6 +151,45 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -497,7 +536,22 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      VFX Blood Concepts FXOnly4_0: 317912427635025717
+      VFX Blood Concepts FXOnly4_1: 7361569944863988414
+      VFX Blood Concepts FXOnly4_10: 2253072478753087940
+      VFX Blood Concepts FXOnly4_11: -4838791392280812631
+      VFX Blood Concepts FXOnly4_12: 7650721394113477003
+      VFX Blood Concepts FXOnly4_13: -3445873531005150562
+      VFX Blood Concepts FXOnly4_14: -5660448907385090757
+      VFX Blood Concepts FXOnly4_2: 1287775908740203620
+      VFX Blood Concepts FXOnly4_3: -7963510027723179523
+      VFX Blood Concepts FXOnly4_4: 3609024499592878263
+      VFX Blood Concepts FXOnly4_5: -3554072608317783413
+      VFX Blood Concepts FXOnly4_6: -2423968442546868733
+      VFX Blood Concepts FXOnly4_7: 5606675434338501233
+      VFX Blood Concepts FXOnly4_8: 6805419434476886918
+      VFX Blood Concepts FXOnly4_9: -4750356906966252630
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
