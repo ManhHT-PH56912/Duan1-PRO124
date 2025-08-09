@@ -208,6 +208,45 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -972,7 +1011,41 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      64x64_Atlas_Horse_Leash_Base_0: -869448037423664118
+      64x64_Atlas_Horse_Leash_Base_1: 1689297502121604247
+      64x64_Atlas_Horse_Leash_Base_10: 7036867582803970498
+      64x64_Atlas_Horse_Leash_Base_11: -4910788471493765200
+      64x64_Atlas_Horse_Leash_Base_12: -5405646677685195828
+      64x64_Atlas_Horse_Leash_Base_13: -4307593401903903489
+      64x64_Atlas_Horse_Leash_Base_14: -6351362219108484961
+      64x64_Atlas_Horse_Leash_Base_15: 593450383868987695
+      64x64_Atlas_Horse_Leash_Base_16: -7203590981829895989
+      64x64_Atlas_Horse_Leash_Base_17: 4611912881309645859
+      64x64_Atlas_Horse_Leash_Base_18: -5548373415497647455
+      64x64_Atlas_Horse_Leash_Base_19: 5732770307485832059
+      64x64_Atlas_Horse_Leash_Base_2: -5058704904511566473
+      64x64_Atlas_Horse_Leash_Base_20: -6782074477996632825
+      64x64_Atlas_Horse_Leash_Base_21: 4970352358996370841
+      64x64_Atlas_Horse_Leash_Base_22: 3638763920278177325
+      64x64_Atlas_Horse_Leash_Base_23: 9148055149585955068
+      64x64_Atlas_Horse_Leash_Base_24: -1474403867181797086
+      64x64_Atlas_Horse_Leash_Base_25: -8832108535000214141
+      64x64_Atlas_Horse_Leash_Base_26: -6313688772476588167
+      64x64_Atlas_Horse_Leash_Base_27: 24490505122503133
+      64x64_Atlas_Horse_Leash_Base_28: 4082549559256860494
+      64x64_Atlas_Horse_Leash_Base_29: -4432573849818095964
+      64x64_Atlas_Horse_Leash_Base_3: 1259715834008109737
+      64x64_Atlas_Horse_Leash_Base_30: -3556419559299357284
+      64x64_Atlas_Horse_Leash_Base_31: -5003381729711971237
+      64x64_Atlas_Horse_Leash_Base_32: 1524019511229467250
+      64x64_Atlas_Horse_Leash_Base_33: 8100297780924175537
+      64x64_Atlas_Horse_Leash_Base_4: 1847307217839050860
+      64x64_Atlas_Horse_Leash_Base_5: 6190593910274589682
+      64x64_Atlas_Horse_Leash_Base_6: 8164123061669460766
+      64x64_Atlas_Horse_Leash_Base_7: 8721986863010727329
+      64x64_Atlas_Horse_Leash_Base_8: -6798623688289103756
+      64x64_Atlas_Horse_Leash_Base_9: 7767811377884370254
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -136,6 +136,45 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -372,7 +411,17 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      64x64_Atlas_Horse_Raise_0: -932383708211665703
+      64x64_Atlas_Horse_Raise_1: 4958805590054139871
+      64x64_Atlas_Horse_Raise_2: 7126205928430959717
+      64x64_Atlas_Horse_Raise_3: 5206546405153139212
+      64x64_Atlas_Horse_Raise_4: 5496547514363571698
+      64x64_Atlas_Horse_Raise_5: -1895986778710052081
+      64x64_Atlas_Horse_Raise_6: 2675216721246933354
+      64x64_Atlas_Horse_Raise_7: 2691259563952736408
+      64x64_Atlas_Horse_Raise_8: -8083331346682271048
+      64x64_Atlas_Horse_Raise_9: 2156566325075014537
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

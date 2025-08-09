@@ -50,6 +50,7 @@ public class AudioManager : Singleton<AudioManager>
         backgroundMusicSource.clip = backgroundMusic;
         backgroundMusicSource.loop = true;
         backgroundMusicSource.Play();
+        Debug.Log("Playing background music: " + backgroundMusic.name);
     }
 
     public void PlaySoundEffect(string clipName)
