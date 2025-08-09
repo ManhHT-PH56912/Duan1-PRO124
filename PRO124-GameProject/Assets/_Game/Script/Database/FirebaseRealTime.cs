@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using System.Collections.Generic;
 using DesignPatterns.Singleton;
 using Firebase;
 using Firebase.Auth;
@@ -18,6 +19,10 @@ public class FirebaseManager : Singleton<FirebaseManager>
     protected override void Awake()
     {
         base.Awake();
+    }
+
+    private void Start()
+    {
         InitializeFirebase();
     }
 
@@ -31,7 +36,7 @@ public class FirebaseManager : Singleton<FirebaseManager>
             {
                 // Create and hold a reference to your FirebaseApp,
                 // where app is a Firebase.FirebaseApp property of your application class.
-                app = Firebase.FirebaseApp.DefaultInstance;
+                app = FirebaseApp.DefaultInstance;
                 auth = FirebaseAuth.DefaultInstance;
                 db = FirebaseDatabase.DefaultInstance.RootReference;
                 // Set a flag here to indicate whether Firebase is ready to use by your app.
@@ -52,12 +57,10 @@ public class FirebaseManager : Singleton<FirebaseManager>
             if (task.IsCanceled)
             {
                 Debug.LogError("CreateUserWithEmailAndPasswordAsync was canceled.");
-                return;
             }
             if (task.IsFaulted)
             {
                 Debug.LogError("CreateUserWithEmailAndPasswordAsync encountered an error: " + task.Exception);
-                return;
             }
 
             // Firebase user has been created.
@@ -75,12 +78,10 @@ public class FirebaseManager : Singleton<FirebaseManager>
             if (task.IsCanceled)
             {
                 Debug.LogError("SignInWithEmailAndPasswordAsync was canceled.");
-                return;
             }
             if (task.IsFaulted)
             {
                 Debug.LogError("SignInWithEmailAndPasswordAsync encountered an error: " + task.Exception);
-                return;
             }
 
             user = auth.CurrentUser;
@@ -98,12 +99,10 @@ public class FirebaseManager : Singleton<FirebaseManager>
             if (task.IsCanceled)
             {
                 Debug.LogError("SignInAnonymouslyAsync was canceled.");
-                return;
             }
             if (task.IsFaulted)
             {
                 Debug.LogError("SignInAnonymouslyAsync encountered an error: " + task.Exception);
-                return;
             }
 
             user = auth.CurrentUser;
@@ -143,12 +142,10 @@ public class FirebaseManager : Singleton<FirebaseManager>
                 if (task.IsCanceled)
                 {
                     Debug.LogError("DeleteAsync was canceled.");
-                    return;
                 }
                 if (task.IsFaulted)
                 {
                     Debug.LogError("DeleteAsync encountered an error: " + task.Exception);
-                    return;
                 }
 
                 Debug.Log("User deleted successfully.");
@@ -157,115 +154,78 @@ public class FirebaseManager : Singleton<FirebaseManager>
 
     public void DeleteAnonymousAccount()
     {
-        if (user != null && user.IsAnonymous)
+        FirebaseUser currentUser = auth.CurrentUser;
+        if (currentUser != null && currentUser.IsAnonymous)
         {
-            user.DeleteAsync().ContinueWith(task =>
+            currentUser.DeleteAsync().ContinueWith(task =>
             {
-                if (task.IsCompleted && !task.IsFaulted)
+                if (task.IsCanceled)
                 {
-                    Debug.Log("Anonymous account deleted successfully.");
+                    Debug.LogError("DeleteAsync was canceled.");
+                }
+                else if (task.IsFaulted)
+                {
+                    Debug.LogError("DeleteAsync encountered an error: " + task.Exception);
                 }
                 else
                 {
-                    Debug.LogError("Failed to delete anonymous account: " + task.Exception);
+                    Debug.Log("Anonymous user deleted successfully.");
                 }
             });
         }
+        else
+        {
+            Debug.Log("No anonymous user to delete or user is not signed in.");
+        }
     }
+    public DatabaseReference GetDatabaseRef()
+    {
+        return db;
+    }
+
 
     public string GetUserId()
     {
-        return user.UserId;
+        return user?.UserId;
     }
 
-
-    // CREATE hoặc UPDATE toàn bộ UserData
-    public void CreateOrUpdateUserData(UserData data)
+    public void WriteData(FirebaseUser user, string userid)
     {
-        if (user == null)
-        {
-            Debug.LogError("Chưa đăng nhập!");
-            return;
-        }
 
-        string json = JsonUtility.ToJson(data);
-        db.Child("users").Child(user.UserId).SetRawJsonValueAsync(json).ContinueWithOnMainThread(task =>
-        {
-            if (task.IsFaulted)
-                Debug.LogError("Lưu dữ liệu thất bại: " + task.Exception);
-            else
-                Debug.Log("Lưu dữ liệu thành công!");
-        });
     }
 
-    // READ dữ liệu UserData
-    public void ReadUserData(Action<UserData> callback)
+    public void ReadData()
     {
-        if (user == null)
-        {
-            Debug.LogError("Chưa đăng nhập!");
-            return;
-        }
 
-        db.Child("users").Child(user.UserId).GetValueAsync().ContinueWithOnMainThread(task =>
+    }
+
+    public void UpdateData(string key, object value)
+    {
+        db.Child("users").Child(GetUserId()).Child(key).SetValueAsync(value).ContinueWithOnMainThread(task =>
         {
-            if (task.IsFaulted)
+            if (task.IsCompleted)
             {
-                Debug.LogError("Đọc dữ liệu thất bại: " + task.Exception);
-                callback?.Invoke(null);
+                Debug.Log("User data updated successfully.");
             }
-            else if (task.IsCompleted)
+            else
             {
-                DataSnapshot snapshot = task.Result;
-                if (snapshot.Exists)
-                {
-                    string json = snapshot.GetRawJsonValue();
-                    UserData data = JsonUtility.FromJson<UserData>(json);
-                    callback?.Invoke(data);
-                }
-                else
-                {
-                    Debug.LogWarning("Không tìm thấy dữ liệu người chơi!");
-                    callback?.Invoke(null);
-                }
+                Debug.LogError("Failed to update user data: " + task.Exception);
             }
         });
     }
 
-    // UPDATE 1 field cụ thể (không overwrite toàn bộ)
-    public void UpdateUserField(string field, object value)
+    public void DeleteData(string key)
     {
-        if (user == null)
+        db.Child("users").Child(GetUserId()).Child(key).RemoveValueAsync().ContinueWithOnMainThread(task =>
         {
-            Debug.LogError("Chưa đăng nhập!");
-            return;
-        }
-
-        db.Child("users").Child(user.UserId).Child(field).SetValueAsync(value).ContinueWithOnMainThread(task =>
-        {
-            if (task.IsFaulted)
-                Debug.LogError("Cập nhật thất bại: " + task.Exception);
+            if (task.IsCompleted)
+            {
+                Debug.Log("User data deleted successfully.");
+            }
             else
-                Debug.Log($"Field '{field}' đã được cập nhật!");
+            {
+                Debug.LogError("Failed to delete user data: " + task.Exception);
+            }
         });
     }
-
-    // DELETE dữ liệu người chơi
-    public void DeleteUserData()
-    {
-        if (user == null)
-        {
-            Debug.LogError("Chưa đăng nhập!");
-            return;
-        }
-
-        db.Child("users").Child(user.UserId).RemoveValueAsync().ContinueWithOnMainThread(task =>
-        {
-            if (task.IsFaulted)
-                Debug.LogError("Xóa dữ liệu thất bại: " + task.Exception);
-            else
-                Debug.Log("Dữ liệu người chơi đã bị xóa!");
-        });
-    }
-
 }

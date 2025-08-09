@@ -26,9 +26,13 @@ public class DeleteAccountButton : BaseButtom
     {
         // Optional: add a loading indicator here
 
-        if (FirebaseManager.Instance != null)
+        if (FirebaseManager.Instance != null && FirebaseManager.Instance.user != null)
         {
             FirebaseManager.Instance.DeleteAccount();
+        }
+        else if (FirebaseManager.Instance != null && FirebaseManager.Instance.user != null && FirebaseManager.Instance.user.IsAnonymous)
+        {
+            FirebaseManager.Instance.DeleteAnonymousAccount();
         }
 
         yield return new WaitForSeconds(2f); // Delay for feedback or animation

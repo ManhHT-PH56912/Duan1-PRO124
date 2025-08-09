@@ -44,6 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 791e98e005e582547b7bbcf0c4a3d2b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settingsSO: {fileID: 11400000, guid: 82a188ae1c9fff94580af127214df78e, type: 2}
   volumeSlider: {fileID: 0}
   sfxVolumeSlider: {fileID: 0}
   musicToggle: {fileID: 0}

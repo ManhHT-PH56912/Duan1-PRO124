@@ -2,6 +2,12 @@ using DesignPatterns.Singleton;
 using UnityEngine;
 using System.Collections.Generic;
 
+public enum AudioType
+{
+    BACKGROUND_MUSIC,
+    SOUND_EFFECT
+}
+
 public class AudioManager : Singleton<AudioManager>
 {
     [Header("Audio Sources")]
@@ -15,6 +21,9 @@ public class AudioManager : Singleton<AudioManager>
     private bool isMusicMuted;
     private bool isSfxMuted;
 
+    private const string MUSIC_KEY = "MUSIC_MUTED";
+    private const string SFX_KEY = "SFX_MUTED";
+
     protected override void Awake()
     {
         base.Awake();
@@ -22,9 +31,11 @@ public class AudioManager : Singleton<AudioManager>
         PlayBackgroundMusic();
     }
 
-
     private void LoadAudioSettings()
     {
+        isMusicMuted = PlayerPrefs.GetInt(MUSIC_KEY, 0) == 1;
+        isSfxMuted = PlayerPrefs.GetInt(SFX_KEY, 0) == 1;
+
         if (backgroundMusicSource != null)
             backgroundMusicSource.mute = isMusicMuted;
 
@@ -39,6 +50,7 @@ public class AudioManager : Singleton<AudioManager>
         backgroundMusicSource.clip = backgroundMusic;
         backgroundMusicSource.loop = true;
         backgroundMusicSource.Play();
+        Debug.Log("Playing background music: " + backgroundMusic.name);
     }
 
     public void PlaySoundEffect(string clipName)
@@ -68,6 +80,7 @@ public class AudioManager : Singleton<AudioManager>
                     if (isMuted) backgroundMusicSource.Stop();
                     else PlayBackgroundMusic();
                 }
+                PlayerPrefs.SetInt(MUSIC_KEY, isMuted ? 1 : 0);
                 break;
 
             case AudioType.SOUND_EFFECT:
@@ -75,6 +88,7 @@ public class AudioManager : Singleton<AudioManager>
                 if (soundEffectSource != null)
                     soundEffectSource.mute = isMuted;
 
+                PlayerPrefs.SetInt(SFX_KEY, isMuted ? 1 : 0);
                 break;
         }
     }

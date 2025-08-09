@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Text.RegularExpressions;
 using System.Collections;
+using System.Collections.Generic;
 
 public readonly struct ColorTypes
 {
@@ -171,6 +172,7 @@ public class AuthUI : MonoBehaviour
 
     private IEnumerator ShowStatusRoutine(string message, Color color)
     {
+        yield return new WaitForSeconds(0.3f);
         statusText.text = message;
         statusText.color = color;
         yield return new WaitForSeconds(2f);

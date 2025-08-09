@@ -29,6 +29,10 @@ public class LogOutButton : BaseButtom
         {
             FirebaseManager.Instance.SignOutAccount();
         }
+        else if (FirebaseManager.Instance != null && FirebaseManager.Instance.user != null && FirebaseManager.Instance.user.IsAnonymous)
+        {
+            FirebaseManager.Instance.DeleteAnonymousAccount();
+        }
 
         yield return new WaitForSeconds(2f);
 

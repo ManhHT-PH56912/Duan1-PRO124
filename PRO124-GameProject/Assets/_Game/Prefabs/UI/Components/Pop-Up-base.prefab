@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9161017395095565439}
   - component: {fileID: 2644685537083137548}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Pop-Up-base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d30ec255917f85459182f926b65a764, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogPanel: {fileID: 3715439942920753345}
+  dialogPanel: {fileID: 4398232532138420422}
   messageText: {fileID: 5611331154731564866}
   yesButton: {fileID: 3838156612929905187}
   noButton: {fileID: 1128446527122075543}
@@ -61,7 +61,7 @@ GameObject:
   - component: {fileID: 4429600272732031099}
   - component: {fileID: 1695417740393114761}
   - component: {fileID: 3982743354606203961}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -97,7 +97,7 @@ Canvas:
   m_GameObject: {fileID: 6033876931689374071}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -177,7 +177,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4334625862571738804, guid: 37b22945407db8941b94e4a24efb95e0, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4633305180520412994, guid: 37b22945407db8941b94e4a24efb95e0, type: 3}
       propertyPath: m_Pivot.x
@@ -267,6 +267,11 @@ PrefabInstance:
       addedObject: {fileID: 903369581874966669}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37b22945407db8941b94e4a24efb95e0, type: 3}
+--- !u!1 &4398232532138420422 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4334625862571738804, guid: 37b22945407db8941b94e4a24efb95e0, type: 3}
+  m_PrefabInstance: {fileID: 85012516532530802}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &4711549083058657584 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4633305180520412994, guid: 37b22945407db8941b94e4a24efb95e0, type: 3}
