@@ -217,6 +217,45 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -1047,7 +1086,44 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Archer_Pixel_art_Combat_dodge_forward_0: 5781716203508362811
+      Archer_Pixel_art_Combat_dodge_forward_1: -4302929318496002709
+      Archer_Pixel_art_Combat_dodge_forward_10: 4175009073886613140
+      Archer_Pixel_art_Combat_dodge_forward_11: 6721280264578005310
+      Archer_Pixel_art_Combat_dodge_forward_12: 7923853945074401160
+      Archer_Pixel_art_Combat_dodge_forward_13: 562610479313391941
+      Archer_Pixel_art_Combat_dodge_forward_14: 7471667976453340105
+      Archer_Pixel_art_Combat_dodge_forward_15: 5547925153501375796
+      Archer_Pixel_art_Combat_dodge_forward_16: -4854399031420141541
+      Archer_Pixel_art_Combat_dodge_forward_17: -7073500060220357495
+      Archer_Pixel_art_Combat_dodge_forward_18: 262632363076533762
+      Archer_Pixel_art_Combat_dodge_forward_19: -8860155319601300845
+      Archer_Pixel_art_Combat_dodge_forward_2: 7441479975797136525
+      Archer_Pixel_art_Combat_dodge_forward_20: 7373713586468677050
+      Archer_Pixel_art_Combat_dodge_forward_21: -7248866644885743010
+      Archer_Pixel_art_Combat_dodge_forward_22: -4310948936739438718
+      Archer_Pixel_art_Combat_dodge_forward_23: -1062440545364202980
+      Archer_Pixel_art_Combat_dodge_forward_24: -3929902252018275369
+      Archer_Pixel_art_Combat_dodge_forward_25: 3426368474329532869
+      Archer_Pixel_art_Combat_dodge_forward_26: -3247714203790769208
+      Archer_Pixel_art_Combat_dodge_forward_27: -2761984437860110001
+      Archer_Pixel_art_Combat_dodge_forward_28: -660185032538774583
+      Archer_Pixel_art_Combat_dodge_forward_29: 4897093197744712879
+      Archer_Pixel_art_Combat_dodge_forward_3: 135714368083140744
+      Archer_Pixel_art_Combat_dodge_forward_30: -4838080934364215546
+      Archer_Pixel_art_Combat_dodge_forward_31: -5954778926231897350
+      Archer_Pixel_art_Combat_dodge_forward_32: 6923468513063334498
+      Archer_Pixel_art_Combat_dodge_forward_33: 1733641430043735125
+      Archer_Pixel_art_Combat_dodge_forward_34: -8238244363124100101
+      Archer_Pixel_art_Combat_dodge_forward_35: 4541242047718959451
+      Archer_Pixel_art_Combat_dodge_forward_36: -4759907075256912741
+      Archer_Pixel_art_Combat_dodge_forward_4: 8238005918937467977
+      Archer_Pixel_art_Combat_dodge_forward_5: 8394695105336611359
+      Archer_Pixel_art_Combat_dodge_forward_6: 1476768521144426952
+      Archer_Pixel_art_Combat_dodge_forward_7: -561335338775324249
+      Archer_Pixel_art_Combat_dodge_forward_8: -5629095072338936602
+      Archer_Pixel_art_Combat_dodge_forward_9: 6577982081524414222
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

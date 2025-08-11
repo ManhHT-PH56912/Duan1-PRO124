@@ -223,6 +223,45 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -1097,7 +1136,46 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Archer_Pixel_art_Movement_walk_forward_0: -7835779760490569937
+      Archer_Pixel_art_Movement_walk_forward_1: -7793829880659089139
+      Archer_Pixel_art_Movement_walk_forward_10: 4463768499670731236
+      Archer_Pixel_art_Movement_walk_forward_11: -5826583596460243615
+      Archer_Pixel_art_Movement_walk_forward_12: 7054687668627251879
+      Archer_Pixel_art_Movement_walk_forward_13: -4969559703464002698
+      Archer_Pixel_art_Movement_walk_forward_14: -3344974211403098246
+      Archer_Pixel_art_Movement_walk_forward_15: 4066194731059005508
+      Archer_Pixel_art_Movement_walk_forward_16: 7947137264334972612
+      Archer_Pixel_art_Movement_walk_forward_17: 7892985468667938315
+      Archer_Pixel_art_Movement_walk_forward_18: 6990663256031846151
+      Archer_Pixel_art_Movement_walk_forward_19: 6024182258689865209
+      Archer_Pixel_art_Movement_walk_forward_2: 2500123632783173850
+      Archer_Pixel_art_Movement_walk_forward_20: -4473518756340234766
+      Archer_Pixel_art_Movement_walk_forward_21: -5990672444139014527
+      Archer_Pixel_art_Movement_walk_forward_22: 3352848642114451618
+      Archer_Pixel_art_Movement_walk_forward_23: -1176710479014218371
+      Archer_Pixel_art_Movement_walk_forward_24: 6657360446689564672
+      Archer_Pixel_art_Movement_walk_forward_25: 4317389773540681229
+      Archer_Pixel_art_Movement_walk_forward_26: -5139614893361398672
+      Archer_Pixel_art_Movement_walk_forward_27: -7920404326427741164
+      Archer_Pixel_art_Movement_walk_forward_28: -6945628596130533823
+      Archer_Pixel_art_Movement_walk_forward_29: -1877958340380303227
+      Archer_Pixel_art_Movement_walk_forward_3: 5378384764510108324
+      Archer_Pixel_art_Movement_walk_forward_30: 8647151130596471631
+      Archer_Pixel_art_Movement_walk_forward_31: 5610802785719071276
+      Archer_Pixel_art_Movement_walk_forward_32: -853269074892717219
+      Archer_Pixel_art_Movement_walk_forward_33: -3316429454774938340
+      Archer_Pixel_art_Movement_walk_forward_34: -3784774172446077229
+      Archer_Pixel_art_Movement_walk_forward_35: 2431221226820969307
+      Archer_Pixel_art_Movement_walk_forward_36: -3654365629253805372
+      Archer_Pixel_art_Movement_walk_forward_37: -1323069154864679385
+      Archer_Pixel_art_Movement_walk_forward_38: -585082338389957689
+      Archer_Pixel_art_Movement_walk_forward_4: 7803755600660580946
+      Archer_Pixel_art_Movement_walk_forward_5: 794375455424067944
+      Archer_Pixel_art_Movement_walk_forward_6: 3152736464544555352
+      Archer_Pixel_art_Movement_walk_forward_7: 3044607322671472849
+      Archer_Pixel_art_Movement_walk_forward_8: 8923552346774403493
+      Archer_Pixel_art_Movement_walk_forward_9: 8735427780161684819
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
