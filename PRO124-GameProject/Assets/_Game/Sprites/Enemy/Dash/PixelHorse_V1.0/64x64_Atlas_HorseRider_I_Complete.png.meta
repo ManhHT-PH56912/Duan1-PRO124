@@ -1097,7 +1097,46 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      64x64_Atlas_HorseRider_I_Complete_0: 2159157238050318388
+      64x64_Atlas_HorseRider_I_Complete_1: 563205077679495490
+      64x64_Atlas_HorseRider_I_Complete_10: 4942240878415365979
+      64x64_Atlas_HorseRider_I_Complete_11: -2144078403800048493
+      64x64_Atlas_HorseRider_I_Complete_12: -8495077098678042532
+      64x64_Atlas_HorseRider_I_Complete_13: 3756439500010696545
+      64x64_Atlas_HorseRider_I_Complete_14: -5618035901511835185
+      64x64_Atlas_HorseRider_I_Complete_15: 7385933863336328918
+      64x64_Atlas_HorseRider_I_Complete_16: -6890930400246982442
+      64x64_Atlas_HorseRider_I_Complete_17: -2664110222597431269
+      64x64_Atlas_HorseRider_I_Complete_18: 1389517551159518199
+      64x64_Atlas_HorseRider_I_Complete_19: -57044686771574287
+      64x64_Atlas_HorseRider_I_Complete_2: -5328148357532689471
+      64x64_Atlas_HorseRider_I_Complete_20: -4820248487924105214
+      64x64_Atlas_HorseRider_I_Complete_21: 1636986538513241352
+      64x64_Atlas_HorseRider_I_Complete_22: 6246457648704012141
+      64x64_Atlas_HorseRider_I_Complete_23: 6479337854468662705
+      64x64_Atlas_HorseRider_I_Complete_24: 7889448941903525510
+      64x64_Atlas_HorseRider_I_Complete_25: 628427426551588290
+      64x64_Atlas_HorseRider_I_Complete_26: 2211782688025083378
+      64x64_Atlas_HorseRider_I_Complete_27: 8201813201044249029
+      64x64_Atlas_HorseRider_I_Complete_28: 8839635334585513732
+      64x64_Atlas_HorseRider_I_Complete_29: 2134223409092656648
+      64x64_Atlas_HorseRider_I_Complete_3: 2456140135705909812
+      64x64_Atlas_HorseRider_I_Complete_30: -1164421607440130371
+      64x64_Atlas_HorseRider_I_Complete_31: 7243282600558725898
+      64x64_Atlas_HorseRider_I_Complete_32: 6520994095341313141
+      64x64_Atlas_HorseRider_I_Complete_33: 8581169262321778002
+      64x64_Atlas_HorseRider_I_Complete_34: 3390419371392722201
+      64x64_Atlas_HorseRider_I_Complete_35: 8438373335963687745
+      64x64_Atlas_HorseRider_I_Complete_36: -7970998786548552445
+      64x64_Atlas_HorseRider_I_Complete_37: -8934371294927714248
+      64x64_Atlas_HorseRider_I_Complete_38: 3585246310613046005
+      64x64_Atlas_HorseRider_I_Complete_4: 8009036556202065901
+      64x64_Atlas_HorseRider_I_Complete_5: 3409172239356495384
+      64x64_Atlas_HorseRider_I_Complete_6: 2359264147166640175
+      64x64_Atlas_HorseRider_I_Complete_7: 2663130006148903891
+      64x64_Atlas_HorseRider_I_Complete_8: 4207399502053744688
+      64x64_Atlas_HorseRider_I_Complete_9: -6329469709577240173
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

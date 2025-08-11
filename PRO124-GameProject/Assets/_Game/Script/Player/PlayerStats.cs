@@ -14,7 +14,7 @@ public class PlayerStats : MonoBehaviour
     public float healingPower = 0;
     public float ManingPower = 0;
     [Header("Mana Stats")]
-    public float maxMana = 10000;
+    public float maxMana = 1;
     public float currentMana;
     public float manaRegenRate = 5f; // Tăng hiệu quả hồi máu
 
@@ -55,7 +55,7 @@ public class PlayerStats : MonoBehaviour
         }
         return false;
     }
-
+    //Player nhận damege
     public void TakeDamage(float incomingDamage)
     {
         if (isInvincible)
@@ -83,8 +83,7 @@ public class PlayerStats : MonoBehaviour
 
     private void Die()
     {
-        Debug.Log("Player chết");
-        // TODO: Trigger animation chết, disable điều khiển,...
+
     }
 
     // 🔥 Gọi từ FireZone mỗi lần player đang ở trong vùng lửa

@@ -297,7 +297,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      64x64_Atlas_Horse_Leash_MountOn_0: -7958518209981285363
+      64x64_Atlas_Horse_Leash_MountOn_1: -5596104351507848602
+      64x64_Atlas_Horse_Leash_MountOn_2: 1708098762395067116
+      64x64_Atlas_Horse_Leash_MountOn_3: -1226077662154986514
+      64x64_Atlas_Horse_Leash_MountOn_4: -5626540881153826033
+      64x64_Atlas_Horse_Leash_MountOn_5: -8634037910040563904
+      64x64_Atlas_Horse_Leash_MountOn_6: 124187310151088205
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

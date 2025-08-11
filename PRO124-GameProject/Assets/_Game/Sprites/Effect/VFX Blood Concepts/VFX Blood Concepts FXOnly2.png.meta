@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      VFX Blood Concepts FXOnly2_0: 707276172554584327
+      VFX Blood Concepts FXOnly2_1: -6301610366338092736
+      VFX Blood Concepts FXOnly2_2: 887203948580092048
+      VFX Blood Concepts FXOnly2_3: -5687822204442379898
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -272,7 +272,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      64x64_Atlas_Horse_II_Stop_0: -3073966846371417747
+      64x64_Atlas_Horse_II_Stop_1: 8769422105845863888
+      64x64_Atlas_Horse_II_Stop_2: -742675050382629354
+      64x64_Atlas_Horse_II_Stop_3: 5765136671127477459
+      64x64_Atlas_Horse_II_Stop_4: 965242005484135785
+      64x64_Atlas_Horse_II_Stop_5: -8722402688727107386
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

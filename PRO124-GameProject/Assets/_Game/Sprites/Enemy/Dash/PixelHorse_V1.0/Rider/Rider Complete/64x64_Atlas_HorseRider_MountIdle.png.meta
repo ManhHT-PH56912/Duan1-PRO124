@@ -247,7 +247,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      64x64_Atlas_HorseRider_MountIdle_0: 4125309196284133136
+      64x64_Atlas_HorseRider_MountIdle_1: -4064891820194424260
+      64x64_Atlas_HorseRider_MountIdle_2: 1226179066581035339
+      64x64_Atlas_HorseRider_MountIdle_3: 1482275704705861865
+      64x64_Atlas_HorseRider_MountIdle_4: 4114710773730772395
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
