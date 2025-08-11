@@ -17,10 +17,6 @@ public class DashEnemy : EnemyBase
     public DashEnemyStateMachine stateMachine;
     public EnemyState CurrentState { get; private set; }
     [SerializeField] private int startHealth = 100;
-    public override int MaxHealth { get; protected set; }
-    public override int Health { get; protected set; }
-    public override float Speed { get; protected set; }
-    public override int Damage { get; protected set; }
     public override void Idle() { }
 
     public override void Move(float speed) { }
