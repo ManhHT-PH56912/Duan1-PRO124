@@ -4,63 +4,79 @@ using UnityEngine.UI;
 public class SettingAudioUI : MonoBehaviour
 {
     private AudioManager audioManager;
+    private FirebaseManager firebaseManager;
 
     [Header("UI Controls")]
-    [SerializeField] private Slider volumeSlider;       // Âm lượng nhạc nền
-    [SerializeField] private Slider sfxVolumeSlider;    // Âm lượng hiệu ứng
-    [SerializeField] private Toggle musicToggle;        // Bật/tắt nhạc nền
-    [SerializeField] private Toggle sfxToggle;          // Bật/tắt hiệu ứng
+    [SerializeField] private Slider volumeSlider;
+    [SerializeField] private Slider sfxVolumeSlider;
+    [SerializeField] private Toggle musicToggle;
+    [SerializeField] private Toggle sfxToggle;
 
     private void Start()
     {
-        if (audioManager == null)
-        {
-            audioManager = FindAnyObjectByType<AudioManager>();
-        }
+        audioManager = AudioManager.Instance;
+        firebaseManager = FirebaseManager.Instance;
 
-        // Set initial UI values
-        volumeSlider.value = audioManager.backgroundMusicSource.volume;
-        sfxVolumeSlider.value = audioManager.soundEffectSource.volume;
+        RefreshUI();
 
-        musicToggle.isOn = !audioManager.GetMute(AudioType.BACKGROUND_MUSIC);
-        sfxToggle.isOn = !audioManager.GetMute(AudioType.SOUND_EFFECT);
+        if (firebaseManager != null)
+            firebaseManager.OnPlayerDataUpdated += RefreshUI;
 
-        // Add listeners
         volumeSlider.onValueChanged.AddListener(OnMusicVolumeChanged);
         sfxVolumeSlider.onValueChanged.AddListener(OnSfxVolumeChanged);
         musicToggle.onValueChanged.AddListener(OnMusicToggleChanged);
         sfxToggle.onValueChanged.AddListener(OnSfxToggleChanged);
     }
 
+    private void OnDestroy()
+    {
+        if (firebaseManager != null)
+            firebaseManager.OnPlayerDataUpdated -= RefreshUI;
+    }
+
+    private void RefreshUI()
+    {
+        var data = firebaseManager?.playerData?.settings;
+        if (data == null) return;
+
+        volumeSlider.SetValueWithoutNotify(data.musicVolume);
+        sfxVolumeSlider.SetValueWithoutNotify(data.sfxVolume);
+        musicToggle.SetIsOnWithoutNotify(data.isMusicOn);
+        sfxToggle.SetIsOnWithoutNotify(data.isSfxOn);
+
+        audioManager?.ApplyAudioSettings();
+    }
+
     private void OnMusicVolumeChanged(float volume)
     {
-        if (audioManager != null && audioManager.backgroundMusicSource != null)
-        {
-            audioManager.backgroundMusicSource.volume = volume;
-        }
+        bool isOn = musicToggle.isOn;
+        audioManager?.SetVolume(AudioType.BACKGROUND_MUSIC, volume, isOn);
+        SaveToFirebase();
     }
 
     private void OnSfxVolumeChanged(float volume)
     {
-        if (audioManager != null && audioManager.soundEffectSource != null)
-        {
-            audioManager.soundEffectSource.volume = volume;
-        }
+        bool isOn = sfxToggle.isOn;
+        audioManager?.SetVolume(AudioType.SOUND_EFFECT, volume, isOn);
+        SaveToFirebase();
     }
 
     private void OnMusicToggleChanged(bool isOn)
     {
-        if (audioManager != null)
-        {
-            audioManager.SetMute(AudioType.BACKGROUND_MUSIC, !isOn);
-        }
+        float volume = volumeSlider.value;
+        audioManager?.SetVolume(AudioType.BACKGROUND_MUSIC, volume, isOn);
+        SaveToFirebase();
     }
 
     private void OnSfxToggleChanged(bool isOn)
     {
-        if (audioManager != null)
-        {
-            audioManager.SetMute(AudioType.SOUND_EFFECT, !isOn);
-        }
+        float volume = sfxVolumeSlider.value;
+        audioManager?.SetVolume(AudioType.SOUND_EFFECT, volume, isOn);
+        SaveToFirebase();
+    }
+
+    private void SaveToFirebase()
+    {
+        firebaseManager?.WriteData();
     }
 }

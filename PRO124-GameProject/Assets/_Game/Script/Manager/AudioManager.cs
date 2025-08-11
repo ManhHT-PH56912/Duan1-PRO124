@@ -1,6 +1,7 @@
-using DesignPatterns.Singleton;
 using UnityEngine;
+using System.Collections;
 using System.Collections.Generic;
+using DesignPatterns.Singleton;
 
 public enum AudioType
 {
@@ -16,90 +17,94 @@ public class AudioManager : Singleton<AudioManager>
 
     [Header("Audio Clips")]
     public List<AudioClip> soundEffects;
-    public AudioClip backgroundMusic;
+    public List<AudioClip> backgroundMusic;
 
-    private bool isMusicMuted;
-    private bool isSfxMuted;
+    public PlayerDataModel playerData;
 
-    private const string MUSIC_KEY = "MUSIC_MUTED";
-    private const string SFX_KEY = "SFX_MUTED";
+    private Coroutine musicTransitionCoroutine;
 
-    protected override void Awake()
+    private void Start()
     {
-        base.Awake();
-        LoadAudioSettings();
+        if (playerData == null && FirebaseManager.Instance != null)
+            playerData = FirebaseManager.Instance.playerData;
+
+        ApplyAudioSettings();
         PlayBackgroundMusic();
     }
 
-    private void LoadAudioSettings()
+    public void ApplyAudioSettings()
     {
-        isMusicMuted = PlayerPrefs.GetInt(MUSIC_KEY, 0) == 1;
-        isSfxMuted = PlayerPrefs.GetInt(SFX_KEY, 0) == 1;
+        if (playerData == null) return;
 
         if (backgroundMusicSource != null)
-            backgroundMusicSource.mute = isMusicMuted;
-
+        {
+            backgroundMusicSource.volume = playerData.settings.musicVolume;
+            backgroundMusicSource.mute = !playerData.settings.isMusicOn;
+        }
         if (soundEffectSource != null)
-            soundEffectSource.mute = isSfxMuted;
+        {
+            soundEffectSource.volume = playerData.settings.sfxVolume;
+            soundEffectSource.mute = !playerData.settings.isSfxOn;
+        }
     }
 
     public void PlayBackgroundMusic()
     {
-        if (backgroundMusicSource == null || backgroundMusic == null || isMusicMuted) return;
+        if (backgroundMusicSource != null && backgroundMusic.Count > 0)
+            PlayBackgroundMusicWithTransition(backgroundMusic[0]);
+    }
 
-        backgroundMusicSource.clip = backgroundMusic;
+    public void PlayBackgroundMusicWithTransition(AudioClip newClip)
+    {
+        if (musicTransitionCoroutine != null)
+            StopCoroutine(musicTransitionCoroutine);
+        musicTransitionCoroutine = StartCoroutine(FadeAndSwitchMusic(newClip));
+    }
+
+    private IEnumerator FadeAndSwitchMusic(AudioClip newClip)
+    {
+        float startVolume = backgroundMusicSource.volume;
+        float t = 0f;
+
+        while (t < 1f)
+        {
+            t += Time.unscaledDeltaTime;
+            backgroundMusicSource.volume = Mathf.Lerp(startVolume, 0f, t);
+            yield return null;
+        }
+
+        backgroundMusicSource.clip = newClip;
         backgroundMusicSource.loop = true;
         backgroundMusicSource.Play();
-        Debug.Log("Playing background music: " + backgroundMusic.name);
-    }
 
-    public void PlaySoundEffect(string clipName)
-    {
-        if (isSfxMuted || soundEffectSource == null) return;
-
-        AudioClip clip = soundEffects.Find(s => s.name == clipName);
-        if (clip != null)
+        t = 0f;
+        while (t < 1f)
         {
-            soundEffectSource.PlayOneShot(clip);
-        }
-        else
-        {
-            Debug.LogWarning($"Sound effect '{clipName}' not found!");
+            t += Time.unscaledDeltaTime;
+            backgroundMusicSource.volume = Mathf.Lerp(0f, playerData.settings.musicVolume, t);
+            yield return null;
         }
     }
 
-    public void SetMute(AudioType type, bool isMuted)
+    public void SetVolume(AudioType type, float volume, bool isOn)
     {
+        if (playerData == null) return;
+
         switch (type)
         {
             case AudioType.BACKGROUND_MUSIC:
-                isMusicMuted = isMuted;
-                if (backgroundMusicSource != null)
-                {
-                    backgroundMusicSource.mute = isMuted;
-                    if (isMuted) backgroundMusicSource.Stop();
-                    else PlayBackgroundMusic();
-                }
-                PlayerPrefs.SetInt(MUSIC_KEY, isMuted ? 1 : 0);
+                playerData.settings.musicVolume = volume;
+                playerData.settings.isMusicOn = isOn;
+                backgroundMusicSource.volume = volume;
+                backgroundMusicSource.mute = !isOn;
                 break;
 
             case AudioType.SOUND_EFFECT:
-                isSfxMuted = isMuted;
-                if (soundEffectSource != null)
-                    soundEffectSource.mute = isMuted;
-
-                PlayerPrefs.SetInt(SFX_KEY, isMuted ? 1 : 0);
+                playerData.settings.sfxVolume = volume;
+                playerData.settings.isSfxOn = isOn;
+                soundEffectSource.volume = volume;
+                soundEffectSource.mute = !isOn;
                 break;
         }
-    }
-
-    public bool GetMute(AudioType type)
-    {
-        return type switch
-        {
-            AudioType.BACKGROUND_MUSIC => isMusicMuted,
-            AudioType.SOUND_EFFECT => isSfxMuted,
-            _ => false
-        };
     }
 }

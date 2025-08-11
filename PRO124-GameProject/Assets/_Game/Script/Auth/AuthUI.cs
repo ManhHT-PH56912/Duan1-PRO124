@@ -2,13 +2,11 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Text.RegularExpressions;
 using System.Collections;
-using System.Collections.Generic;
 
 public readonly struct ColorTypes
 {
-    public static readonly Color Red = new(1f, 0f, 0f);
+    public static readonly Color Red = Color.red;
     public static readonly Color Green = Color.green;
-    public static readonly Color Yellow = new(1f, 1f, 0f);
 }
 
 public class AuthUI : MonoBehaviour
@@ -36,19 +34,7 @@ public class AuthUI : MonoBehaviour
     [SerializeField] private Button switchToLoginButton;
     [SerializeField] private Button loginAnonymousButton;
 
-    private Coroutine statusCoroutine;
-
     private void Awake()
-    {
-        SetupUIEvents();
-    }
-
-    private void Start()
-    {
-        ShowLoginForm();
-    }
-
-    private void SetupUIEvents()
     {
         loginButton.onClick.AddListener(OnLoginClicked);
         loginAnonymousButton.onClick.AddListener(PlayNowClicked);
@@ -57,8 +43,9 @@ public class AuthUI : MonoBehaviour
         switchToLoginButton.onClick.AddListener(ShowLoginForm);
     }
 
-    #region UI Logic
+    private void Start() => ShowLoginForm();
 
+    #region UI
     private void ShowLoginForm()
     {
         loginPanel.SetActive(true);
@@ -82,11 +69,9 @@ public class AuthUI : MonoBehaviour
         confirmPasswordInput.text = "";
         statusText.text = "";
     }
-
     #endregion
 
-    #region Auth Logic
-
+    #region Auth
     private void OnRegisterClicked()
     {
         string email = registerEmailInput.text.Trim();
@@ -94,16 +79,17 @@ public class AuthUI : MonoBehaviour
         string confirmPassword = confirmPasswordInput.text.Trim();
 
         if (!IsValidInput(email, password)) return;
-
         if (password != confirmPassword)
         {
-            ShowStatus("Passwords do not match!", ColorTypes.Red);
+            SetStatus("Passwords do not match!", ColorTypes.Red);
             return;
         }
 
-        FirebaseManager.Instance.RegisterAccount(email, password);
-        ShowStatus("Registered successfully! Please login.", ColorTypes.Green);
-        ShowLoginForm();
+        FirebaseManager.Instance.RegisterAccount(email, password, (success, message) =>
+        {
+            SetStatus(message, success ? ColorTypes.Green : ColorTypes.Red);
+            if (success) ShowLoginForm();
+        });
     }
 
     private void OnLoginClicked()
@@ -113,79 +99,55 @@ public class AuthUI : MonoBehaviour
 
         if (!IsValidInput(email, password)) return;
 
-        FirebaseManager.Instance.SignAccount(email, password);
-        ShowStatus("Login successfully!", ColorTypes.Green);
-        StartCoroutine(CheckLoginResult());
-    }
-
-    private IEnumerator CheckLoginResult()
-    {
-        yield return new WaitForSeconds(1.5f);
-
-        var user = FirebaseManager.Instance.user;
-        if (user != null)
+        FirebaseManager.Instance.SignAccount(email, password, (success, message) =>
         {
-            StartCoroutine(ShowStatusThenLoadScene($"Logged in as: {user.Email}", ColorTypes.Green));
-        }
-        else
-        {
-            ShowStatus("Login failed or user is null.", ColorTypes.Red);
-        }
+            SetStatus(message, success ? ColorTypes.Green : ColorTypes.Red);
+            if (success) StartCoroutine(LoadMainMenuAfterDelay(1.5f));
+        });
     }
 
     private void PlayNowClicked()
     {
         FirebaseManager.Instance.SignAnonymousAccount();
-        StartCoroutine(ShowStatusThenLoadScene($"Loggin with AnonymousA ccount", ColorTypes.Green));
+        SetStatus("Logged in as Guest", ColorTypes.Green);
+        StartCoroutine(LoadMainMenuAfterDelay(1f));
     }
-
-
     #endregion
 
-    #region Helper Methods
-
+    #region Helper
     private bool IsValidInput(string email, string password)
     {
         if (string.IsNullOrWhiteSpace(email) || string.IsNullOrWhiteSpace(password))
         {
-            ShowStatus("Email and password are required.", ColorTypes.Red);
+            SetStatus("Email and password are required.", ColorTypes.Red);
             return false;
         }
 
-        var emailPattern = @"^[a-zA-Z0-9._%+-]+@gmail\.com$";
-        if (!Regex.IsMatch(email, emailPattern))
+        if (!Regex.IsMatch(email, @"^[a-zA-Z0-9._%+-]+@gmail\.com$"))
         {
-            ShowStatus("Invalid Gmail address format.", ColorTypes.Red);
+            SetStatus("Invalid Gmail address format.", ColorTypes.Red);
             return false;
         }
-
         return true;
     }
 
-    private void ShowStatus(string message, Color color)
+    private void SetStatus(string message, Color color)
     {
-        if (statusCoroutine != null)
-            StopCoroutine(statusCoroutine);
-
-        statusCoroutine = StartCoroutine(ShowStatusRoutine(message, color));
-    }
-
-    private IEnumerator ShowStatusRoutine(string message, Color color)
-    {
-        yield return new WaitForSeconds(0.3f);
         statusText.text = message;
         statusText.color = color;
-        yield return new WaitForSeconds(2f);
+        StartCoroutine(ClearStatusAfterDelay(3f));
+
+    }
+    private IEnumerator ClearStatusAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
         statusText.text = "";
     }
 
-    private IEnumerator ShowStatusThenLoadScene(string message, Color color)
+    private IEnumerator LoadMainMenuAfterDelay(float delay)
     {
-        statusText.text = message;
-        statusText.color = color;
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(delay);
         LoadingSceneManager.Instance.LoadScene(SceneIndexs.MAIN_MENU);
     }
-
     #endregion
 }

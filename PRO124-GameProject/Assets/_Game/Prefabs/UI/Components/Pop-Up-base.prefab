@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9161017395095565439}
-  - component: {fileID: 2644685537083137548}
+  - component: {fileID: 5088120333677112740}
   m_Layer: 5
   m_Name: Pop-Up-base
   m_TagString: Untagged
@@ -33,7 +33,7 @@ Transform:
   - {fileID: 6290450056573863909}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2644685537083137548
+--- !u!114 &5088120333677112740
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -109,7 +109,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_TargetDisplay: 0
 --- !u!114 &1695417740393114761
 MonoBehaviour:
@@ -173,11 +173,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4334625862571738804, guid: 37b22945407db8941b94e4a24efb95e0, type: 3}
       propertyPath: m_Name
-      value: Panel
+      value: DialogPanel
       objectReference: {fileID: 0}
     - target: {fileID: 4334625862571738804, guid: 37b22945407db8941b94e4a24efb95e0, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4633305180520412994, guid: 37b22945407db8941b94e4a24efb95e0, type: 3}
       propertyPath: m_Pivot.x

@@ -5,6 +5,6 @@ public enum SceneIndexs
     MAIN_MENU = 2,
     MAP1 = 3,
     MAP2 = 4,
-    mAP3 = 5,
+    MAP3 = 5,
     END_GAME = 6
 }

@@ -7,26 +7,29 @@ using DesignPatterns.Singleton;
 public class YesNoDialog : Singleton<YesNoDialog>
 {
     [Header("UI References")]
-    public GameObject dialogPanel;
-    public TextMeshProUGUI messageText;
-    public Button yesButton;
-    public Button noButton;
+    [SerializeField] private GameObject dialogPanel;
+    [SerializeField] private TextMeshProUGUI messageText;
+    [SerializeField] private Button yesButton;
+    [SerializeField] private Button noButton;
 
     private Action<bool> onResult;
 
     protected override void Awake()
     {
         base.Awake();
-        dialogPanel.SetActive(false);
+        // Đảm bảo panel tắt khi khởi chạy
+        if (dialogPanel != null)
+            dialogPanel.SetActive(false);
     }
 
-    /// <summary>
-    /// Hiển thị hộp thoại Yes/No với message tùy chỉnh.
-    /// </summary>
-    /// <param name="message">Nội dung hiển thị</param>
-    /// <param name="callback">Callback true nếu chọn Yes, false nếu chọn No</param>
     public void Show(string message, Action<bool> callback)
     {
+        if (dialogPanel == null || messageText == null || yesButton == null || noButton == null)
+        {
+            Debug.LogError("[YesNoDialog] Không thể Show vì UI chưa được gán hoặc tìm thấy!");
+            return;
+        }
+
         dialogPanel.SetActive(true);
         messageText.text = message;
         onResult = callback;

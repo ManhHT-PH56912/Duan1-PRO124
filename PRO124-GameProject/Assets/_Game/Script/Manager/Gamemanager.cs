@@ -1,45 +1,49 @@
-using DesignPatterns.Singleton;
 using UnityEngine;
+using DesignPatterns.Singleton;
+using Assets._Game.Script.Helper;
 
 public enum GameState
 {
-    None = 0,
-    Start = 1,
-    Playing = 2,
-    Pause = 3,
-    GameOver = 4,
+    None,
+    Start,
+    Playing,
+    Pause,
+    GameOver
 }
 
 public class GameManager : Singleton<GameManager>
 {
-    public static GameState gameState;
-    private bool isPaused = false;
+    public static GameState gameState = GameState.None;
+
+    private bool isPaused;
+
+    public bool IsPaused => isPaused;
 
     protected override void Awake()
     {
         base.Awake();
+
+        // Khởi tạo trạng thái mặc định
         if (gameState == GameState.None)
-        {
             gameState = GameState.Start;
-        }
     }
 
     private void Start()
     {
         if (gameState == GameState.Start)
         {
-            Debug.Log("Game started.");
             LoadingSceneManager.Instance.LoadScene(SceneIndexs.AUTH);
+            Debug.Log("Game started.");
         }
     }
-
-    public bool IsPaused => isPaused;
 
     public void TogglePause()
     {
         isPaused = !isPaused;
+
         Time.timeScale = isPaused ? 0f : 1f;
         gameState = isPaused ? GameState.Pause : GameState.Playing;
-        Debug.Log($"Game {(isPaused ? "paused" : "resumed")}.");
+
+        Debug.Log(isPaused ? "Game paused." : "Game resumed.");
     }
 }
