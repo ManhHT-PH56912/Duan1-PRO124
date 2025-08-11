@@ -11,7 +11,6 @@ public class Attack2State : BossBaseState
 
     private float timer;
     private Vector2 dashDir;
-    private bool hasDashed = false;
     private float decelRate = 40f; // tốc độ giảm vận tốc (unit/giây)
     private Vector2 currentVelocity;
 
@@ -21,7 +20,6 @@ public class Attack2State : BossBaseState
     {
         currentPhase = Phase.BackStep;
         timer = 0f;
-        hasDashed = false;
 
         // Xoay mặt về phía player trước khi lùi
         if (boss.player.position.x < boss.transform.position.x)
