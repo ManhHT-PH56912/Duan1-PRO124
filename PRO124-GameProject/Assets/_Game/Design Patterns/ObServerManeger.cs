@@ -1,33 +1,28 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ObServerManager : MonoBehaviour
+public class ObserverManager : MonoBehaviour
 {
-    public static ObServerManager Instance;
-    private List<IObserver> observers = new List<IObserver>();
+    public static ObserverManager Instance;
+    private readonly List<IObserver> observers = new();
 
     private void Awake()
     {
-        Instance = this;
+        if (Instance == null) Instance = this;
+        else Destroy(gameObject);
     }
 
-    public void addObsever(IObserver observer)
+    public void AddObserver(IObserver obs)
     {
-        observers.Add(observer);
+        if (!observers.Contains(obs)) observers.Add(obs);
     }
 
-    public void removeObsever(IObserver observer)
+    public void RemoveObserver(IObserver obs) => observers.Remove(obs);
+
+    public void ReturnAllToPool()
     {
-        observers.Remove(observer);
+        foreach (var obs in observers.ToArray())
+            obs.ReturnPool();
     }
 
-    public void OnCheckPoint()
-    {
-        for (int i = observers.Count - 1; i >= 0; i--)
-        {
-            observers[i].ReturnPool();
-        }
-    }
-
-    
 }

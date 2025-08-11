@@ -60,7 +60,6 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private GameObject rhitbox;
     [SerializeField] private GameObject lhitbox;
 
-
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -664,11 +663,13 @@ public class PlayerController : MonoBehaviour
 
     private void HandleTemporaryDeath()
     {
-        if (Input.GetKeyDown(KeyCode.V) && isGrounded) // Check if 'V' key is pressed
+        if (stats.currentHealth <= 0 && !animator.GetBool("isDead"))
+
         {
             StartCoroutine(AttackMoveLock(attackMoveLockDuration));
             StartCoroutine(TemporaryDeath());
         }
+
     }
 
     IEnumerator TemporaryDeath()

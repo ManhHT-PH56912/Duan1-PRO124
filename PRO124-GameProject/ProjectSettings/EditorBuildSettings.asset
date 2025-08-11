@@ -15,8 +15,8 @@ EditorBuildSettings:
     path: Assets/_Game/_Screne/MainMenu.unity
     guid: 361f8bef3c07ca347ba32221ff7743bb
   - enabled: 1
-    path: Assets/_Game/_Screne/Vuong.unity
-    guid: 171415f42bdbfb74fb0407aaa7362dd3
+    path: Assets/_Game/_Screne/Manh.unity
+    guid: 8ca53c45c1fe273459875352da0ba1af
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

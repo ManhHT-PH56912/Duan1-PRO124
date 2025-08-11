@@ -1,7 +1,7 @@
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D), typeof(Collider2D), typeof(Animator))]
-public class DashEnemy : EnemyBase
+public class DashEnemy : EnemyBase, IObserver
 {
     [Header("Dash Settings")]
     public float dashSpeed = 10f;
@@ -11,16 +11,14 @@ public class DashEnemy : EnemyBase
     [HideInInspector] public Rigidbody2D rb;
     [HideInInspector] public Collider2D col;
     [HideInInspector] public Animator animator;
+    [Header("Blood Effect Spawner")]
+    [SerializeField] private BloodEffectSpawner bloodSpawner;
 
     public Transform visual;
 
     public DashEnemyStateMachine stateMachine;
     public EnemyState CurrentState { get; private set; }
     [SerializeField] private int startHealth = 100;
-    public override int MaxHealth { get; protected set; }
-    public override int Health { get; protected set; }
-    public override float Speed { get; protected set; }
-    public override int Damage { get; protected set; }
     public override void Idle() { }
 
     public override void Move(float speed) { }
@@ -31,7 +29,6 @@ public class DashEnemy : EnemyBase
     {
         Damage = 10;
         MaxHealth = startHealth;
-        Health = MaxHealth;
         Speed = 2f;
         rb = GetComponent<Rigidbody2D>();
         col = GetComponent<Collider2D>();
@@ -49,6 +46,12 @@ public class DashEnemy : EnemyBase
 
     public override void TakeDamage(int damage, MonoBehaviour attacker)
     {
+        if (bloodSpawner != null)
+        {
+            bool flipX = attacker.transform.position.x > transform.position.x;
+            bloodSpawner.SpawnBlood(transform.position, flipX);
+        }
+
         Health -= damage;
         if (Health <= 0)
         {
@@ -58,7 +61,7 @@ public class DashEnemy : EnemyBase
 
     public override void Die()
     {
-        Destroy(gameObject);
+        ReturnPool();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -91,6 +94,9 @@ public class DashEnemy : EnemyBase
         GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
         return playerObj != null ? playerObj.transform : null;
     }
-
+    public override void ReturnPool()
+    {
+        PoolManager.Instance.Return(gameObject);
+    }
 
 }
