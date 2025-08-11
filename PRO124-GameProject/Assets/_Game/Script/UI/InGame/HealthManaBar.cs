@@ -15,7 +15,6 @@ public class HealthManaBar : MonoBehaviour
     private int maxHealth;
     private int maxMana;
 
-    // Health Methods
     public void SetMaxHealth(int health)
     {
         maxHealth = health;
@@ -35,7 +34,6 @@ public class HealthManaBar : MonoBehaviour
         healthText.text = $"{currentHealth}/{maxHealth}";
     }
 
-    // Mana Methods
     public void SetMaxMana(int mana)
     {
         maxMana = mana;
@@ -53,5 +51,12 @@ public class HealthManaBar : MonoBehaviour
     private void UpdateManaText(int currentMana)
     {
         manaText.text = $"{currentMana}/{maxMana}";
+    }
+
+    // ✅ Hàm này để cập nhật cả 2 cùng lúc
+    public void UpdateUI(int currentHealth, int currentMana)
+    {
+        SetHealth(currentHealth);
+        SetMana(currentMana);
     }
 }

@@ -5,40 +5,54 @@ public class LogOutButton : BaseButtom
 {
     protected override void OnButtonClick()
     {
-        Debug.Log("[UI] Log Out Button Clicked!");
+        Debug.Log("[UI] Log Out Button Clicked");
 
-        YesNoDialog.Instance.Show(
-            "Are you sure you want to log out?",
-            confirmed =>
-            {
-                if (confirmed)
+        // Gọi popup Yes/No
+        if (YesNoDialog.Instance != null)
+        {
+            YesNoDialog.Instance.Show(
+                "Are you sure you want to log out?",
+                confirmed =>
                 {
-                    Debug.Log("[UI] User confirmed log out.");
-                    StartCoroutine(HandleLogOut());
-                }
-                else
-                {
-                    Debug.Log("[UI] User canceled log out.");
-                }
-            });
+                    if (confirmed)
+                    {
+                        Debug.Log("[UI] User confirmed log out");
+                        StartCoroutine(HandleLogOut());
+                    }
+                    else
+                    {
+                        Debug.Log("[UI] User canceled log out");
+                    }
+                });
+        }
+        else
+        {
+            Debug.LogError("[UI] Không tìm thấy YesNoDialog trong Scene!");
+        }
     }
 
     private IEnumerator HandleLogOut()
     {
-        if (FirebaseManager.Instance != null)
+        var firebase = FirebaseManager.Instance;
+
+        if (firebase != null)
         {
-            FirebaseManager.Instance.SignOutAccount();
+            if (firebase.user != null && firebase.user.IsAnonymous)
+                firebase.LogOutAnonymous();
+            else
+                firebase.LogOut();
         }
-        else if (FirebaseManager.Instance != null && FirebaseManager.Instance.user != null && FirebaseManager.Instance.user.IsAnonymous)
+        else
         {
-            FirebaseManager.Instance.DeleteAnonymousAccount();
+            Debug.LogWarning("[UI] FirebaseManager instance is null. Cannot log out.");
         }
 
         yield return new WaitForSeconds(2f);
 
-        if (LoadingSceneManager.Instance != null)
-        {
-            LoadingSceneManager.Instance.LoadScene(SceneIndexs.AUTH);
-        }
+        var sceneManager = LoadingSceneManager.Instance;
+        if (sceneManager != null)
+            sceneManager.LoadScene(SceneIndexs.AUTH);
+        else
+            Debug.LogWarning("[UI] LoadingSceneManager instance is null. Cannot load auth scene.");
     }
 }

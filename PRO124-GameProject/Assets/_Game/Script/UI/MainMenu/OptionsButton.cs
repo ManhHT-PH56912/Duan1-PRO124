@@ -7,9 +7,11 @@ public class OptionsButton : BaseButtom
     protected override void OnButtonClick()
     {
         Debug.Log("Options Button Clicked!");
+
         if (optionsUI != null)
         {
-            optionsUI.SetActive(true); // Toggle Options UI
+            bool isActive = optionsUI.activeSelf;
+            optionsUI.SetActive(!isActive); // Toggle ON/OFF
         }
         else
         {

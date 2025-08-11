@@ -9,8 +9,7 @@ public class ContinueButton : BaseButtom
     }
     protected override void OnButtonClick()
     {
-        Debug.Log("Play Button Clicked!");
-
+        Debug.Log("Continue Button Clicked!");
         loadingSceneManager.LoadScene(SceneIndexs.MAP1);
     }
 }
