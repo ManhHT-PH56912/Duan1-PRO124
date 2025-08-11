@@ -44,3 +44,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f13d0f83571aed49b4b39469a9c2742, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthManaBar: {fileID: 0}
+  monnyUI: {fileID: 0}

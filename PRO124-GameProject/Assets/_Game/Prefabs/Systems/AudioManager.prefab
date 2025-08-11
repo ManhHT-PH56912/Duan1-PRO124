@@ -49,9 +49,11 @@ MonoBehaviour:
   backgroundMusicSource: {fileID: 7721818581998651730}
   soundEffectSource: {fileID: 8119141679912704976}
   soundEffects:
+  - {fileID: 8300000, guid: 48494c7bde461d548a8671ff59ae69a7, type: 3}
+  backgroundMusic:
   - {fileID: 8300000, guid: bf6f3c11f677525498e1d48486b9f2cd, type: 3}
-  - {fileID: 0}
-  backgroundMusic: {fileID: 8300000, guid: bf6f3c11f677525498e1d48486b9f2cd, type: 3}
+  playerDataSO: {fileID: 11400000, guid: 5a2c944aa1da53c4aa4e33ce11063e30, type: 2}
+  musicFadeDuration: 1.5
 --- !u!1 &5117910192736753252
 GameObject:
   m_ObjectHideFlags: 0
@@ -94,8 +96,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 48494c7bde461d548a8671ff59ae69a7, type: 3}
+  m_Resource: {fileID: 8300000, guid: 48494c7bde461d548a8671ff59ae69a7, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.6
   m_Pitch: 1
@@ -225,7 +227,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: bf6f3c11f677525498e1d48486b9f2cd, type: 3}
   m_Resource: {fileID: 8300000, guid: bf6f3c11f677525498e1d48486b9f2cd, type: 3}
-  m_PlayOnAwake: 0
+  m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
   Loop: 1

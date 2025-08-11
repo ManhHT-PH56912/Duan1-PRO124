@@ -8,225 +8,228 @@ using Firebase.Auth;
 using Firebase.Database;
 using Firebase.Extensions;
 using UnityEngine;
-using UnityEngine.Networking;
+using Newtonsoft.Json;
+using System;
 
 public class FirebaseManager : Singleton<FirebaseManager>
 {
-    FirebaseApp app;
-    FirebaseAuth auth;
-    DatabaseReference db;
+    private FirebaseAuth auth;
+    private DatabaseReference db;
     public FirebaseUser user;
 
-    protected override void Awake()
-    {
-        base.Awake();
-    }
+    public PlayerDataModel playerData = new PlayerDataModel();
+    public event Action OnPlayerDataUpdated;
 
-    private void Start()
-    {
-        InitializeFirebase();
-    }
+    protected override void Awake() => base.Awake();
 
+    private void Start() => InitializeFirebase();
 
     private void InitializeFirebase()
     {
-        Firebase.FirebaseApp.CheckAndFixDependenciesAsync().ContinueWithOnMainThread(task =>
+        FirebaseApp.CheckAndFixDependenciesAsync().ContinueWithOnMainThread(task =>
         {
-            var dependencyStatus = task.Result;
-            if (dependencyStatus == Firebase.DependencyStatus.Available)
+            if (task.Result == DependencyStatus.Available)
             {
-                // Create and hold a reference to your FirebaseApp,
-                // where app is a Firebase.FirebaseApp property of your application class.
-                app = FirebaseApp.DefaultInstance;
                 auth = FirebaseAuth.DefaultInstance;
                 db = FirebaseDatabase.DefaultInstance.RootReference;
-                // Set a flag here to indicate whether Firebase is ready to use by your app.
+                Debug.Log("Firebase initialized.");
             }
             else
             {
-                Debug.LogError(System.String.Format(
-                  "Could not resolve all Firebase dependencies: {0}", dependencyStatus));
-                // Firebase Unity SDK is not safe to use here.
+                Debug.LogError($"Firebase init failed: {task.Result}");
             }
         });
     }
 
-    public void RegisterAccount(string email, string password)
+    #region Authentication
+    public void RegisterAccount(string email, string password, Action<bool, string> callback)
     {
-        auth.CreateUserWithEmailAndPasswordAsync(email, password).ContinueWith(task =>
+        auth.CreateUserWithEmailAndPasswordAsync(email, password).ContinueWithOnMainThread(task =>
         {
-            if (task.IsCanceled)
-            {
-                Debug.LogError("CreateUserWithEmailAndPasswordAsync was canceled.");
-            }
             if (task.IsFaulted)
             {
-                Debug.LogError("CreateUserWithEmailAndPasswordAsync encountered an error: " + task.Exception);
+                callback(false, "Registration failed.");
+                return;
             }
 
-            // Firebase user has been created.
-            AuthResult result = task.Result;
-            Debug.LogFormat("Firebase user created successfully: {0} ({1})",
-                result.User.DisplayName, result.User.UserId);
+            user = task.Result.User;
+            playerData.ResetDefaultData(user.UserId, email);
+            WriteData();
+
+            SyncAudioManager();
+            callback(true, "Registered successfully!");
         });
     }
 
-
-    public void SignAccount(string email, string password)
+    public void SignAccount(string email, string password, Action<bool, string> callback)
     {
-        auth.SignInWithEmailAndPasswordAsync(email, password).ContinueWith(task =>
+        auth.SignInWithEmailAndPasswordAsync(email, password).ContinueWithOnMainThread(task =>
         {
-            if (task.IsCanceled)
-            {
-                Debug.LogError("SignInWithEmailAndPasswordAsync was canceled.");
-            }
             if (task.IsFaulted)
             {
-                Debug.LogError("SignInWithEmailAndPasswordAsync encountered an error: " + task.Exception);
+                callback(false, "Login failed.");
+                return;
             }
 
-            user = auth.CurrentUser;
+            user = task.Result.User;
+            playerData.userId = user.UserId;
+            playerData.email = email;
 
-            AuthResult result = task.Result;
-            Debug.LogFormat("User signed in successfully: {0} ({1})",
-                result.User.DisplayName, result.User.UserId);
+            ReadData();
+            ListenToRealtimeData();
+
+            callback(true, "Login successfully!");
         });
     }
 
     public void SignAnonymousAccount()
     {
-        auth.SignInAnonymouslyAsync().ContinueWith(task =>
+        auth.SignInAnonymouslyAsync().ContinueWithOnMainThread(task =>
         {
-            if (task.IsCanceled)
-            {
-                Debug.LogError("SignInAnonymouslyAsync was canceled.");
-            }
-            if (task.IsFaulted)
-            {
-                Debug.LogError("SignInAnonymouslyAsync encountered an error: " + task.Exception);
-            }
+            if (LogTaskErrors(task, nameof(SignAnonymousAccount))) return;
 
-            user = auth.CurrentUser;
+            user = task.Result.User;
+            playerData.ResetDefaultData(user.UserId, user.Email ?? "");
 
-
-            AuthResult result = task.Result;
-            Debug.LogFormat("User signed in successfully: {0} ({1})",
-                result.User.DisplayName, result.User.UserId);
+            ReadData();
+            ListenToRealtimeData();
         });
     }
 
-
-    public void SignOutAccount()
+    public void LogOut()
     {
-        FirebaseAuth.DefaultInstance.SignOut();
-        user = auth.CurrentUser;
-        Debug.Log("SignOutAccount OK!");
+        auth.SignOut();
+        user = null;
+        playerData = new PlayerDataModel();
+        Debug.Log("User logged out.");
     }
 
-    public void CkeckUser()
+    public void LogOutAnonymous()
     {
-        if (user == null)
-        {
-            Debug.Log("Không có tài khoản nòa đăng nhập!");
-        }
-        else
-        {
-            Debug.Log($"Bạn đang đăng nhập: {user.Email}");
-        }
+        auth.SignOut();
+        user = null;
+        playerData.ResetDefaultData("", "");
+        Debug.Log("Anonymous user logged out.");
     }
 
     public void DeleteAccount()
     {
-        Firebase.Auth.FirebaseUser user = auth.CurrentUser;
-        user?.DeleteAsync().ContinueWith(task =>
-            {
-                if (task.IsCanceled)
-                {
-                    Debug.LogError("DeleteAsync was canceled.");
-                }
-                if (task.IsFaulted)
-                {
-                    Debug.LogError("DeleteAsync encountered an error: " + task.Exception);
-                }
+        if (user == null)
+        {
+            Debug.LogError("DeleteAccount failed: user is null!");
+            return;
+        }
 
-                Debug.Log("User deleted successfully.");
-            });
+        user.DeleteAsync().ContinueWithOnMainThread(task =>
+        {
+            if (LogTaskErrors(task, nameof(DeleteAccount))) return;
+
+            LogOut();
+            Debug.Log("User account deleted successfully.");
+        });
     }
 
     public void DeleteAnonymousAccount()
     {
-        FirebaseUser currentUser = auth.CurrentUser;
-        if (currentUser != null && currentUser.IsAnonymous)
+        if (user == null)
         {
-            currentUser.DeleteAsync().ContinueWith(task =>
-            {
-                if (task.IsCanceled)
-                {
-                    Debug.LogError("DeleteAsync was canceled.");
-                }
-                else if (task.IsFaulted)
-                {
-                    Debug.LogError("DeleteAsync encountered an error: " + task.Exception);
-                }
-                else
-                {
-                    Debug.Log("Anonymous user deleted successfully.");
-                }
-            });
+            Debug.LogError("DeleteAnonymousAccount failed: user is null!");
+            return;
         }
-        else
+
+        user.DeleteAsync().ContinueWithOnMainThread(task =>
         {
-            Debug.Log("No anonymous user to delete or user is not signed in.");
+            if (LogTaskErrors(task, nameof(DeleteAnonymousAccount))) return;
+
+            LogOutAnonymous();
+            Debug.Log("Anonymous account deleted successfully.");
+        });
+    }
+    #endregion
+
+    #region Database
+    public void WriteData()
+    {
+        if (string.IsNullOrEmpty(playerData.userId))
+        {
+            Debug.LogError("WriteData failed: userId is empty!");
+            return;
         }
-    }
-    public DatabaseReference GetDatabaseRef()
-    {
-        return db;
-    }
 
-
-    public string GetUserId()
-    {
-        return user?.UserId;
-    }
-
-    public void WriteData(FirebaseUser user, string userid)
-    {
-
+        string json = JsonConvert.SerializeObject(playerData, Formatting.Indented);
+        db.Child("users").Child(playerData.userId).SetRawJsonValueAsync(json);
     }
 
     public void ReadData()
     {
+        if (!ValidateUserId(nameof(ReadData))) return;
 
-    }
-
-    public void UpdateData(string key, object value)
-    {
-        db.Child("users").Child(GetUserId()).Child(key).SetValueAsync(value).ContinueWithOnMainThread(task =>
+        db.Child("users").Child(playerData.userId).GetValueAsync().ContinueWithOnMainThread(task =>
         {
-            if (task.IsCompleted)
+            if (LogTaskErrors(task, nameof(ReadData))) return;
+
+            var snapshot = task.Result;
+            if (snapshot.Exists)
             {
-                Debug.Log("User data updated successfully.");
+                string json = snapshot.GetRawJsonValue();
+                playerData = JsonConvert.DeserializeObject<PlayerDataModel>(json) ?? new PlayerDataModel();
+                playerData.EnsureDefaultItems();
+
+                SyncAudioManager();
+                UIManager.Instance?.OnPlayerDataChanged();
             }
             else
             {
-                Debug.LogError("Failed to update user data: " + task.Exception);
+                playerData.ResetDefaultData(user.UserId, playerData.email);
+                WriteData();
+                SyncAudioManager();
+                UIManager.Instance?.OnPlayerDataChanged();
             }
         });
     }
+    #endregion
 
-    public void DeleteData(string key)
+    private void ListenToRealtimeData()
     {
-        db.Child("users").Child(GetUserId()).Child(key).RemoveValueAsync().ContinueWithOnMainThread(task =>
+        if (!ValidateUserId(nameof(ListenToRealtimeData))) return;
+
+        db.Child("users").Child(playerData.userId).ValueChanged += (s, e) =>
         {
-            if (task.IsCompleted)
+            if (e.Snapshot.Exists)
             {
-                Debug.Log("User data deleted successfully.");
+                playerData = JsonConvert.DeserializeObject<PlayerDataModel>(e.Snapshot.GetRawJsonValue());
+                OnPlayerDataUpdated?.Invoke();
+                SyncAudioManager();
             }
-            else
-            {
-                Debug.LogError("Failed to delete user data: " + task.Exception);
-            }
-        });
+        };
+    }
+
+    private void SyncAudioManager()
+    {
+        if (AudioManager.Instance != null)
+        {
+            AudioManager.Instance.playerData = playerData;
+            AudioManager.Instance.ApplyAudioSettings();
+        }
+    }
+
+    private bool LogTaskErrors(System.Threading.Tasks.Task task, string methodName)
+    {
+        if (task.IsFaulted)
+        {
+            Debug.LogError($"{methodName} error: {task.Exception}");
+            return true;
+        }
+        return false;
+    }
+
+    private bool ValidateUserId(string methodName)
+    {
+        if (string.IsNullOrEmpty(playerData?.userId))
+        {
+            Debug.LogError($"{methodName}: No UserId available.");
+            return false;
+        }
+        return true;
     }
 }

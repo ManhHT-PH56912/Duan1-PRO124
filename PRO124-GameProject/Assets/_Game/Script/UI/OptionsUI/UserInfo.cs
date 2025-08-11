@@ -7,13 +7,12 @@ public class UserInfo : MonoBehaviour
     [SerializeField] private TextMeshProUGUI uId;
     [SerializeField] private Button copyUIdButton;
     [SerializeField] private TextMeshProUGUI copyStatusText;
-
     private string currentUserId;
 
     private void Start()
     {
         gameObject.SetActive(false);
-        currentUserId = FirebaseManager.Instance.GetUserId();
+        currentUserId = FirebaseManager.Instance.user?.UserId ?? "Anonymous";
         uId.text = currentUserId;
         copyStatusText.text = ""; // Hide status initially
 

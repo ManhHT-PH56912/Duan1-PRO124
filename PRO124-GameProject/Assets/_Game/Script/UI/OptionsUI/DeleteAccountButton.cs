@@ -6,40 +6,55 @@ public class DeleteAccountButton : BaseButtom
     protected override void OnButtonClick()
     {
         Debug.Log("[UI] Delete Account Button Clicked!");
-        YesNoDialog.Instance.Show(
-        "Are you sure you want to Delete account?",
-        confirmed =>
+
+        if (YesNoDialog.Instance != null)
         {
-            if (confirmed)
-            {
-                Debug.Log("[UI] User confirmed log out.");
-                StartCoroutine(HandleLogOut());
-            }
-            else
-            {
-                Debug.Log("[UI] User canceled log out.");
-            }
-        });
+            YesNoDialog.Instance.Show(
+                "Are you sure you want to delete your account?",
+                confirmed =>
+                {
+                    if (confirmed)
+                    {
+                        Debug.Log("[UI] User confirmed account deletion");
+                        StartCoroutine(HandleDeleteAccount());
+                    }
+                    else
+                    {
+                        Debug.Log("[UI] User canceled account deletion");
+                    }
+                });
+        }
+        else
+        {
+            Debug.LogError("[UI] YesNoDialog instance not found!");
+        }
     }
 
-    private IEnumerator HandleLogOut()
+    private IEnumerator HandleDeleteAccount()
     {
-        // Optional: add a loading indicator here
+        var firebase = FirebaseManager.Instance;
 
-        if (FirebaseManager.Instance != null && FirebaseManager.Instance.user != null)
+        if (firebase != null && firebase.user != null)
         {
-            FirebaseManager.Instance.DeleteAccount();
+            if (firebase.user.IsAnonymous)
+                firebase.DeleteAnonymousAccount();
+            else
+                firebase.DeleteAccount();
         }
-        else if (FirebaseManager.Instance != null && FirebaseManager.Instance.user != null && FirebaseManager.Instance.user.IsAnonymous)
+        else
         {
-            FirebaseManager.Instance.DeleteAnonymousAccount();
+            Debug.LogWarning("[UI] FirebaseManager instance or user is null. Cannot delete account.");
         }
 
-        yield return new WaitForSeconds(2f); // Delay for feedback or animation
+        yield return new WaitForSeconds(2f);
 
         if (LoadingSceneManager.Instance != null)
         {
             LoadingSceneManager.Instance.LoadScene(SceneIndexs.AUTH);
+        }
+        else
+        {
+            Debug.LogWarning("[UI] LoadingSceneManager instance is null. Cannot load auth scene.");
         }
     }
 }

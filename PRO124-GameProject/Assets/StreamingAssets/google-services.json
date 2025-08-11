@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "984817665962",
+    "firebase_url": "https://projectgmae-f93dc-default-rtdb.asia-southeast1.firebasedatabase.app",
     "project_id": "projectgmae-f93dc",
     "storage_bucket": "projectgmae-f93dc.firebasestorage.app"
   },
@@ -14,7 +15,7 @@
       },
       "oauth_client": [
         {
-          "client_id": "984817665962-q43aulda6jmvm3hspr4hs1ifpg4cc37c.apps.googleusercontent.com",
+          "client_id": "984817665962-3s862kitju9enoo6prrhjp8a4hdaqhi1.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
@@ -27,7 +28,7 @@
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "984817665962-q43aulda6jmvm3hspr4hs1ifpg4cc37c.apps.googleusercontent.com",
+              "client_id": "984817665962-3s862kitju9enoo6prrhjp8a4hdaqhi1.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

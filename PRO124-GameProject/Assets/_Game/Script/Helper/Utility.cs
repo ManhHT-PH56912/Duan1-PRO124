@@ -1,7 +1,6 @@
 using UnityEngine;
-using System.Collections.Generic;
 
-namespace Utils
+namespace Assets._Game.Script.Helper
 {
     public static class ResourceLoader
     {
@@ -52,6 +51,21 @@ namespace Utils
         public static AudioClip LoadAudio(string audioName)
         {
             return Load<AudioClip>($"Audio/{audioName}");
+        }
+
+        /// <summary>
+        /// Get Current Scene Name to int 
+        /// </summary>
+        /// <returns>Trả về scene name dưới dạng int</returns>
+        public static int GetCurrentSceneNameAsInt()
+        {
+            string sceneName = UnityEngine.SceneManagement.SceneManager.GetActiveScene().name;
+            if (int.TryParse(sceneName, out int sceneIndex))
+            {
+                return sceneIndex;
+            }
+            Debug.LogWarning($"[ResourceLoader] Scene name '{sceneName}' không phải là số hợp lệ.");
+            return -1; // Hoặc giá trị mặc định khác
         }
     }
 }
