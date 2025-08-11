@@ -1,0 +1,346 @@
+fileFormatVersion: 2
+guid: 39ef657f327b533409a40c2f97c3a62b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5523136038998442828
+    second: Fire_Warrior_FireSwordRun_0
+  - first:
+      213: 1452465492792031537
+    second: Fire_Warrior_FireSwordRun_1
+  - first:
+      213: -7740813453530594622
+    second: Fire_Warrior_FireSwordRun_2
+  - first:
+      213: -9190453322218334584
+    second: Fire_Warrior_FireSwordRun_3
+  - first:
+      213: -7149955463867208568
+    second: Fire_Warrior_FireSwordRun_4
+  - first:
+      213: 3733657335199100938
+    second: Fire_Warrior_FireSwordRun_5
+  - first:
+      213: -8266834483127956674
+    second: Fire_Warrior_FireSwordRun_6
+  - first:
+      213: 8747881835635233413
+    second: Fire_Warrior_FireSwordRun_7
+  - first:
+      213: -4043797975843701215
+    second: Fire_Warrior_FireSwordRun_8
+  - first:
+      213: -6072863862624158069
+    second: Fire_Warrior_FireSwordRun_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fire_Warrior_FireSwordRun_0
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 16
+        width: 39
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec7074906f82874ead48b2f84cf0347
+      internalID: 2142317548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Warrior_FireSwordRun_1
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 16
+        width: 39
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c0a6a2d345b3542aa8000d2b199795
+      internalID: -1925174822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Warrior_FireSwordRun_3
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 16
+        width: 39
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5883609, y: 0.50586057}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0fc45f07f5424a4eb134e02fce1a9da
+      internalID: 1678772567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Warrior_FireSwordRun_4
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 16
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb49df173288524381019e82f6c6e02
+      internalID: -267124650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Warrior_FireSwordRun_5
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 16
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 139e782b74a9f2d4482a5bcfed1e7322
+      internalID: 1429376160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Warrior_FireSwordRun_6
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 16
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b8c95d124c677f47afd83214249b31b
+      internalID: 425265300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Warrior_FireSwordRun_8
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 17
+        width: 41
+        height: 41
+      alignment: 9
+      pivot: {x: 0.60806346, y: 0.4999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf36a968389f6544822443bc5e91e95
+      internalID: 1831489310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Warrior_FireSwordRun_9
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 16
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bddefb87b5bc868489a36bb17b000795
+      internalID: 1227687883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 28deef6df3fd41a4dacccaffa2bf5d70
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Fire_Warrior_FireSwordRun_0: 2142317548
+      Fire_Warrior_FireSwordRun_1: -1925174822
+      Fire_Warrior_FireSwordRun_2: 1477161875
+      Fire_Warrior_FireSwordRun_3: 1678772567
+      Fire_Warrior_FireSwordRun_4: -267124650
+      Fire_Warrior_FireSwordRun_5: 1429376160
+      Fire_Warrior_FireSwordRun_6: 425265300
+      Fire_Warrior_FireSwordRun_7: -474985402
+      Fire_Warrior_FireSwordRun_8: 1831489310
+      Fire_Warrior_FireSwordRun_9: 1227687883
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

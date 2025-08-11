@@ -52,7 +52,7 @@ public class RangedEnemy : EnemyBase, IObserver
     {
         if (currentState == RangedState.Die || player == null) return;
 
-        // ✅ KHÔNG đánh giá trạng thái khi đang né vực
+        // không đánh giá trạng thái khi đang né vực
         if (!(currentState == RangedState.Flee && hasFleeRedirected))
         {
             EvaluateState();
@@ -197,8 +197,9 @@ public class RangedEnemy : EnemyBase, IObserver
         return hit.collider != null;
     }
 
-    public override void TakeDamage(int damage)
+    public override void TakeDamage(int damage, MonoBehaviour attacker)
     {
+        Debug.Log($"RangedEnemy took {damage} damage");
         Health -= damage;
         if (Health <= 0 && currentState != RangedState.Die)
         {

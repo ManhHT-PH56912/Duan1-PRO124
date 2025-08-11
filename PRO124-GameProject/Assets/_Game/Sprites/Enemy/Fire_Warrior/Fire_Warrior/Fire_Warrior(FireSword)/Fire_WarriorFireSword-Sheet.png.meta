@@ -1,0 +1,3941 @@
+fileFormatVersion: 2
+guid: 29b21afb1fb08f440b90d118f1696e84
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4904060931984408531
+    second: Fire_WarriorFireSword-Sheet_0
+  - first:
+      213: 1097052241410629379
+    second: Fire_WarriorFireSword-Sheet_1
+  - first:
+      213: -1042619608624661564
+    second: Fire_WarriorFireSword-Sheet_2
+  - first:
+      213: 5181327836484697304
+    second: Fire_WarriorFireSword-Sheet_3
+  - first:
+      213: 9072091307349490749
+    second: Fire_WarriorFireSword-Sheet_4
+  - first:
+      213: -2306392010017305716
+    second: Fire_WarriorFireSword-Sheet_5
+  - first:
+      213: -1894708832912923415
+    second: Fire_WarriorFireSword-Sheet_6
+  - first:
+      213: 7366699977686473458
+    second: Fire_WarriorFireSword-Sheet_7
+  - first:
+      213: -7764981491358197694
+    second: Fire_WarriorFireSword-Sheet_8
+  - first:
+      213: 810512240211234347
+    second: Fire_WarriorFireSword-Sheet_9
+  - first:
+      213: -3423818697110367269
+    second: Fire_WarriorFireSword-Sheet_10
+  - first:
+      213: 1499285857246109761
+    second: Fire_WarriorFireSword-Sheet_11
+  - first:
+      213: 4073459748314283189
+    second: Fire_WarriorFireSword-Sheet_12
+  - first:
+      213: -5269489878570228012
+    second: Fire_WarriorFireSword-Sheet_13
+  - first:
+      213: 5645773020238216161
+    second: Fire_WarriorFireSword-Sheet_14
+  - first:
+      213: -3418867535436416985
+    second: Fire_WarriorFireSword-Sheet_15
+  - first:
+      213: 8404332561688078241
+    second: Fire_WarriorFireSword-Sheet_16
+  - first:
+      213: 2498922528779838491
+    second: Fire_WarriorFireSword-Sheet_17
+  - first:
+      213: 1444096994125233174
+    second: Fire_WarriorFireSword-Sheet_18
+  - first:
+      213: -5220089080725606393
+    second: Fire_WarriorFireSword-Sheet_19
+  - first:
+      213: -7031807366073298382
+    second: Fire_WarriorFireSword-Sheet_20
+  - first:
+      213: 5410005170011970823
+    second: Fire_WarriorFireSword-Sheet_21
+  - first:
+      213: -1871467571364522050
+    second: Fire_WarriorFireSword-Sheet_22
+  - first:
+      213: 7734862016100379598
+    second: Fire_WarriorFireSword-Sheet_23
+  - first:
+      213: 334592909229406553
+    second: Fire_WarriorFireSword-Sheet_24
+  - first:
+      213: -1818894400158008479
+    second: Fire_WarriorFireSword-Sheet_25
+  - first:
+      213: 4501609856398717390
+    second: Fire_WarriorFireSword-Sheet_26
+  - first:
+      213: -7432831540960049113
+    second: Fire_WarriorFireSword-Sheet_27
+  - first:
+      213: -4980048669866161948
+    second: Fire_WarriorFireSword-Sheet_28
+  - first:
+      213: 8173339526930411951
+    second: Fire_WarriorFireSword-Sheet_29
+  - first:
+      213: 3350760646591228236
+    second: Fire_WarriorFireSword-Sheet_30
+  - first:
+      213: 16307728598430072
+    second: Fire_WarriorFireSword-Sheet_31
+  - first:
+      213: -840994939869901896
+    second: Fire_WarriorFireSword-Sheet_32
+  - first:
+      213: -3771119007739376577
+    second: Fire_WarriorFireSword-Sheet_33
+  - first:
+      213: 8756418113305168632
+    second: Fire_WarriorFireSword-Sheet_34
+  - first:
+      213: -3464657296522377036
+    second: Fire_WarriorFireSword-Sheet_35
+  - first:
+      213: 4232190747824605073
+    second: Fire_WarriorFireSword-Sheet_36
+  - first:
+      213: -6764551840999554552
+    second: Fire_WarriorFireSword-Sheet_37
+  - first:
+      213: -1784975513250127364
+    second: Fire_WarriorFireSword-Sheet_38
+  - first:
+      213: -3675091216472680683
+    second: Fire_WarriorFireSword-Sheet_39
+  - first:
+      213: -2489430374634202124
+    second: Fire_WarriorFireSword-Sheet_40
+  - first:
+      213: -2762440677337370644
+    second: Fire_WarriorFireSword-Sheet_41
+  - first:
+      213: -3325531515707334911
+    second: Fire_WarriorFireSword-Sheet_42
+  - first:
+      213: -3674167966180859333
+    second: Fire_WarriorFireSword-Sheet_43
+  - first:
+      213: -6204609799786472866
+    second: Fire_WarriorFireSword-Sheet_44
+  - first:
+      213: 4209470473251784477
+    second: Fire_WarriorFireSword-Sheet_45
+  - first:
+      213: 3688992650357657688
+    second: Fire_WarriorFireSword-Sheet_46
+  - first:
+      213: -7815741919274686834
+    second: Fire_WarriorFireSword-Sheet_47
+  - first:
+      213: -3830370071889123185
+    second: Fire_WarriorFireSword-Sheet_48
+  - first:
+      213: 3501082362127154679
+    second: Fire_WarriorFireSword-Sheet_49
+  - first:
+      213: -1070368551428574527
+    second: Fire_WarriorFireSword-Sheet_50
+  - first:
+      213: -7683281129174531635
+    second: Fire_WarriorFireSword-Sheet_51
+  - first:
+      213: -7497913099252786439
+    second: Fire_WarriorFireSword-Sheet_52
+  - first:
+      213: -8049278785306582317
+    second: Fire_WarriorFireSword-Sheet_53
+  - first:
+      213: -6887270137552344815
+    second: Fire_WarriorFireSword-Sheet_54
+  - first:
+      213: 3730438522977345134
+    second: Fire_WarriorFireSword-Sheet_55
+  - first:
+      213: -5369804697258680598
+    second: Fire_WarriorFireSword-Sheet_56
+  - first:
+      213: 8502501480965070884
+    second: Fire_WarriorFireSword-Sheet_57
+  - first:
+      213: -4863277473842490365
+    second: Fire_WarriorFireSword-Sheet_58
+  - first:
+      213: -9049664380470677528
+    second: Fire_WarriorFireSword-Sheet_59
+  - first:
+      213: -622436962368991780
+    second: Fire_WarriorFireSword-Sheet_60
+  - first:
+      213: -3408476400592916472
+    second: Fire_WarriorFireSword-Sheet_61
+  - first:
+      213: 2935965203409687798
+    second: Fire_WarriorFireSword-Sheet_62
+  - first:
+      213: -4964342189221567242
+    second: Fire_WarriorFireSword-Sheet_63
+  - first:
+      213: -7633963068577370476
+    second: Fire_WarriorFireSword-Sheet_64
+  - first:
+      213: -4765989794712932744
+    second: Fire_WarriorFireSword-Sheet_65
+  - first:
+      213: 8488006700303112307
+    second: Fire_WarriorFireSword-Sheet_66
+  - first:
+      213: -1059295366987352956
+    second: Fire_WarriorFireSword-Sheet_67
+  - first:
+      213: 1623578526369706666
+    second: Fire_WarriorFireSword-Sheet_68
+  - first:
+      213: 6519921053705386639
+    second: Fire_WarriorFireSword-Sheet_69
+  - first:
+      213: -6729663148708633812
+    second: Fire_WarriorFireSword-Sheet_70
+  - first:
+      213: -7018855618056735107
+    second: Fire_WarriorFireSword-Sheet_71
+  - first:
+      213: -7202091154204182158
+    second: Fire_WarriorFireSword-Sheet_72
+  - first:
+      213: -3191746942449540678
+    second: Fire_WarriorFireSword-Sheet_73
+  - first:
+      213: 5950039674075746694
+    second: Fire_WarriorFireSword-Sheet_74
+  - first:
+      213: -8444722477689299561
+    second: Fire_WarriorFireSword-Sheet_75
+  - first:
+      213: -8914290602440123675
+    second: Fire_WarriorFireSword-Sheet_76
+  - first:
+      213: -7423302892295114259
+    second: Fire_WarriorFireSword-Sheet_77
+  - first:
+      213: 3775811148037459427
+    second: Fire_WarriorFireSword-Sheet_78
+  - first:
+      213: 7221403751928692256
+    second: Fire_WarriorFireSword-Sheet_79
+  - first:
+      213: 6819586172183786837
+    second: Fire_WarriorFireSword-Sheet_80
+  - first:
+      213: 2020535866090774657
+    second: Fire_WarriorFireSword-Sheet_81
+  - first:
+      213: -3650762844592107245
+    second: Fire_WarriorFireSword-Sheet_82
+  - first:
+      213: 1949736526466859164
+    second: Fire_WarriorFireSword-Sheet_83
+  - first:
+      213: -2280020493951924489
+    second: Fire_WarriorFireSword-Sheet_84
+  - first:
+      213: 4282731640604092970
+    second: Fire_WarriorFireSword-Sheet_85
+  - first:
+      213: 243487079525577496
+    second: Fire_WarriorFireSword-Sheet_86
+  - first:
+      213: -1675214217001596102
+    second: Fire_WarriorFireSword-Sheet_87
+  - first:
+      213: -8047594970978909828
+    second: Fire_WarriorFireSword-Sheet_88
+  - first:
+      213: -5939653874309101471
+    second: Fire_WarriorFireSword-Sheet_89
+  - first:
+      213: -5986811485329310736
+    second: Fire_WarriorFireSword-Sheet_90
+  - first:
+      213: -63207839836775335
+    second: Fire_WarriorFireSword-Sheet_91
+  - first:
+      213: 5090865770312087798
+    second: Fire_WarriorFireSword-Sheet_92
+  - first:
+      213: -4619119848115420422
+    second: Fire_WarriorFireSword-Sheet_93
+  - first:
+      213: -7087886686813852041
+    second: Fire_WarriorFireSword-Sheet_94
+  - first:
+      213: -6990132740499694735
+    second: Fire_WarriorFireSword-Sheet_95
+  - first:
+      213: -6867214773945115138
+    second: Fire_WarriorFireSword-Sheet_96
+  - first:
+      213: 8421337564470047216
+    second: Fire_WarriorFireSword-Sheet_97
+  - first:
+      213: 6230507712342741987
+    second: Fire_WarriorFireSword-Sheet_98
+  - first:
+      213: -1899007000852105579
+    second: Fire_WarriorFireSword-Sheet_99
+  - first:
+      213: -6760068534779731385
+    second: Fire_WarriorFireSword-Sheet_100
+  - first:
+      213: -7682172948956111454
+    second: Fire_WarriorFireSword-Sheet_101
+  - first:
+      213: -6310427782916763419
+    second: Fire_WarriorFireSword-Sheet_102
+  - first:
+      213: 2396546481631340439
+    second: Fire_WarriorFireSword-Sheet_103
+  - first:
+      213: 6672414060514436456
+    second: Fire_WarriorFireSword-Sheet_104
+  - first:
+      213: -434646505345235327
+    second: Fire_WarriorFireSword-Sheet_105
+  - first:
+      213: -8195862610593739896
+    second: Fire_WarriorFireSword-Sheet_106
+  - first:
+      213: -3490179084566062886
+    second: Fire_WarriorFireSword-Sheet_107
+  - first:
+      213: 7713251741885278747
+    second: Fire_WarriorFireSword-Sheet_108
+  - first:
+      213: -7513526876293808937
+    second: Fire_WarriorFireSword-Sheet_109
+  - first:
+      213: 806843710518643812
+    second: Fire_WarriorFireSword-Sheet_110
+  - first:
+      213: -7396659506173683684
+    second: Fire_WarriorFireSword-Sheet_111
+  - first:
+      213: -6956207221950393168
+    second: Fire_WarriorFireSword-Sheet_112
+  - first:
+      213: -7909260988485863567
+    second: Fire_WarriorFireSword-Sheet_113
+  - first:
+      213: 8891283137428432786
+    second: Fire_WarriorFireSword-Sheet_114
+  - first:
+      213: 4201049432926994542
+    second: Fire_WarriorFireSword-Sheet_115
+  - first:
+      213: -796418219213435149
+    second: Fire_WarriorFireSword-Sheet_116
+  - first:
+      213: -4210928881695765634
+    second: Fire_WarriorFireSword-Sheet_117
+  - first:
+      213: 1833599849901531101
+    second: Fire_WarriorFireSword-Sheet_118
+  - first:
+      213: -250219711286975934
+    second: Fire_WarriorFireSword-Sheet_119
+  - first:
+      213: 1562025673480118446
+    second: Fire_WarriorFireSword-Sheet_120
+  - first:
+      213: -1312453236855542032
+    second: Fire_WarriorFireSword-Sheet_121
+  - first:
+      213: -334369991925986408
+    second: Fire_WarriorFireSword-Sheet_122
+  - first:
+      213: 482174252726052216
+    second: Fire_WarriorFireSword-Sheet_123
+  - first:
+      213: -4638082007826782232
+    second: Fire_WarriorFireSword-Sheet_124
+  - first:
+      213: 7910129002761369642
+    second: Fire_WarriorFireSword-Sheet_125
+  - first:
+      213: -6282448016134533810
+    second: Fire_WarriorFireSword-Sheet_126
+  - first:
+      213: -9086590093139962550
+    second: Fire_WarriorFireSword-Sheet_127
+  - first:
+      213: -6327673350574820090
+    second: Fire_WarriorFireSword-Sheet_128
+  - first:
+      213: -6034297959458783320
+    second: Fire_WarriorFireSword-Sheet_129
+  - first:
+      213: -8542993173292700771
+    second: Fire_WarriorFireSword-Sheet_130
+  - first:
+      213: 7237842143926533053
+    second: Fire_WarriorFireSword-Sheet_131
+  - first:
+      213: -4431532954613786054
+    second: Fire_WarriorFireSword-Sheet_132
+  - first:
+      213: -7552586321364348415
+    second: Fire_WarriorFireSword-Sheet_133
+  - first:
+      213: -8570516755365591834
+    second: Fire_WarriorFireSword-Sheet_134
+  - first:
+      213: -1085450987987908638
+    second: Fire_WarriorFireSword-Sheet_135
+  - first:
+      213: -6326149930729528518
+    second: Fire_WarriorFireSword-Sheet_136
+  - first:
+      213: -1919049914377541930
+    second: Fire_WarriorFireSword-Sheet_137
+  - first:
+      213: -2217728056312426633
+    second: Fire_WarriorFireSword-Sheet_138
+  - first:
+      213: 481190306849913867
+    second: Fire_WarriorFireSword-Sheet_139
+  - first:
+      213: 6700627901348864705
+    second: Fire_WarriorFireSword-Sheet_140
+  - first:
+      213: -3120347716891507223
+    second: Fire_WarriorFireSword-Sheet_141
+  - first:
+      213: -2240330742683856504
+    second: Fire_WarriorFireSword-Sheet_142
+  - first:
+      213: -15421244341633582
+    second: Fire_WarriorFireSword-Sheet_143
+  - first:
+      213: 3710434576336177671
+    second: Fire_WarriorFireSword-Sheet_144
+  - first:
+      213: -7049903259789278345
+    second: Fire_WarriorFireSword-Sheet_145
+  - first:
+      213: -2838188013735187232
+    second: Fire_WarriorFireSword-Sheet_146
+  - first:
+      213: 8017982809996213737
+    second: Fire_WarriorFireSword-Sheet_147
+  - first:
+      213: 5600834148731941969
+    second: Fire_WarriorFireSword-Sheet_148
+  - first:
+      213: -8365655806770982912
+    second: Fire_WarriorFireSword-Sheet_149
+  - first:
+      213: -5124544916768604406
+    second: Fire_WarriorFireSword-Sheet_150
+  - first:
+      213: -8277973031262658600
+    second: Fire_WarriorFireSword-Sheet_151
+  - first:
+      213: 2450666221532319487
+    second: Fire_WarriorFireSword-Sheet_152
+  - first:
+      213: 6707651686037732082
+    second: Fire_WarriorFireSword-Sheet_153
+  - first:
+      213: 3302800255662225271
+    second: Fire_WarriorFireSword-Sheet_154
+  - first:
+      213: 5305250507638347907
+    second: Fire_WarriorFireSword-Sheet_155
+  - first:
+      213: 3533098906547083107
+    second: Fire_WarriorFireSword-Sheet_156
+  - first:
+      213: -4287640764644614076
+    second: Fire_WarriorFireSword-Sheet_157
+  - first:
+      213: 3605139221255763329
+    second: Fire_WarriorFireSword-Sheet_158
+  - first:
+      213: 1914420635668657017
+    second: Fire_WarriorFireSword-Sheet_159
+  - first:
+      213: -3531584464517380644
+    second: Fire_WarriorFireSword-Sheet_160
+  - first:
+      213: 8467350303287042402
+    second: Fire_WarriorFireSword-Sheet_161
+  - first:
+      213: 1696089850774444396
+    second: Fire_WarriorFireSword-Sheet_162
+  - first:
+      213: 3832382276811933971
+    second: Fire_WarriorFireSword-Sheet_163
+  - first:
+      213: -1056675874322564195
+    second: Fire_WarriorFireSword-Sheet_164
+  - first:
+      213: 571511110284384812
+    second: Fire_WarriorFireSword-Sheet_165
+  - first:
+      213: 6652864337927174953
+    second: Fire_WarriorFireSword-Sheet_166
+  - first:
+      213: -1063380094898194773
+    second: Fire_WarriorFireSword-Sheet_167
+  - first:
+      213: -8929090309205710962
+    second: Fire_WarriorFireSword-Sheet_168
+  - first:
+      213: -7180285185111351380
+    second: Fire_WarriorFireSword-Sheet_169
+  - first:
+      213: 2767013031267930678
+    second: Fire_WarriorFireSword-Sheet_170
+  - first:
+      213: 2062375705440954767
+    second: Fire_WarriorFireSword-Sheet_171
+  - first:
+      213: -5669052834954133162
+    second: Fire_WarriorFireSword-Sheet_172
+  - first:
+      213: 4914235150016274009
+    second: Fire_WarriorFireSword-Sheet_173
+  - first:
+      213: 8404390561027662818
+    second: Fire_WarriorFireSword-Sheet_174
+  - first:
+      213: 1453363613652910233
+    second: Fire_WarriorFireSword-Sheet_175
+  - first:
+      213: 4387847362150122973
+    second: Fire_WarriorFireSword-Sheet_176
+  - first:
+      213: 6619206962356791163
+    second: Fire_WarriorFireSword-Sheet_177
+  - first:
+      213: -448745084731457457
+    second: Fire_WarriorFireSword-Sheet_178
+  - first:
+      213: 6326814564542513702
+    second: Fire_WarriorFireSword-Sheet_179
+  - first:
+      213: 5535630000901821805
+    second: Fire_WarriorFireSword-Sheet_180
+  - first:
+      213: -5950547938803945913
+    second: Fire_WarriorFireSword-Sheet_181
+  - first:
+      213: 7426957573161127525
+    second: Fire_WarriorFireSword-Sheet_182
+  - first:
+      213: -4242399084580865172
+    second: Fire_WarriorFireSword-Sheet_183
+  - first:
+      213: 3877803434187271345
+    second: Fire_WarriorFireSword-Sheet_184
+  - first:
+      213: -4476828498768373102
+    second: Fire_WarriorFireSword-Sheet_185
+  - first:
+      213: -1549288399330245871
+    second: Fire_WarriorFireSword-Sheet_186
+  - first:
+      213: 6224029749115100555
+    second: Fire_WarriorFireSword-Sheet_187
+  - first:
+      213: 7631694480760461026
+    second: Fire_WarriorFireSword-Sheet_188
+  - first:
+      213: -4239924424983915669
+    second: Fire_WarriorFireSword-Sheet_189
+  - first:
+      213: -8532394458901187822
+    second: Fire_WarriorFireSword-Sheet_190
+  - first:
+      213: -5251822398070460609
+    second: Fire_WarriorFireSword-Sheet_191
+  - first:
+      213: 6819725018074726575
+    second: Fire_WarriorFireSword-Sheet_192
+  - first:
+      213: 2967513039118778851
+    second: Fire_WarriorFireSword-Sheet_193
+  - first:
+      213: -36055183865352305
+    second: Fire_WarriorFireSword-Sheet_194
+  - first:
+      213: 3887639064677120839
+    second: Fire_WarriorFireSword-Sheet_195
+  - first:
+      213: 1422161029800051340
+    second: Fire_WarriorFireSword-Sheet_196
+  - first:
+      213: -8793585661595168688
+    second: Fire_WarriorFireSword-Sheet_197
+  - first:
+      213: -6907045548920973917
+    second: Fire_WarriorFireSword-Sheet_198
+  - first:
+      213: -5686015432731584440
+    second: Fire_WarriorFireSword-Sheet_199
+  - first:
+      213: -8019118080690552349
+    second: Fire_WarriorFireSword-Sheet_200
+  - first:
+      213: -3413993972802973554
+    second: Fire_WarriorFireSword-Sheet_201
+  - first:
+      213: -8302997360241483957
+    second: Fire_WarriorFireSword-Sheet_202
+  - first:
+      213: 5500793478268128905
+    second: Fire_WarriorFireSword-Sheet_203
+  - first:
+      213: -3172261104233738891
+    second: Fire_WarriorFireSword-Sheet_204
+  - first:
+      213: 3345040293889130578
+    second: Fire_WarriorFireSword-Sheet_205
+  - first:
+      213: 7964830710912211300
+    second: Fire_WarriorFireSword-Sheet_206
+  - first:
+      213: -4297443232201785437
+    second: Fire_WarriorFireSword-Sheet_207
+  - first:
+      213: -709613186616307332
+    second: Fire_WarriorFireSword-Sheet_208
+  - first:
+      213: -4334072023361232203
+    second: Fire_WarriorFireSword-Sheet_209
+  - first:
+      213: -3989400793110436131
+    second: Fire_WarriorFireSword-Sheet_210
+  - first:
+      213: 5565134686741911229
+    second: Fire_WarriorFireSword-Sheet_211
+  - first:
+      213: -8264675866954580573
+    second: Fire_WarriorFireSword-Sheet_212
+  - first:
+      213: 8331943208488444369
+    second: Fire_WarriorFireSword-Sheet_213
+  - first:
+      213: -3226696838851309082
+    second: Fire_WarriorFireSword-Sheet_214
+  - first:
+      213: -8661768078759473041
+    second: Fire_WarriorFireSword-Sheet_215
+  - first:
+      213: -7431490092444900633
+    second: Fire_WarriorFireSword-Sheet_216
+  - first:
+      213: 2638926577474342676
+    second: Fire_WarriorFireSword-Sheet_217
+  - first:
+      213: -8698778638974473644
+    second: Fire_WarriorFireSword-Sheet_218
+  - first:
+      213: -7850371535398243169
+    second: Fire_WarriorFireSword-Sheet_219
+  - first:
+      213: 4572424453705521078
+    second: Fire_WarriorFireSword-Sheet_220
+  - first:
+      213: 4918932890116361209
+    second: Fire_WarriorFireSword-Sheet_221
+  - first:
+      213: 2296363131615173411
+    second: Fire_WarriorFireSword-Sheet_222
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1930
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca036e9dd468e1547b08126a2a78d476
+      internalID: -941040864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1930
+        width: 70
+        height: 60
+      alignment: 9
+      pivot: {x: 0.4517068, y: 0.51609904}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac0c61fc38c5497478b841f6449cff66
+      internalID: 1942510854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1930
+        width: 70
+        height: 60
+      alignment: 9
+      pivot: {x: 0.42411152, y: 0.51609904}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce2b6147e70cb046b7ffb064a0ed5b6
+      internalID: 2036888341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1930
+        width: 70
+        height: 60
+      alignment: 9
+      pivot: {x: 0.43101022, y: 0.53219604}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 751102cf077514b4ba23704baab61308
+      internalID: -1401093170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1930
+        width: 70
+        height: 60
+      alignment: 9
+      pivot: {x: 0.44480765, y: 0.49195352}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18c21b97e14d8d845a6f42a98e805f97
+      internalID: 646671426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 1930
+        width: 70
+        height: 60
+      alignment: 9
+      pivot: {x: 0.38271832, y: 0.500002}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8c4bc00dbce40408132a0edc05dbb1
+      internalID: -2097900375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 1930
+        width: 70
+        height: 60
+      alignment: 9
+      pivot: {x: 0.41721192, y: 0.500002}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 433dfed73696a634d923f49130bbc2f1
+      internalID: -2080400819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 1930
+        width: 70
+        height: 60
+      alignment: 9
+      pivot: {x: 0.4103132, y: 0.500002}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 957b18c14992279459e45e19fa5b13da
+      internalID: 493411335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1857
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d03d5083a814e44a380407a17a2500
+      internalID: -1127761876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1857
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e99cfe86f1d32ec4e9dc48ad1eb97bb1
+      internalID: -92871938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1857
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9efa2eec39169d4d8e4c2c5366bdb2e
+      internalID: 528220533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1857
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7026d36181ecffd49b745521b83af4b8
+      internalID: 372768973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1857
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfa6d3788b148404eba2b620341dbd66
+      internalID: -1999952542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 1857
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e54e0ed525a6c44daae8ec162df2099
+      internalID: 1229066688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 1857
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83113d3244057124ead801ad3024b229
+      internalID: -1817143975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 1857
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 786b18c27688fe54495863f22ab83c3f
+      internalID: -298709222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1774
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5320da38d6773a14cb10639cba71f743
+      internalID: 1117356923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1774
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c607f6c68fd07564385308438048f652
+      internalID: 1507311683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1774
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ad319ea62c6b2e47897d233b811ff2e
+      internalID: 1331289448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1774
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef3eef2031797b644b361ae4b5075cd1
+      internalID: 957279322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1774
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a60ba13d476583645acdbab4b970090f
+      internalID: 1443022436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 1774
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e95635ded3ca648bb151fc1b2de8ac
+      internalID: 156277008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 1774
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5c915b423cb24c439ed0e42d922a195
+      internalID: -2002091380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 1774
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b63a407f21c24e24390ca4b621217073
+      internalID: -1081625776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1691
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d49fd51e783d1a45a77366ca7f4ca02
+      internalID: 2066883496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1691
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3cecd3f5d4eb974aba3ac8209ed2745
+      internalID: -873785922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1691
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30eb1f10a9ec4d140bb4e6a25a6bd88d
+      internalID: -858975696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1691
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab49bd44ae57f934aaea47d1688e3752
+      internalID: 1736139116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1691
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f09d9c2d692a0479ade4d632953e8a
+      internalID: 404090840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 1691
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2d2d119074c7b84d90dcdfce2af307a
+      internalID: -766251805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 1691
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1b8dabd28984dd43aee64f236bd7c61
+      internalID: 609462277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1608
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cf29696478ecef4d808c528bd6e0a70
+      internalID: 825812214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1608
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f411723fd9339d14d96bb8a36ed03eea
+      internalID: -686751687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1608
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a6eb3c456f3554eb2b3e7049311610
+      internalID: -1561084447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1608
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99be132ae690a2e44ab246f96fb220c7
+      internalID: 796181241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1608
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 458d5e66c3b88d947ab1f8a43125ca40
+      internalID: -1052117472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 1608
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23884cfb320276c4b932186e7b7364da
+      internalID: 1855862657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 1608
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30fc6a2ed8a6c8d458cb2541308d92b6
+      internalID: 479287544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1525
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a19ebbe9515ad347a38f0e595ad2042
+      internalID: -1084218045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1525
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7447cc168422a21458d9d4eddce0cab4
+      internalID: 1345951815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1525
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c873caf4bc055b448b5c9b8e8bf2576
+      internalID: -594106640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1525
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac23dee010ab97a4191bc76cabe72be5
+      internalID: 596226372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1525
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e782214bce128c840b86fb89a6be7e28
+      internalID: -473936032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 1525
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc27a2cde8a464a4a86b0900c05f624a
+      internalID: 1222876951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 1525
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c7dfe6a4ce7544ab9d2e912cb32be3
+      internalID: -1128050395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1442
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3709b44cb54aee84da4ec9cde5e9205b
+      internalID: 843563427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1442
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 086395e2a408ebb4f95429e112f78566
+      internalID: -1214832232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1442
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5a12ff44feac3049a27b4a5c1706b43
+      internalID: -647244526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1359
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a59607a5b67a9c64eb704a08e6a12d60
+      internalID: -1237886927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1359
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eda32f1f86c82f847b99b0b8e139152a
+      internalID: -694211597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1359
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5574f3b6debbc2542ab050256f60392f
+      internalID: -1874348000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1276
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f5d00c1c5839a04596e0bd6f3c347bd
+      internalID: 1381210703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1276
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 434d4125ee0599b4596acf96426c219f
+      internalID: -1903034161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1276
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a398a3f8a66934a9e46e485ffa6936
+      internalID: -804406160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1193
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d39a35cc75596f4f8b9c69a486305a1
+      internalID: -1380768730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1193
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c779e394853d420478e0411b8406394f
+      internalID: -250900369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1193
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37857804b942c2648a2e0aa286cee133
+      internalID: 926852620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1193
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37ed7b2845c4f69479b3071b96551692
+      internalID: 2099614745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1193
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9436f5263122d7541a2ddafec3876e32
+      internalID: -932579137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1130
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32f103bfaa4d2ed4ea871a1193be0d5e
+      internalID: -799905982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1130
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b00426316bd15f42b3c163be2e7c82a
+      internalID: 1583888313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1130
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1618e4001744d4942818eb9001fc1afa
+      internalID: 2083480326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1130
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c221c762473b7734481f344ec5660d53
+      internalID: 83390304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1050
+        width: 80
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dab5e9d6382245440aefd5a6ea8d329c
+      internalID: 1770927828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1050
+        width: 80
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 758698872efd39540aa79fef6c7df1af
+      internalID: 2035057687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1050
+        width: 80
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 060f98a5a83a3704cb1953c3f51cadcc
+      internalID: 25235225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_66
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1050
+        width: 80
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ec1963e528d1114eb4bd7d4b432cf0c
+      internalID: -440467073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_67
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 968
+        width: 80
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8478cf0a7f7b4a1479dcb1ad4eb97d03
+      internalID: 668026640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_68
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 967
+        width: 80
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85fe3be9450aa314e8cbd03d7f6040f1
+      internalID: 1483420157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_69
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 970
+        width: 80
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e97ba69083b9a145ad285f39f605982
+      internalID: -238414267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_70
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 970
+        width: 80
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf49f6c678707614e8dbfc64cbb0ad71
+      internalID: 434236002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_71
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 970
+        width: 80
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfd302ce06391e540b0010e9a67be21b
+      internalID: -2034764997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_74
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 888
+        width: 80
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e80a719c0fd6bbd48bb83775b26e33eb
+      internalID: 1123393301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_75
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 890
+        width: 80
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc82e358f4fbae94c93ecad1872a703b
+      internalID: 1393725752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_76
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 890
+        width: 80
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 007890e946e8a454190705e2ee18edf4
+      internalID: 376322991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_77
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 893
+        width: 80
+        height: 60
+      alignment: 9
+      pivot: {x: 0.46777534, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b8fb858bf9b7f43b6399d661d1cba2
+      internalID: 1714579641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_78
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 895
+        width: 80
+        height: 60
+      alignment: 9
+      pivot: {x: 0.39795685, y: 0.4427124}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bda93ee69ae2274a9d40dd445e7be30
+      internalID: -1280766550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_79
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 892
+        width: 80
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da77d9b8e21f608419ac23f1c6cbb896
+      internalID: 154181710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_80
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 892
+        width: 80
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20eaf9b4376df634eb7158cf8cb33c42
+      internalID: -87436249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_81
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 891
+        width: 80
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aba646eca49036f4db83fcd5d9007042
+      internalID: 423777596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_82
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 812
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b821489c80c344d8769436b3ee8dc9
+      internalID: -1693332081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_83
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 812
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 045053b1b46b08940b8c31f9adabb156
+      internalID: -1262418455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_84
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 814
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90cc9784e4b21f04f977b7c67229c25f
+      internalID: 2009309895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_85
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 812
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9cdd2c8f2ab4d94f970ea46b12b1417
+      internalID: -139986068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_86
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 814
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77b5e90e4fee06a4aa22c2c9b40a2e1b
+      internalID: 1251948878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_87
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 809
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb61ebd7439eb4e4788492a0e06d5b5f
+      internalID: -1335549817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_89
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 730
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6428da244cec8334da363480d8170598
+      internalID: -1667194706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_90
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 730
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a492a0ba13762184a9876204bb193058
+      internalID: 137463506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_91
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 730
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41db66d5d5f2d40458e3741cdc249365
+      internalID: -1130129587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_92
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 732
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 827dfafc2e1106e42947b490096cea76
+      internalID: -1298846432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_93
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 730
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1325f0a149eb956498bbfef61a4e0e9b
+      internalID: 206189581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_94
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 730
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 272d309a5165878418f861a65192844d
+      internalID: -653289409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_95
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 730
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b827701dd43fa64bb40d5deb268dcd6
+      internalID: 172233136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_96
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 730
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1890cad8e3b6c449bd99cc4fb381b6f
+      internalID: -844187791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_97
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 650
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3712d2de77f1f5940bb047c5ae301b68
+      internalID: -2071541446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_98
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 650
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd1d92c29495fd4699ced1b504b1cff
+      internalID: 31678254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_99
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 650
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed0abfa02d49ab4fb7c5270db96c5b4
+      internalID: 692528156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_100
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 650
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0692baeefba9f1429aff4c7758299a4
+      internalID: -2061345576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_101
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 650
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5171f2470e044343864d852baa90420
+      internalID: -1845105068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_105
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 529
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8fdef2705af2244199b81a688815679
+      internalID: -1174340489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_115
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 495
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fa54b38b5db783488212c95fa0abb45
+      internalID: -1546438388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_116
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 495
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75dc5304cdff1af488aa8f0d25193f12
+      internalID: -1181556683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_117
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 495
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 430e84299a7c8784a8537e349955a751
+      internalID: -1004352674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_118
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 495
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73bc05a99c86d4a4a8a5ed2411e19b5e
+      internalID: -194734655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_119
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 495
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f92d97c3ea532ed46b9385e24e1c583b
+      internalID: -1984141561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_120
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 495
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80f62c392a9aee949a2a63a620a66892
+      internalID: -1084086419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_121
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 495
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a788ad1c5edbbbd47afa72922cd99517
+      internalID: 1414054814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_122
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 495
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba1ee9fedbfc8d84493062faab1db931
+      internalID: 4926556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_123
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 410
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91adf0a794b4ccc4ebd78f658972cc33
+      internalID: -1435221086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_124
+      rect:
+        serializedVersion: 2
+        x: 1486
+        y: 410
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9abf6515fa483da4fb988f673516e614
+      internalID: 1498132666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_125
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 410
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ba56873efcdc23468789cc7f13d929b
+      internalID: -711139739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_126
+      rect:
+        serializedVersion: 2
+        x: 1777
+        y: 410
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fd1ef2059566314f944ebef386e72a8
+      internalID: 1183362399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_127
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 410
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1f3e23adcc249748a8fd9f3f25536d6
+      internalID: -2118167570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_128
+      rect:
+        serializedVersion: 2
+        x: 2062
+        y: 412
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c132d64991c3a418da6e1a5108e9ec
+      internalID: -250115528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_129
+      rect:
+        serializedVersion: 2
+        x: 2199
+        y: 410
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 900243085205d214baeff5e59235257e
+      internalID: -1236226218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_130
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 410
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 799e611e538d56d459bf2700c698f54f
+      internalID: -50065893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_131
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 410
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 216887c1c360777419bd16438b93fadd
+      internalID: 2099483195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_132
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 410
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e81c7282e017b648b14f48bb29cc5e8
+      internalID: -1610945288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_133
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 410
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5702024b674fc946a410bac5e841c11
+      internalID: -613452551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_134
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 410
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fe10b96d0f508348bf7db6a96b592f2
+      internalID: 540525770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_135
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 410
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d9c43e80df73a74a943a3cb7f694361
+      internalID: 575948890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_136
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 410
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03d28c4fbd6964647a5f28c6c39ef687
+      internalID: -1433015084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_137
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 410
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ee537f7dafbae42a7b55ce7947e6cd
+      internalID: 379460890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_138
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 410
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89151b2fe7b19fa4d99f2b9a74a8ca57
+      internalID: 354259120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_163
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 13
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2afafa50fff3d543a88dcb485588296
+      internalID: 1387668380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_164
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 13
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4cecbfbcda1b1940be893480a948508
+      internalID: 1106690349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_165
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 13
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc45f4763d8f325499d45798f1bd7535
+      internalID: -1327220595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_166
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 13
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 639e2ec2641d9e0418b5c5e927710033
+      internalID: -1538614345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_167
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 13
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 608fcfea387777b42895da7548e97749
+      internalID: -1666948757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_168
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 13
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1645aaf5dcf969d4dac96596bb43c7d8
+      internalID: -661106926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_169
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 13
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab6b6ca84905e6b4081aed952cbb09e2
+      internalID: -611385964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_170
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 13
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6606d602e5fd7b44b8c65d9c7df2fbef
+      internalID: 1431910056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_73
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 13
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 188f09a11e974164692d7eb0dc7fbfb3
+      internalID: 1000993711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_88
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 13
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c117242d6dc9dc43b56c83313d0f5d5
+      internalID: -1399368389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorFireSword-Sheet_72
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 13
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e241061696ca0204b8d671a99f1c1c03
+      internalID: 1645072929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: bcf8107e9f6388445a4fc190cbca0294
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Fire_WarriorFireSword-Sheet_0: -941040864
+      Fire_WarriorFireSword-Sheet_1: 1942510854
+      Fire_WarriorFireSword-Sheet_10: 528220533
+      Fire_WarriorFireSword-Sheet_100: -2061345576
+      Fire_WarriorFireSword-Sheet_101: -1845105068
+      Fire_WarriorFireSword-Sheet_102: 475261426
+      Fire_WarriorFireSword-Sheet_103: 1635600936
+      Fire_WarriorFireSword-Sheet_104: -1983557136
+      Fire_WarriorFireSword-Sheet_105: -1174340489
+      Fire_WarriorFireSword-Sheet_106: -1273674008
+      Fire_WarriorFireSword-Sheet_107: -1290316876
+      Fire_WarriorFireSword-Sheet_108: 875482581
+      Fire_WarriorFireSword-Sheet_109: -1401754019
+      Fire_WarriorFireSword-Sheet_11: 372768973
+      Fire_WarriorFireSword-Sheet_110: -218446420
+      Fire_WarriorFireSword-Sheet_111: 50794170
+      Fire_WarriorFireSword-Sheet_112: 928861211
+      Fire_WarriorFireSword-Sheet_113: -16713549
+      Fire_WarriorFireSword-Sheet_114: 630390548
+      Fire_WarriorFireSword-Sheet_115: -1546438388
+      Fire_WarriorFireSword-Sheet_116: -1181556683
+      Fire_WarriorFireSword-Sheet_117: -1004352674
+      Fire_WarriorFireSword-Sheet_118: -194734655
+      Fire_WarriorFireSword-Sheet_119: -1984141561
+      Fire_WarriorFireSword-Sheet_12: -1999952542
+      Fire_WarriorFireSword-Sheet_120: -1084086419
+      Fire_WarriorFireSword-Sheet_121: 1414054814
+      Fire_WarriorFireSword-Sheet_122: 4926556
+      Fire_WarriorFireSword-Sheet_123: -1435221086
+      Fire_WarriorFireSword-Sheet_124: 1498132666
+      Fire_WarriorFireSword-Sheet_125: -711139739
+      Fire_WarriorFireSword-Sheet_126: 1183362399
+      Fire_WarriorFireSword-Sheet_127: -2118167570
+      Fire_WarriorFireSword-Sheet_128: -250115528
+      Fire_WarriorFireSword-Sheet_129: -1236226218
+      Fire_WarriorFireSword-Sheet_13: 1229066688
+      Fire_WarriorFireSword-Sheet_130: -50065893
+      Fire_WarriorFireSword-Sheet_131: 2099483195
+      Fire_WarriorFireSword-Sheet_132: -1610945288
+      Fire_WarriorFireSword-Sheet_133: -613452551
+      Fire_WarriorFireSword-Sheet_134: 540525770
+      Fire_WarriorFireSword-Sheet_135: 575948890
+      Fire_WarriorFireSword-Sheet_136: -1433015084
+      Fire_WarriorFireSword-Sheet_137: 379460890
+      Fire_WarriorFireSword-Sheet_138: 354259120
+      Fire_WarriorFireSword-Sheet_139: -574143357
+      Fire_WarriorFireSword-Sheet_14: -1817143975
+      Fire_WarriorFireSword-Sheet_140: -1692817174
+      Fire_WarriorFireSword-Sheet_141: -1590177896
+      Fire_WarriorFireSword-Sheet_142: -1101730324
+      Fire_WarriorFireSword-Sheet_143: -1336571768
+      Fire_WarriorFireSword-Sheet_144: 421267746
+      Fire_WarriorFireSword-Sheet_145: -1634930593
+      Fire_WarriorFireSword-Sheet_146: -79616776
+      Fire_WarriorFireSword-Sheet_147: -371705682
+      Fire_WarriorFireSword-Sheet_148: 1594596425
+      Fire_WarriorFireSword-Sheet_149: -450112655
+      Fire_WarriorFireSword-Sheet_15: -298709222
+      Fire_WarriorFireSword-Sheet_150: 387289831
+      Fire_WarriorFireSword-Sheet_151: 1126244356
+      Fire_WarriorFireSword-Sheet_152: 1645799509
+      Fire_WarriorFireSword-Sheet_153: 2079837468
+      Fire_WarriorFireSword-Sheet_154: -2099884450
+      Fire_WarriorFireSword-Sheet_155: 1042523231
+      Fire_WarriorFireSword-Sheet_156: 88643349
+      Fire_WarriorFireSword-Sheet_157: 1862101509
+      Fire_WarriorFireSword-Sheet_158: -1161865207
+      Fire_WarriorFireSword-Sheet_159: -1748395164
+      Fire_WarriorFireSword-Sheet_16: 1117356923
+      Fire_WarriorFireSword-Sheet_160: 1146374693
+      Fire_WarriorFireSword-Sheet_161: 2039602030
+      Fire_WarriorFireSword-Sheet_162: -506906682
+      Fire_WarriorFireSword-Sheet_163: 1387668380
+      Fire_WarriorFireSword-Sheet_164: 1106690349
+      Fire_WarriorFireSword-Sheet_165: -1327220595
+      Fire_WarriorFireSword-Sheet_166: -1538614345
+      Fire_WarriorFireSword-Sheet_167: -1666948757
+      Fire_WarriorFireSword-Sheet_168: -661106926
+      Fire_WarriorFireSword-Sheet_169: -611385964
+      Fire_WarriorFireSword-Sheet_17: 1507311683
+      Fire_WarriorFireSword-Sheet_170: 1431910056
+      Fire_WarriorFireSword-Sheet_171: 1164806069
+      Fire_WarriorFireSword-Sheet_18: 1331289448
+      Fire_WarriorFireSword-Sheet_19: 957279322
+      Fire_WarriorFireSword-Sheet_2: 2036888341
+      Fire_WarriorFireSword-Sheet_20: 1443022436
+      Fire_WarriorFireSword-Sheet_21: 156277008
+      Fire_WarriorFireSword-Sheet_22: -2002091380
+      Fire_WarriorFireSword-Sheet_23: -1081625776
+      Fire_WarriorFireSword-Sheet_24: 2066883496
+      Fire_WarriorFireSword-Sheet_25: -873785922
+      Fire_WarriorFireSword-Sheet_26: -858975696
+      Fire_WarriorFireSword-Sheet_27: 1736139116
+      Fire_WarriorFireSword-Sheet_28: 404090840
+      Fire_WarriorFireSword-Sheet_29: -766251805
+      Fire_WarriorFireSword-Sheet_3: -1401093170
+      Fire_WarriorFireSword-Sheet_30: 609462277
+      Fire_WarriorFireSword-Sheet_31: 825812214
+      Fire_WarriorFireSword-Sheet_32: -686751687
+      Fire_WarriorFireSword-Sheet_33: -1561084447
+      Fire_WarriorFireSword-Sheet_34: 796181241
+      Fire_WarriorFireSword-Sheet_35: -1052117472
+      Fire_WarriorFireSword-Sheet_36: 1855862657
+      Fire_WarriorFireSword-Sheet_37: 479287544
+      Fire_WarriorFireSword-Sheet_38: -1084218045
+      Fire_WarriorFireSword-Sheet_39: 1345951815
+      Fire_WarriorFireSword-Sheet_4: 646671426
+      Fire_WarriorFireSword-Sheet_40: -594106640
+      Fire_WarriorFireSword-Sheet_41: 596226372
+      Fire_WarriorFireSword-Sheet_42: -473936032
+      Fire_WarriorFireSword-Sheet_43: 1222876951
+      Fire_WarriorFireSword-Sheet_44: -1128050395
+      Fire_WarriorFireSword-Sheet_45: 843563427
+      Fire_WarriorFireSword-Sheet_46: -1214832232
+      Fire_WarriorFireSword-Sheet_47: -647244526
+      Fire_WarriorFireSword-Sheet_48: -1237886927
+      Fire_WarriorFireSword-Sheet_49: -694211597
+      Fire_WarriorFireSword-Sheet_5: -2097900375
+      Fire_WarriorFireSword-Sheet_50: -1874348000
+      Fire_WarriorFireSword-Sheet_51: 1381210703
+      Fire_WarriorFireSword-Sheet_52: -1903034161
+      Fire_WarriorFireSword-Sheet_53: -804406160
+      Fire_WarriorFireSword-Sheet_54: -1380768730
+      Fire_WarriorFireSword-Sheet_55: -250900369
+      Fire_WarriorFireSword-Sheet_56: 926852620
+      Fire_WarriorFireSword-Sheet_57: 2099614745
+      Fire_WarriorFireSword-Sheet_58: -932579137
+      Fire_WarriorFireSword-Sheet_59: -799905982
+      Fire_WarriorFireSword-Sheet_6: -2080400819
+      Fire_WarriorFireSword-Sheet_60: 1583888313
+      Fire_WarriorFireSword-Sheet_61: 2083480326
+      Fire_WarriorFireSword-Sheet_62: 83390304
+      Fire_WarriorFireSword-Sheet_63: 1770927828
+      Fire_WarriorFireSword-Sheet_64: 2035057687
+      Fire_WarriorFireSword-Sheet_65: 25235225
+      Fire_WarriorFireSword-Sheet_66: -440467073
+      Fire_WarriorFireSword-Sheet_67: 668026640
+      Fire_WarriorFireSword-Sheet_68: 1483420157
+      Fire_WarriorFireSword-Sheet_69: -238414267
+      Fire_WarriorFireSword-Sheet_7: 493411335
+      Fire_WarriorFireSword-Sheet_70: 434236002
+      Fire_WarriorFireSword-Sheet_71: -2034764997
+      Fire_WarriorFireSword-Sheet_72: 1645072929
+      Fire_WarriorFireSword-Sheet_73: 1000993711
+      Fire_WarriorFireSword-Sheet_74: 1123393301
+      Fire_WarriorFireSword-Sheet_75: 1393725752
+      Fire_WarriorFireSword-Sheet_76: 376322991
+      Fire_WarriorFireSword-Sheet_77: 1714579641
+      Fire_WarriorFireSword-Sheet_78: -1280766550
+      Fire_WarriorFireSword-Sheet_79: 154181710
+      Fire_WarriorFireSword-Sheet_8: -1127761876
+      Fire_WarriorFireSword-Sheet_80: -87436249
+      Fire_WarriorFireSword-Sheet_81: 423777596
+      Fire_WarriorFireSword-Sheet_82: -1693332081
+      Fire_WarriorFireSword-Sheet_83: -1262418455
+      Fire_WarriorFireSword-Sheet_84: 2009309895
+      Fire_WarriorFireSword-Sheet_85: -139986068
+      Fire_WarriorFireSword-Sheet_86: 1251948878
+      Fire_WarriorFireSword-Sheet_87: -1335549817
+      Fire_WarriorFireSword-Sheet_88: -1399368389
+      Fire_WarriorFireSword-Sheet_89: -1667194706
+      Fire_WarriorFireSword-Sheet_9: -92871938
+      Fire_WarriorFireSword-Sheet_90: 137463506
+      Fire_WarriorFireSword-Sheet_91: -1130129587
+      Fire_WarriorFireSword-Sheet_92: -1298846432
+      Fire_WarriorFireSword-Sheet_93: 206189581
+      Fire_WarriorFireSword-Sheet_94: -653289409
+      Fire_WarriorFireSword-Sheet_95: 172233136
+      Fire_WarriorFireSword-Sheet_96: -844187791
+      Fire_WarriorFireSword-Sheet_97: -2071541446
+      Fire_WarriorFireSword-Sheet_98: 31678254
+      Fire_WarriorFireSword-Sheet_99: 692528156
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

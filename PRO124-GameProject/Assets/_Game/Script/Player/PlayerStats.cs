@@ -9,7 +9,7 @@ public class PlayerStats : MonoBehaviour
     public float currentHealth;
 
     [Header("Combat Stats")]
-    public float attack = 10;       // Damage gây ra
+    public int attack = 10;       // Damage gây ra
     public float defense = 5;       // Giảm sát thương
     public float healingPower = 0;
     public float ManingPower = 0;
@@ -127,5 +127,11 @@ public class PlayerStats : MonoBehaviour
         isInvincible = true;
         yield return new WaitForSeconds(duration);
         isInvincible = false;
+    }
+
+    public float GetAttackPower()
+    {
+        // Sau này có thể cộng buff/item ở đây
+        return attack;
     }
 }

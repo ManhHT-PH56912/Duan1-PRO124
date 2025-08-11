@@ -1,13 +1,14 @@
+using System;
 using UnityEngine;
 
 public abstract class EnemyBase : MonoBehaviour
 {
     protected Transform player;
     public virtual int Health { get; protected set; }
+    public virtual int MaxHealth { get; protected set; }
     public virtual float Speed { get; protected set; }
     public virtual int Damage { get; protected set; }
-
-    public abstract void TakeDamage(int damage);
+    public abstract void TakeDamage(int damage, MonoBehaviour attacker);
     public abstract void Idle();
     public abstract void Move(float speed);
     public abstract void Attack();

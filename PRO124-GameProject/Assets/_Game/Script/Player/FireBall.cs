@@ -29,7 +29,7 @@ public class FireBall : MonoBehaviour
             EnemyBase enemy = collision.GetComponent<EnemyBase>();
             if (enemy != null)
             {
-                enemy.TakeDamage((int)damage);
+                enemy.TakeDamage((int)damage, this);
             }
             Destroy(gameObject);
         }
