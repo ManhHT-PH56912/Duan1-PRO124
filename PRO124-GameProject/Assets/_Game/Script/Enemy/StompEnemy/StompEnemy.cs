@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class StompEnemy : MonoBehaviour
+public class StompEnemy : EnemyBase, IObserver
 {
     [Header("Movement")]
     public float patrolSpeed = 2f;
@@ -14,10 +14,11 @@ public class StompEnemy : MonoBehaviour
     private Vector2 startPos;
     private int dir = 1;
     private bool reachedEdge = false;
-    private int Damage = 20; // Sát thương khi không đạp đầu
+
 
     private void Awake()
     {
+        Damage = 10; // Thiết lập sát thương mặc định
         rb = GetComponent<Rigidbody2D>();
         startPos = transform.position;
     }
@@ -77,8 +78,9 @@ public class StompEnemy : MonoBehaviour
                 // Player nảy lên
                 PlayerJumpBounce bounce = collision.collider.GetComponent<PlayerJumpBounce>();
                 if (bounce != null) bounce.Bounce();
+                // Trả về pool hoặc hủy đối tượng
+                ReturnPool();
 
-                Die();
             }
             else
             {
@@ -94,9 +96,23 @@ public class StompEnemy : MonoBehaviour
     }
 
 
-    private void Die()
+    public override void Die()
     {
         Debug.Log("Enemy bị đạp chết!");
-        Destroy(gameObject); // Hoặc setActive(false) nếu dùng pooling
+        ReturnPool();
     }
+    public override void OnSpawn()
+    {
+        startPos = transform.position;
+        dir = 1;
+        reachedEdge = false;
+    }
+
+    public override void TakeDamage(int damage, MonoBehaviour attacker) { }
+
+    public override void Idle() { }
+
+    public override void Move(float speed) { }
+
+    public override void Attack() { }
 }

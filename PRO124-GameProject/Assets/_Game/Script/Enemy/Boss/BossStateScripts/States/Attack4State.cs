@@ -22,7 +22,6 @@ public class Attack4State : BossBaseState
     public override void Enter()
     {
         boss.allowFlip = false;
-        boss.animator.Play("Atk");
         currentWave = 0;
         waveTimer = 0f;
         exitTimer = 0f;
@@ -31,7 +30,7 @@ public class Attack4State : BossBaseState
     public override void LogicUpdate()
     {
         waveTimer += Time.deltaTime;
-
+        boss.animator.Play("Atk3");
         // Phát slash nếu chưa đủ số lượng
         if (currentWave < waveCount && waveTimer >= timeBetweenWaves)
         {
@@ -40,7 +39,7 @@ public class Attack4State : BossBaseState
             currentWave++;
 
             // Optional: phát lại animation mỗi slash nếu muốn
-            boss.animator.Play("Atk");
+
         }
 
         // Khi xong 3 slash, chờ rồi chuyển state

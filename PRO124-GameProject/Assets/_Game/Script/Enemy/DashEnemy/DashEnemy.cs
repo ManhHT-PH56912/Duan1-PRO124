@@ -1,7 +1,7 @@
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D), typeof(Collider2D), typeof(Animator))]
-public class DashEnemy : EnemyBase
+public class DashEnemy : EnemyBase, IObserver
 {
     [Header("Dash Settings")]
     public float dashSpeed = 10f;
@@ -11,14 +11,14 @@ public class DashEnemy : EnemyBase
     [HideInInspector] public Rigidbody2D rb;
     [HideInInspector] public Collider2D col;
     [HideInInspector] public Animator animator;
+    [Header("Blood Effect Spawner")]
+    [SerializeField] private BloodEffectSpawner bloodSpawner;
 
     public Transform visual;
 
     public DashEnemyStateMachine stateMachine;
-
-    public override int Health { get; protected set; } = 100;
-    public override float Speed { get; protected set; } = 2f;
-    public override int Damage { get; protected set; } = 20;
+    public EnemyState CurrentState { get; private set; }
+    [SerializeField] private int startHealth = 100;
     public override void Idle() { }
 
     public override void Move(float speed) { }
@@ -27,6 +27,9 @@ public class DashEnemy : EnemyBase
 
     private void Awake()
     {
+        Damage = 10;
+        MaxHealth = startHealth;
+        Speed = 2f;
         rb = GetComponent<Rigidbody2D>();
         col = GetComponent<Collider2D>();
         animator = GetComponent<Animator>();
@@ -37,18 +40,28 @@ public class DashEnemy : EnemyBase
 
     private void Update()
     {
-        stateMachine.CurrentState.Update();
+        stateMachine.CurrentState?.Update();
     }
 
-    public override void TakeDamage(int damage)
+
+    public override void TakeDamage(int damage, MonoBehaviour attacker)
     {
+        if (bloodSpawner != null)
+        {
+            bool flipX = attacker.transform.position.x > transform.position.x;
+            bloodSpawner.SpawnBlood(transform.position, flipX);
+        }
+
         Health -= damage;
-        if (Health <= 0) Die();
+        if (Health <= 0)
+        {
+            Die();
+        }
     }
 
     public override void Die()
     {
-        Destroy(gameObject);
+        ReturnPool();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -71,6 +84,19 @@ public class DashEnemy : EnemyBase
         scale.x = directionX > 0 ? Mathf.Abs(scale.x) : -Mathf.Abs(scale.x);
         visual.localScale = scale;
     }
-
+    public void Initialize(EnemyState startState)
+    {
+        CurrentState = startState;
+        CurrentState.Enter();
+    }
+    public Transform GetPlayer()
+    {
+        GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
+        return playerObj != null ? playerObj.transform : null;
+    }
+    public override void ReturnPool()
+    {
+        PoolManager.Instance.Return(gameObject);
+    }
 
 }

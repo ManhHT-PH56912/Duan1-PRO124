@@ -6,7 +6,6 @@ public enum State
     Idle,
     Move,
     Attack,
-    Die
 }
 
 public class EnemyBOOM : EnemyBase, IObserver
@@ -25,6 +24,9 @@ public class EnemyBOOM : EnemyBase, IObserver
     private bool hasAggroed = false;
     private float chaseTimer = 0f;
 
+    [Header("Effects")]
+    [SerializeField] private BloodEffectSpawner bloodSpawner;
+
     private void Awake()
     {
         Init();
@@ -33,16 +35,15 @@ public class EnemyBOOM : EnemyBase, IObserver
 
     private void Start()
     {
+        MaxHealth = 50;
         Speed = 2f;
-        Health = 50;
+        Health = MaxHealth;
         Damage = explosionDamage;
-
-        ObServerManager.Instance.addObsever(this);
     }
 
     private void Update()
     {
-        if (currentState == State.Die || player == null) return;
+        if (player == null) return;
 
         EvaluateState();
 
@@ -129,17 +130,20 @@ public class EnemyBOOM : EnemyBase, IObserver
                 Debug.Log($"BoomEnemy gây {explosionDamage} sát thương cho Player");
             }
         }
-
-        currentState = State.Die;
         StartCoroutine(DelayedDie(1.5f));
     }
 
-    public override void TakeDamage(int damage)
+    public override void TakeDamage(int damage, MonoBehaviour attacker)
     {
         Health -= damage;
-        if (Health <= 0 && currentState != State.Die)
+
+        if (bloodSpawner != null && attacker != null)
         {
-            currentState = State.Die;
+            bool flipX = attacker.transform.position.x > transform.position.x;
+            bloodSpawner.SpawnBlood(transform.position, flipX);
+        }
+        if (Health <= 0)
+        {
             Die();
         }
     }
@@ -150,17 +154,21 @@ public class EnemyBOOM : EnemyBase, IObserver
         Debug.Log("BoomEnemy died");
         ReturnPool();
     }
-
-    public void ReturnPool()
+    public override void OnSpawn()
     {
-        ObServerManager.Instance.removeObsever(this);
-        currentState = State.Idle;
-        lastState = State.Idle;
+        Health = MaxHealth;
         hasAggroed = false;
         chaseTimer = 0f;
-        transform.position = spawnPos;
-        gameObject.SetActive(false);
+        currentState = State.Idle;
+        lastState = State.Idle;
+        spawnPos = transform.position;
+
+        Collider2D col = GetComponent<Collider2D>();
+        if (col != null) col.enabled = true;
+
+        Debug.Log($"{name} spawned với {Health} máu");
     }
+
 
 #if UNITY_EDITOR
     private void OnDrawGizmosSelected()

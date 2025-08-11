@@ -4,7 +4,7 @@ using System.Collections;
 public class ÔMaNhiIdleState : BossBaseState
 {
     private float timer;
-    private float delay = 2f;
+    private float delay = 20f;
 
     public ÔMaNhiIdleState(BossController boss, BossStateMachine stateMachine) : base(boss, stateMachine) { }
 

@@ -9,12 +9,12 @@ public class Attack5State : BossBaseState
 
     public Attack5State(BossController boss, BossStateMachine stateMachine) : base(boss, stateMachine)
     {
-        fireBombPrefab = Resources.Load<GameObject>("FireBomb");
+        fireBombPrefab = Resources.Load<GameObject>("FireBombBoss/FireBomb");
     }
 
     public override void Enter()
     {
-        boss.animator.Play("Atk");
+        boss.animator.Play("Atk5");
         hasThrown = false;
         timer = 0f;
     }

@@ -6,7 +6,6 @@ public enum RangedState
     Idle,
     Attack,
     Flee,
-    Die
 }
 
 public class RangedEnemy : EnemyBase, IObserver
@@ -21,7 +20,7 @@ public class RangedEnemy : EnemyBase, IObserver
 
     [SerializeField] private float shootCooldown = 1f;
     [SerializeField] private float groundCheckDistance = 0.5f;
-    [SerializeField] private LayerMask groundLayer;
+    [SerializeField] private string groundTag = "Ground";
     [SerializeField] private float edgeEscapeDistance = 4f; // khoảng cách né vực
 
     private float lastShootTime = -Mathf.Infinity;
@@ -45,14 +44,14 @@ public class RangedEnemy : EnemyBase, IObserver
     {
         Speed = 2f;
         Health = 40;
-        ObServerManager.Instance.addObsever(this);
+        MaxHealth = 100;
     }
 
     private void Update()
     {
-        if (currentState == RangedState.Die || player == null) return;
+        if (player == null) return;
 
-        // ✅ KHÔNG đánh giá trạng thái khi đang né vực
+        // không đánh giá trạng thái khi đang né vực
         if (!(currentState == RangedState.Flee && hasFleeRedirected))
         {
             EvaluateState();
@@ -186,48 +185,87 @@ public class RangedEnemy : EnemyBase, IObserver
 
     private bool IsGroundAhead()
     {
-        Vector2 offset = new Vector2(Mathf.Sign(transform.localScale.x) * 1f, 0); // phía trước
+        Vector2 offset = new Vector2(Mathf.Sign(transform.localScale.x) * 1f, 0);
         Vector2 origin = (Vector2)transform.position + offset;
-        RaycastHit2D hit = Physics2D.Raycast(origin, Vector2.down, groundCheckDistance, groundLayer);
+
+        // Bắn raycast không filter layer
+        RaycastHit2D hit = Physics2D.Raycast(origin, Vector2.down, groundCheckDistance);
 
 #if UNITY_EDITOR
-        Debug.DrawRay(origin, Vector2.down * groundCheckDistance, Color.red);
+        Color rayColor = Color.red;
 #endif
 
-        return hit.collider != null;
+        if (hit.collider != null)
+        {
+            if (hit.collider.CompareTag(groundTag))
+            {
+#if UNITY_EDITOR
+                rayColor = Color.green; // có ground
+#endif
+                return true;
+            }
+        }
+
+#if UNITY_EDITOR
+        Debug.DrawRay(origin, Vector2.down * groundCheckDistance, rayColor);
+#endif
+
+        return false; // không phải ground
     }
 
-    public override void TakeDamage(int damage)
+
+    public override void TakeDamage(int damage, MonoBehaviour attacker)
     {
+        Debug.Log($"RangedEnemy took {damage} damage");
         Health -= damage;
-        if (Health <= 0 && currentState != RangedState.Die)
+        if (Health <= 0)
         {
-            currentState = RangedState.Die;
             Die();
         }
     }
+    public override void ReturnPool()
+    {
+        PoolManager.Instance.Return(gameObject);
+    }
+
 
     public override void Die()
     {
         Debug.Log("RangedEnemy died");
-        ObServerManager.Instance.removeObsever(this);
-        gameObject.SetActive(false);
+        ReturnPool();
     }
+    public override void OnSpawn()
+    {
+        base.OnSpawn();
+        currentState = RangedState.Idle;
+        isFleeing = false;
+        hasFleeRedirected = false;
+        fleeTimer = 0f;
+        patrolCenter = transform.position;
+        SetNewPatrolTarget();
+    }
+
+
 
 #if UNITY_EDITOR
     private void OnDrawGizmosSelected()
     {
+        Gizmos.color = Color.cyan;
+        Vector2 offset = new Vector2(Mathf.Sign(transform.localScale.x) * 1f, 0);
+        Vector2 origin = (Vector2)transform.position + offset;
+        Gizmos.DrawLine(origin, origin + Vector2.down * groundCheckDistance);
+
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, aggroRange);
+
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, fleeRange);
+
         Gizmos.color = Color.green;
         Gizmos.DrawWireSphere(transform.position, patrolRadius);
     }
+
 #endif
 
-    public void ReturnPool()
-    {
-        gameObject.SetActive(false);
-    }
+
 }

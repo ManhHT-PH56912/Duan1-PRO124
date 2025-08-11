@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class DashBackState : EnemyState
 {
-    private float timer = 0.5f;
+    private float timer;
     private Vector2 dir;
 
     public DashBackState(DashEnemy enemy, DashEnemyStateMachine stateMachine) : base(enemy, stateMachine) { }
@@ -10,16 +10,23 @@ public class DashBackState : EnemyState
     public override void Enter()
     {
         enemy.animator.Play("Back");
-        dir = (enemy.transform.position - enemy.GetPlayer().position).normalized;
 
-        enemy.rb.linearVelocity = dir * enemy.dashBackSpeed;
-        enemy.rb.isKinematic = true;
-        enemy.col.isTrigger = true;
+        timer = 0.5f;
+        Transform player = enemy.GetPlayer();
+        if (player != null)
+        {
+            dir = (enemy.transform.position - player.position).normalized;
+            enemy.Flip(-dir.x);
+            enemy.rb.linearVelocity = dir * enemy.dashBackSpeed;
+        }
+
+        enemy.col.isTrigger = true; // Xuyên va chạm khi lùi
     }
 
     public override void Update()
     {
         timer -= Time.deltaTime;
+
         float deceleration = enemy.dashBackSpeed / 0.5f * Time.deltaTime;
         enemy.rb.linearVelocity = Vector2.MoveTowards(enemy.rb.linearVelocity, Vector2.zero, deceleration);
 
@@ -32,7 +39,5 @@ public class DashBackState : EnemyState
     public override void Exit()
     {
         enemy.rb.linearVelocity = Vector2.zero;
-        enemy.rb.isKinematic = false;
-        enemy.col.isTrigger = false;
     }
 }

@@ -22,7 +22,10 @@ public class MeeleEnemy : EnemyBase, IObserver
     [SerializeField] private float groundCheckDistance = 1f;
     [SerializeField] private Vector2 groundCheckOffset = new Vector2(0.5f, 0);
 
-    private enum State { Idle, Move, Attack, Die, Return }
+    [Header("Effects")]
+    [SerializeField] private BloodEffectSpawner bloodSpawner;
+
+    private enum State { Idle, Move, Attack, Return }
     private State currentState = State.Idle;
 
     private Vector3 startPos;
@@ -37,34 +40,28 @@ public class MeeleEnemy : EnemyBase, IObserver
     private void Start()
     {
         Health = 100;
+        MaxHealth = 100;
         Speed = 2f;
         Damage = 10;
         base.Init();
         startPos = transform.position;
-        ObServerManager.Instance.addObsever(this);
     }
 
     private void Update()
     {
-        Debug.Log($"Current State: {currentState}");
-        if (currentState != State.Die)
-        {
-            EvaluateState();
-        }
-
+        EvaluateState();
         switch (currentState)
         {
             case State.Idle: Idle(); break;
             case State.Move: Move(Speed); break;
             case State.Attack: Attack(); break;
             case State.Return: ReturnToStart(); break;
-            case State.Die: Die(); break;
         }
     }
 
     public void EvaluateState()
     {
-        if (player == null || currentState == State.Die) return;
+        if (player == null) return;
 
         float distToPlayer = Vector3.Distance(transform.position, player.position);
 
@@ -152,20 +149,34 @@ public class MeeleEnemy : EnemyBase, IObserver
         isAttacking = false;
     }
 
-    public override void TakeDamage(int damage)
+    public override void TakeDamage(int damage, MonoBehaviour attacker)
     {
         Health -= damage;
-        if (Health <= 0 && currentState != State.Die)
+        if (bloodSpawner != null && attacker != null)
         {
-            currentState = State.Die;
+            bool flipX = attacker.transform.position.x > transform.position.x;
+            bloodSpawner.SpawnBlood(transform.position, flipX);
+        }
+        if (Health <= 0)
+        {
+            Die();
         }
     }
 
     public override void Die()
     {
-        Debug.Log("MeeleEnemy died");
         ReturnPool();
+        Debug.Log("MeeleEnemy died");
     }
+    public void OnSpawned()
+    {
+        Health = MaxHealth;
+        currentState = State.Idle;
+        isAttacking = false;
+        lastAttackTime = -999f;
+        transform.position = startPos;
+    }
+
 
     public void Flip(float dirX)
     {
@@ -179,11 +190,7 @@ public class MeeleEnemy : EnemyBase, IObserver
         patrolDir = (int)Mathf.Sign(dirX); // Cập nhật hướng tuần tra để IsGroundAhead đúng
     }
 
-    public void ReturnPool()
-    {
-        ObServerManager.Instance.removeObsever(this);
-        Destroy(gameObject); // hoặc setActive(false) nếu pooling
-    }
+
 
     private bool IsGroundAhead()
     {

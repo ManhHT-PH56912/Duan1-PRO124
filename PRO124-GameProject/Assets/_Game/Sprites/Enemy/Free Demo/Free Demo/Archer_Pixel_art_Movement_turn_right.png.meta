@@ -1,0 +1,1027 @@
+fileFormatVersion: 2
+guid: 71bbe74b518a810499fa7b78c56e1f55
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5772370707760088145
+    second: Archer_Pixel_art_Movement_turn_right_0
+  - first:
+      213: 2599496249652653427
+    second: Archer_Pixel_art_Movement_turn_right_1
+  - first:
+      213: -5171274125422983526
+    second: Archer_Pixel_art_Movement_turn_right_2
+  - first:
+      213: -1396928706163943316
+    second: Archer_Pixel_art_Movement_turn_right_3
+  - first:
+      213: 444149754464691878
+    second: Archer_Pixel_art_Movement_turn_right_4
+  - first:
+      213: 7610402845382886976
+    second: Archer_Pixel_art_Movement_turn_right_5
+  - first:
+      213: 2667543659371120204
+    second: Archer_Pixel_art_Movement_turn_right_6
+  - first:
+      213: 1918401584633475026
+    second: Archer_Pixel_art_Movement_turn_right_7
+  - first:
+      213: 6106228985887150478
+    second: Archer_Pixel_art_Movement_turn_right_8
+  - first:
+      213: -7108203523236026119
+    second: Archer_Pixel_art_Movement_turn_right_9
+  - first:
+      213: 2988835046438333133
+    second: Archer_Pixel_art_Movement_turn_right_10
+  - first:
+      213: -1472663496212979634
+    second: Archer_Pixel_art_Movement_turn_right_11
+  - first:
+      213: -8891247394849692476
+    second: Archer_Pixel_art_Movement_turn_right_12
+  - first:
+      213: -6196695708579993146
+    second: Archer_Pixel_art_Movement_turn_right_13
+  - first:
+      213: 3367906903868008831
+    second: Archer_Pixel_art_Movement_turn_right_14
+  - first:
+      213: -823752906045664792
+    second: Archer_Pixel_art_Movement_turn_right_15
+  - first:
+      213: -6147930704434169340
+    second: Archer_Pixel_art_Movement_turn_right_16
+  - first:
+      213: -2014650675289232808
+    second: Archer_Pixel_art_Movement_turn_right_17
+  - first:
+      213: -4110452856233710144
+    second: Archer_Pixel_art_Movement_turn_right_18
+  - first:
+      213: 6815019391541422332
+    second: Archer_Pixel_art_Movement_turn_right_19
+  - first:
+      213: 1406074368929056729
+    second: Archer_Pixel_art_Movement_turn_right_20
+  - first:
+      213: 5710594770054886482
+    second: Archer_Pixel_art_Movement_turn_right_21
+  - first:
+      213: -7034257767902381529
+    second: Archer_Pixel_art_Movement_turn_right_22
+  - first:
+      213: -7301243664293274084
+    second: Archer_Pixel_art_Movement_turn_right_23
+  - first:
+      213: 3899232106048366183
+    second: Archer_Pixel_art_Movement_turn_right_24
+  - first:
+      213: 1465866605928002020
+    second: Archer_Pixel_art_Movement_turn_right_25
+  - first:
+      213: -2790686362869851693
+    second: Archer_Pixel_art_Movement_turn_right_26
+  - first:
+      213: -6139861285522594983
+    second: Archer_Pixel_art_Movement_turn_right_27
+  - first:
+      213: -6853233131413060557
+    second: Archer_Pixel_art_Movement_turn_right_28
+  - first:
+      213: -4980454028385795092
+    second: Archer_Pixel_art_Movement_turn_right_29
+  - first:
+      213: -3878110829068656282
+    second: Archer_Pixel_art_Movement_turn_right_30
+  - first:
+      213: -5430968473573993161
+    second: Archer_Pixel_art_Movement_turn_right_31
+  - first:
+      213: 356007731998332033
+    second: Archer_Pixel_art_Movement_turn_right_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_turn_right_0
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 383
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fabf614bc6b64efa0800000000000000
+      internalID: -5772370707760088145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_turn_right_1
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 383
+        width: 55
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37da18bf014431420800000000000000
+      internalID: 2599496249652653427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_turn_right_2
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 383
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a968efdd491fb38b0800000000000000
+      internalID: -5171274125422983526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_turn_right_3
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 383
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c685d843ebc1d9ce0800000000000000
+      internalID: -1396928706163943316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_turn_right_4
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 383
+        width: 57
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a6e1f539dfe92600800000000000000
+      internalID: 444149754464691878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_turn_right_5
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 383
+        width: 58
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0464ba4f0159d9960800000000000000
+      internalID: 7610402845382886976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_turn_right_6
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 383
+        width: 59
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4649af23d4050520800000000000000
+      internalID: 2667543659371120204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_turn_right_7
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 383
+        width: 58
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dfef9cb3188f9a10800000000000000
+      internalID: 1918401584633475026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_turn_right_8
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 383
+        width: 58
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e815ff419eeadb450800000000000000
+      internalID: 6106228985887150478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_turn_right_9
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 383
+        width: 57
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f826567e869a5d90800000000000000
+      internalID: -7108203523236026119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_turn_right_10
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 255
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcae133a3a97a7920800000000000000
+      internalID: 2988835046438333133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_turn_right_11
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 255
+        width: 55
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e406a8a4a5c009be0800000000000000
+      internalID: -1472663496212979634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_turn_right_12
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 255
+        width: 54
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c4eddb2a91fb9480800000000000000
+      internalID: -8891247394849692476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_turn_right_13
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 255
+        width: 53
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c9e6e4a51ae00aa0800000000000000
+      internalID: -6196695708579993146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_turn_right_14
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 255
+        width: 52
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7963a13c753dbe20800000000000000
+      internalID: 3367906903868008831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_turn_right_15
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 255
+        width: 51
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e1d37ca8117194f0800000000000000
+      internalID: -823752906045664792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_turn_right_16
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 255
+        width: 50
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40afb72f8992eaaa0800000000000000
+      internalID: -6147930704434169340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_turn_right_17
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 255
+        width: 49
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85a62e882e58a04e0800000000000000
+      internalID: -2014650675289232808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_turn_right_18
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 255
+        width: 49
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cd2336c7ecb4f6c0800000000000000
+      internalID: -4110452856233710144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_turn_right_19
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 255
+        width: 48
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf8a9327700d39e50800000000000000
+      internalID: 6815019391541422332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_turn_right_20
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 127
+        width: 47
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d74cc75031638310800000000000000
+      internalID: 1406074368929056729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_turn_right_21
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 127
+        width: 46
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2543355ffab104f40800000000000000
+      internalID: 5710594770054886482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_turn_right_22
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 127
+        width: 44
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72a75a544db416e90800000000000000
+      internalID: -7034257767902381529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_turn_right_23
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 127
+        width: 44
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1e5a3b2295ccaa90800000000000000
+      internalID: -7301243664293274084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_turn_right_24
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 127
+        width: 42
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 766afc101fadc1630800000000000000
+      internalID: 3899232106048366183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_turn_right_25
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 127
+        width: 42
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e1327e59edc75410800000000000000
+      internalID: 1465866605928002020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_turn_right_26
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 127
+        width: 42
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d99d95e98d7549d0800000000000000
+      internalID: -2790686362869851693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_turn_right_27
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 127
+        width: 42
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 953a042f0b4dacaa0800000000000000
+      internalID: -6139861285522594983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_turn_right_28
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 127
+        width: 42
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 334cf27e6cc64e0a0800000000000000
+      internalID: -6853233131413060557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_turn_right_29
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 127
+        width: 43
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce3c6e1e27fd1eab0800000000000000
+      internalID: -4980454028385795092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_turn_right_30
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 0
+        width: 43
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66164c18fbe2e2ac0800000000000000
+      internalID: -3878110829068656282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_turn_right_31
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 0
+        width: 44
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 735d642a2f251a4b0800000000000000
+      internalID: -5430968473573993161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_turn_right_32
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 0
+        width: 44
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1849d03652bc0f400800000000000000
+      internalID: 356007731998332033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Archer_Pixel_art_Movement_turn_right_0: -5772370707760088145
+      Archer_Pixel_art_Movement_turn_right_1: 2599496249652653427
+      Archer_Pixel_art_Movement_turn_right_10: 2988835046438333133
+      Archer_Pixel_art_Movement_turn_right_11: -1472663496212979634
+      Archer_Pixel_art_Movement_turn_right_12: -8891247394849692476
+      Archer_Pixel_art_Movement_turn_right_13: -6196695708579993146
+      Archer_Pixel_art_Movement_turn_right_14: 3367906903868008831
+      Archer_Pixel_art_Movement_turn_right_15: -823752906045664792
+      Archer_Pixel_art_Movement_turn_right_16: -6147930704434169340
+      Archer_Pixel_art_Movement_turn_right_17: -2014650675289232808
+      Archer_Pixel_art_Movement_turn_right_18: -4110452856233710144
+      Archer_Pixel_art_Movement_turn_right_19: 6815019391541422332
+      Archer_Pixel_art_Movement_turn_right_2: -5171274125422983526
+      Archer_Pixel_art_Movement_turn_right_20: 1406074368929056729
+      Archer_Pixel_art_Movement_turn_right_21: 5710594770054886482
+      Archer_Pixel_art_Movement_turn_right_22: -7034257767902381529
+      Archer_Pixel_art_Movement_turn_right_23: -7301243664293274084
+      Archer_Pixel_art_Movement_turn_right_24: 3899232106048366183
+      Archer_Pixel_art_Movement_turn_right_25: 1465866605928002020
+      Archer_Pixel_art_Movement_turn_right_26: -2790686362869851693
+      Archer_Pixel_art_Movement_turn_right_27: -6139861285522594983
+      Archer_Pixel_art_Movement_turn_right_28: -6853233131413060557
+      Archer_Pixel_art_Movement_turn_right_29: -4980454028385795092
+      Archer_Pixel_art_Movement_turn_right_3: -1396928706163943316
+      Archer_Pixel_art_Movement_turn_right_30: -3878110829068656282
+      Archer_Pixel_art_Movement_turn_right_31: -5430968473573993161
+      Archer_Pixel_art_Movement_turn_right_32: 356007731998332033
+      Archer_Pixel_art_Movement_turn_right_4: 444149754464691878
+      Archer_Pixel_art_Movement_turn_right_5: 7610402845382886976
+      Archer_Pixel_art_Movement_turn_right_6: 2667543659371120204
+      Archer_Pixel_art_Movement_turn_right_7: 1918401584633475026
+      Archer_Pixel_art_Movement_turn_right_8: 6106228985887150478
+      Archer_Pixel_art_Movement_turn_right_9: -7108203523236026119
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -3562,6 +3562,18 @@ MonoBehaviour:
   dashCooldown: 1
   edgeCollider: {fileID: 5329604967760733787}
   aoEPrefab: {fileID: 3184292288647199260, guid: 5e2e6272bb3ba5c4783ac01d6cb0ddce, type: 3}
+  dustPrefab: {fileID: 0}
+  projectilePrefab: {fileID: 0}
+  firePoint: {fileID: 0}
+  projectileSpeed: 10
+  ability1ManaCost: 30
+  ability1Cooldown: 5
+  invincibleEffectPrefab: {fileID: 0}
+  effectSpawnPoint: {fileID: 0}
+  ability2ManaCost: 40
+  ability2Cooldown: 20
+  rhitbox: {fileID: 0}
+  lhitbox: {fileID: 0}
 --- !u!4 &7532808579546947220
 Transform:
   m_ObjectHideFlags: 0

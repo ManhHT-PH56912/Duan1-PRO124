@@ -6,7 +6,6 @@ public class FireZone : MonoBehaviour
     private float timer = 0f;
 
     private float damageInterval = 1f; // 1 giây
-    private float damageAmount = 5f;
 
     private float damageTimer = 0f;
 

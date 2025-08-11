@@ -9,12 +9,12 @@ public class PlayerStats : MonoBehaviour
     public float currentHealth;
 
     [Header("Combat Stats")]
-    public float attack = 10;       // Damage gây ra
+    public int attack = 10;       // Damage gây ra
     public float defense = 5;       // Giảm sát thương
     public float healingPower = 0;
     public float ManingPower = 0;
     [Header("Mana Stats")]
-    public float maxMana = 10000;
+    public float maxMana = 1;
     public float currentMana;
     public float manaRegenRate = 5f; // Tăng hiệu quả hồi máu
 
@@ -55,7 +55,7 @@ public class PlayerStats : MonoBehaviour
         }
         return false;
     }
-
+    //Player nhận damege
     public void TakeDamage(float incomingDamage)
     {
         if (isInvincible)
@@ -83,8 +83,7 @@ public class PlayerStats : MonoBehaviour
 
     private void Die()
     {
-        Debug.Log("Player chết");
-        // TODO: Trigger animation chết, disable điều khiển,...
+
     }
 
     // 🔥 Gọi từ FireZone mỗi lần player đang ở trong vùng lửa
@@ -127,5 +126,11 @@ public class PlayerStats : MonoBehaviour
         isInvincible = true;
         yield return new WaitForSeconds(duration);
         isInvincible = false;
+    }
+
+    public float GetAttackPower()
+    {
+        // Sau này có thể cộng buff/item ở đây
+        return attack;
     }
 }

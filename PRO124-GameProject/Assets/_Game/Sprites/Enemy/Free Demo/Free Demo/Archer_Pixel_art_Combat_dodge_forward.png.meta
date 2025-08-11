@@ -1,0 +1,1131 @@
+fileFormatVersion: 2
+guid: 923f9250640898446850f69d5917af31
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5781716203508362811
+    second: Archer_Pixel_art_Combat_dodge_forward_0
+  - first:
+      213: -4302929318496002709
+    second: Archer_Pixel_art_Combat_dodge_forward_1
+  - first:
+      213: 7441479975797136525
+    second: Archer_Pixel_art_Combat_dodge_forward_2
+  - first:
+      213: 135714368083140744
+    second: Archer_Pixel_art_Combat_dodge_forward_3
+  - first:
+      213: 8238005918937467977
+    second: Archer_Pixel_art_Combat_dodge_forward_4
+  - first:
+      213: 8394695105336611359
+    second: Archer_Pixel_art_Combat_dodge_forward_5
+  - first:
+      213: 1476768521144426952
+    second: Archer_Pixel_art_Combat_dodge_forward_6
+  - first:
+      213: -561335338775324249
+    second: Archer_Pixel_art_Combat_dodge_forward_7
+  - first:
+      213: -5629095072338936602
+    second: Archer_Pixel_art_Combat_dodge_forward_8
+  - first:
+      213: 6577982081524414222
+    second: Archer_Pixel_art_Combat_dodge_forward_9
+  - first:
+      213: 4175009073886613140
+    second: Archer_Pixel_art_Combat_dodge_forward_10
+  - first:
+      213: 6721280264578005310
+    second: Archer_Pixel_art_Combat_dodge_forward_11
+  - first:
+      213: 7923853945074401160
+    second: Archer_Pixel_art_Combat_dodge_forward_12
+  - first:
+      213: 562610479313391941
+    second: Archer_Pixel_art_Combat_dodge_forward_13
+  - first:
+      213: 7471667976453340105
+    second: Archer_Pixel_art_Combat_dodge_forward_14
+  - first:
+      213: 5547925153501375796
+    second: Archer_Pixel_art_Combat_dodge_forward_15
+  - first:
+      213: -4854399031420141541
+    second: Archer_Pixel_art_Combat_dodge_forward_16
+  - first:
+      213: -7073500060220357495
+    second: Archer_Pixel_art_Combat_dodge_forward_17
+  - first:
+      213: 262632363076533762
+    second: Archer_Pixel_art_Combat_dodge_forward_18
+  - first:
+      213: -8860155319601300845
+    second: Archer_Pixel_art_Combat_dodge_forward_19
+  - first:
+      213: 7373713586468677050
+    second: Archer_Pixel_art_Combat_dodge_forward_20
+  - first:
+      213: -7248866644885743010
+    second: Archer_Pixel_art_Combat_dodge_forward_21
+  - first:
+      213: -4310948936739438718
+    second: Archer_Pixel_art_Combat_dodge_forward_22
+  - first:
+      213: -1062440545364202980
+    second: Archer_Pixel_art_Combat_dodge_forward_23
+  - first:
+      213: -3929902252018275369
+    second: Archer_Pixel_art_Combat_dodge_forward_24
+  - first:
+      213: 3426368474329532869
+    second: Archer_Pixel_art_Combat_dodge_forward_25
+  - first:
+      213: -3247714203790769208
+    second: Archer_Pixel_art_Combat_dodge_forward_26
+  - first:
+      213: -2761984437860110001
+    second: Archer_Pixel_art_Combat_dodge_forward_27
+  - first:
+      213: -660185032538774583
+    second: Archer_Pixel_art_Combat_dodge_forward_28
+  - first:
+      213: 4897093197744712879
+    second: Archer_Pixel_art_Combat_dodge_forward_29
+  - first:
+      213: -4838080934364215546
+    second: Archer_Pixel_art_Combat_dodge_forward_30
+  - first:
+      213: -5954778926231897350
+    second: Archer_Pixel_art_Combat_dodge_forward_31
+  - first:
+      213: 6923468513063334498
+    second: Archer_Pixel_art_Combat_dodge_forward_32
+  - first:
+      213: 1733641430043735125
+    second: Archer_Pixel_art_Combat_dodge_forward_33
+  - first:
+      213: -8238244363124100101
+    second: Archer_Pixel_art_Combat_dodge_forward_34
+  - first:
+      213: 4541242047718959451
+    second: Archer_Pixel_art_Combat_dodge_forward_35
+  - first:
+      213: -4759907075256912741
+    second: Archer_Pixel_art_Combat_dodge_forward_36
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_dodge_forward_0
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 255
+        width: 54
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3e6c361148cc3050800000000000000
+      internalID: 5781716203508362811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_dodge_forward_1
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 319
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6d9e6d259ce844c0800000000000000
+      internalID: -4302929318496002709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_dodge_forward_2
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 255
+        width: 54
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8c12908c92754760800000000000000
+      internalID: 7441479975797136525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_dodge_forward_3
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 255
+        width: 53
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 880238caf7722e100800000000000000
+      internalID: 135714368083140744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_dodge_forward_4
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 255
+        width: 54
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94c45d78cb6435270800000000000000
+      internalID: 8238005918937467977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_dodge_forward_5
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 317
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f129c47a8b2ff7470800000000000000
+      internalID: 8394695105336611359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_dodge_forward_6
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 255
+        width: 53
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c1ea4e45298e7410800000000000000
+      internalID: 1476768521144426952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_dodge_forward_7
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 255
+        width: 55
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a95c64cb7cb538f0800000000000000
+      internalID: -561335338775324249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_dodge_forward_8
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 255
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ecf55e1bdf61e1b0800000000000000
+      internalID: -5629095072338936602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_dodge_forward_9
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 255
+        width: 60
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e07b52cf9dfa94b50800000000000000
+      internalID: 6577982081524414222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_dodge_forward_10
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 255
+        width: 62
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49e4b0fe1ac90f930800000000000000
+      internalID: 4175009073886613140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_dodge_forward_11
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 255
+        width: 61
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e39f30e2ac8c64d50800000000000000
+      internalID: 6721280264578005310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_dodge_forward_12
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 298
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88fbc304e2f27fd60800000000000000
+      internalID: 7923853945074401160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_dodge_forward_13
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 127
+        width: 58
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5411366004bcec700800000000000000
+      internalID: 562610479313391941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_dodge_forward_14
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 193
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cbb9202072b0b760800000000000000
+      internalID: 7471667976453340105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_dodge_forward_15
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 127
+        width: 53
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43d67ee68803efc40800000000000000
+      internalID: 5547925153501375796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_dodge_forward_16
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 128
+        width: 48
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b10c336fcc5b1acb0800000000000000
+      internalID: -4854399031420141541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_dodge_forward_17
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 131
+        width: 46
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9848cd71c21e5dd90800000000000000
+      internalID: -7073500060220357495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_dodge_forward_18
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 130
+        width: 46
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20eb2b32ebe05a300800000000000000
+      internalID: 262632363076533762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_dodge_forward_19
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 128
+        width: 46
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39a70601ea76a0580800000000000000
+      internalID: -8860155319601300845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_dodge_forward_20
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 128
+        width: 45
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab5efe47071b45660800000000000000
+      internalID: 7373713586468677050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_dodge_forward_21
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 128
+        width: 45
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5a586f413ad66b90800000000000000
+      internalID: -7248866644885743010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_dodge_forward_22
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 127
+        width: 44
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28f3ccc48ce6c24c0800000000000000
+      internalID: -4310948936739438718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_dodge_forward_23
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 127
+        width: 44
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1a289af3f37141f0800000000000000
+      internalID: -1062440545364202980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_dodge_forward_24
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 0
+        width: 47
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7db617a29be2679c0800000000000000
+      internalID: -3929902252018275369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_dodge_forward_25
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 0
+        width: 52
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c9420649f7ec8f20800000000000000
+      internalID: 3426368474329532869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_dodge_forward_26
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 0
+        width: 54
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c38f07832dcde2d0800000000000000
+      internalID: -3247714203790769208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_dodge_forward_27
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 0
+        width: 52
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f41f03299c57ba9d0800000000000000
+      internalID: -2761984437860110001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_dodge_forward_28
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 0
+        width: 50
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c32f71f53d86d6f0800000000000000
+      internalID: -660185032538774583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_dodge_forward_29
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 0
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fac2e834158f5f340800000000000000
+      internalID: 4897093197744712879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_dodge_forward_30
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 0
+        width: 52
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60781a0060fabdcb0800000000000000
+      internalID: -4838080934364215546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_dodge_forward_31
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 0
+        width: 53
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afa37f9cd106c5da0800000000000000
+      internalID: -5954778926231897350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_dodge_forward_32
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 62
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 262fdb63ee9151060800000000000000
+      internalID: 6923468513063334498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_dodge_forward_33
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 0
+        width: 54
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55438a502b12f0810800000000000000
+      internalID: 1733641430043735125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_dodge_forward_34
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 63
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf3bf1b5660ebad80800000000000000
+      internalID: -8238244363124100101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_dodge_forward_35
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 0
+        width: 52
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b592b55f49bb50f30800000000000000
+      internalID: 4541242047718959451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Combat_dodge_forward_36
+      rect:
+        serializedVersion: 2
+        x: 1243
+        y: 50
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b94717febb961fdb0800000000000000
+      internalID: -4759907075256912741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Archer_Pixel_art_Combat_dodge_forward_0: 5781716203508362811
+      Archer_Pixel_art_Combat_dodge_forward_1: -4302929318496002709
+      Archer_Pixel_art_Combat_dodge_forward_10: 4175009073886613140
+      Archer_Pixel_art_Combat_dodge_forward_11: 6721280264578005310
+      Archer_Pixel_art_Combat_dodge_forward_12: 7923853945074401160
+      Archer_Pixel_art_Combat_dodge_forward_13: 562610479313391941
+      Archer_Pixel_art_Combat_dodge_forward_14: 7471667976453340105
+      Archer_Pixel_art_Combat_dodge_forward_15: 5547925153501375796
+      Archer_Pixel_art_Combat_dodge_forward_16: -4854399031420141541
+      Archer_Pixel_art_Combat_dodge_forward_17: -7073500060220357495
+      Archer_Pixel_art_Combat_dodge_forward_18: 262632363076533762
+      Archer_Pixel_art_Combat_dodge_forward_19: -8860155319601300845
+      Archer_Pixel_art_Combat_dodge_forward_2: 7441479975797136525
+      Archer_Pixel_art_Combat_dodge_forward_20: 7373713586468677050
+      Archer_Pixel_art_Combat_dodge_forward_21: -7248866644885743010
+      Archer_Pixel_art_Combat_dodge_forward_22: -4310948936739438718
+      Archer_Pixel_art_Combat_dodge_forward_23: -1062440545364202980
+      Archer_Pixel_art_Combat_dodge_forward_24: -3929902252018275369
+      Archer_Pixel_art_Combat_dodge_forward_25: 3426368474329532869
+      Archer_Pixel_art_Combat_dodge_forward_26: -3247714203790769208
+      Archer_Pixel_art_Combat_dodge_forward_27: -2761984437860110001
+      Archer_Pixel_art_Combat_dodge_forward_28: -660185032538774583
+      Archer_Pixel_art_Combat_dodge_forward_29: 4897093197744712879
+      Archer_Pixel_art_Combat_dodge_forward_3: 135714368083140744
+      Archer_Pixel_art_Combat_dodge_forward_30: -4838080934364215546
+      Archer_Pixel_art_Combat_dodge_forward_31: -5954778926231897350
+      Archer_Pixel_art_Combat_dodge_forward_32: 6923468513063334498
+      Archer_Pixel_art_Combat_dodge_forward_33: 1733641430043735125
+      Archer_Pixel_art_Combat_dodge_forward_34: -8238244363124100101
+      Archer_Pixel_art_Combat_dodge_forward_35: 4541242047718959451
+      Archer_Pixel_art_Combat_dodge_forward_36: -4759907075256912741
+      Archer_Pixel_art_Combat_dodge_forward_4: 8238005918937467977
+      Archer_Pixel_art_Combat_dodge_forward_5: 8394695105336611359
+      Archer_Pixel_art_Combat_dodge_forward_6: 1476768521144426952
+      Archer_Pixel_art_Combat_dodge_forward_7: -561335338775324249
+      Archer_Pixel_art_Combat_dodge_forward_8: -5629095072338936602
+      Archer_Pixel_art_Combat_dodge_forward_9: 6577982081524414222
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

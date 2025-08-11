@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3541273859355731518}
   - component: {fileID: 6698493711195194446}
   - component: {fileID: 5857431597028621441}
+  - component: {fileID: 466125528706072348}
   m_Layer: 0
   m_Name: Boom
   m_TagString: Untagged
@@ -107,6 +108,7 @@ MonoBehaviour:
   explosionRadius: 2
   explosionDamage: 40
   chaseTimeout: 5
+  bloodSpawner: {fileID: 466125528706072348}
 --- !u!50 &6698493711195194446
 Rigidbody2D:
   serializedVersion: 5
@@ -164,9 +166,22 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.5
+--- !u!114 &466125528706072348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2860447153356942121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 585dcc8ffb898594bae97ac8760f4a1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bloodPrefabs: []

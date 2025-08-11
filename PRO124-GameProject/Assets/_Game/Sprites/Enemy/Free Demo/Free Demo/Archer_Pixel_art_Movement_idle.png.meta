@@ -1,0 +1,4641 @@
+fileFormatVersion: 2
+guid: abfccddb9379b5246b5788e0f679cf0b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1820931521704835837
+    second: Archer_Pixel_art_Movement_idle_0
+  - first:
+      213: 4398650759386642611
+    second: Archer_Pixel_art_Movement_idle_1
+  - first:
+      213: 8173082685161203961
+    second: Archer_Pixel_art_Movement_idle_2
+  - first:
+      213: -2545157183177399002
+    second: Archer_Pixel_art_Movement_idle_3
+  - first:
+      213: 3735849272977011459
+    second: Archer_Pixel_art_Movement_idle_4
+  - first:
+      213: -3521212340439088342
+    second: Archer_Pixel_art_Movement_idle_5
+  - first:
+      213: -2513790681487200166
+    second: Archer_Pixel_art_Movement_idle_6
+  - first:
+      213: -3430250353500770536
+    second: Archer_Pixel_art_Movement_idle_7
+  - first:
+      213: -5941270587218256721
+    second: Archer_Pixel_art_Movement_idle_8
+  - first:
+      213: 3973835938464399686
+    second: Archer_Pixel_art_Movement_idle_9
+  - first:
+      213: 7048407740988760134
+    second: Archer_Pixel_art_Movement_idle_10
+  - first:
+      213: -7650792987509901798
+    second: Archer_Pixel_art_Movement_idle_11
+  - first:
+      213: -3178513481148321792
+    second: Archer_Pixel_art_Movement_idle_12
+  - first:
+      213: 1111621604814467231
+    second: Archer_Pixel_art_Movement_idle_13
+  - first:
+      213: 4183668764290441702
+    second: Archer_Pixel_art_Movement_idle_14
+  - first:
+      213: -113656225566210624
+    second: Archer_Pixel_art_Movement_idle_15
+  - first:
+      213: -8867787139162142687
+    second: Archer_Pixel_art_Movement_idle_16
+  - first:
+      213: 8322968011067374923
+    second: Archer_Pixel_art_Movement_idle_17
+  - first:
+      213: 2676955971707132334
+    second: Archer_Pixel_art_Movement_idle_18
+  - first:
+      213: 5236064193483448208
+    second: Archer_Pixel_art_Movement_idle_19
+  - first:
+      213: -9161523691456782436
+    second: Archer_Pixel_art_Movement_idle_20
+  - first:
+      213: 8598097770183739941
+    second: Archer_Pixel_art_Movement_idle_21
+  - first:
+      213: -567349366718349054
+    second: Archer_Pixel_art_Movement_idle_22
+  - first:
+      213: 329153990657026141
+    second: Archer_Pixel_art_Movement_idle_23
+  - first:
+      213: 248009454170882669
+    second: Archer_Pixel_art_Movement_idle_24
+  - first:
+      213: -8448755079347509841
+    second: Archer_Pixel_art_Movement_idle_25
+  - first:
+      213: -1616380579347482205
+    second: Archer_Pixel_art_Movement_idle_26
+  - first:
+      213: -3120361636198830674
+    second: Archer_Pixel_art_Movement_idle_27
+  - first:
+      213: -1067494744423925578
+    second: Archer_Pixel_art_Movement_idle_28
+  - first:
+      213: -1924921732053094984
+    second: Archer_Pixel_art_Movement_idle_29
+  - first:
+      213: -875680302671400821
+    second: Archer_Pixel_art_Movement_idle_30
+  - first:
+      213: 332701947458212731
+    second: Archer_Pixel_art_Movement_idle_31
+  - first:
+      213: 5242997201684047214
+    second: Archer_Pixel_art_Movement_idle_32
+  - first:
+      213: -6535110818693898843
+    second: Archer_Pixel_art_Movement_idle_33
+  - first:
+      213: 3776170285792090195
+    second: Archer_Pixel_art_Movement_idle_34
+  - first:
+      213: 1666410154132499518
+    second: Archer_Pixel_art_Movement_idle_35
+  - first:
+      213: -5611591696777876066
+    second: Archer_Pixel_art_Movement_idle_36
+  - first:
+      213: 5267478194379240260
+    second: Archer_Pixel_art_Movement_idle_37
+  - first:
+      213: 7906994466029980641
+    second: Archer_Pixel_art_Movement_idle_38
+  - first:
+      213: -4005393719859590795
+    second: Archer_Pixel_art_Movement_idle_39
+  - first:
+      213: -7324085936316466056
+    second: Archer_Pixel_art_Movement_idle_40
+  - first:
+      213: 5503161073319860160
+    second: Archer_Pixel_art_Movement_idle_41
+  - first:
+      213: -3814187018190600578
+    second: Archer_Pixel_art_Movement_idle_42
+  - first:
+      213: -6354748243427671574
+    second: Archer_Pixel_art_Movement_idle_43
+  - first:
+      213: -5503701893444356115
+    second: Archer_Pixel_art_Movement_idle_44
+  - first:
+      213: -964216323961206814
+    second: Archer_Pixel_art_Movement_idle_45
+  - first:
+      213: 8390694255155920790
+    second: Archer_Pixel_art_Movement_idle_46
+  - first:
+      213: -8492997708047741090
+    second: Archer_Pixel_art_Movement_idle_47
+  - first:
+      213: -5340058600256256372
+    second: Archer_Pixel_art_Movement_idle_48
+  - first:
+      213: 9124519609395048834
+    second: Archer_Pixel_art_Movement_idle_49
+  - first:
+      213: 5793617827899122956
+    second: Archer_Pixel_art_Movement_idle_50
+  - first:
+      213: -8097382033208713019
+    second: Archer_Pixel_art_Movement_idle_51
+  - first:
+      213: 641981180860853134
+    second: Archer_Pixel_art_Movement_idle_52
+  - first:
+      213: -2019296451921762978
+    second: Archer_Pixel_art_Movement_idle_53
+  - first:
+      213: 3884678498043958558
+    second: Archer_Pixel_art_Movement_idle_54
+  - first:
+      213: -3862280648156852078
+    second: Archer_Pixel_art_Movement_idle_55
+  - first:
+      213: 4769588235423436955
+    second: Archer_Pixel_art_Movement_idle_56
+  - first:
+      213: -65555636703350039
+    second: Archer_Pixel_art_Movement_idle_57
+  - first:
+      213: 7517384850451422934
+    second: Archer_Pixel_art_Movement_idle_58
+  - first:
+      213: -171065669389826878
+    second: Archer_Pixel_art_Movement_idle_59
+  - first:
+      213: 6984368910999396210
+    second: Archer_Pixel_art_Movement_idle_60
+  - first:
+      213: -683195719850476899
+    second: Archer_Pixel_art_Movement_idle_61
+  - first:
+      213: -8706047855562669556
+    second: Archer_Pixel_art_Movement_idle_62
+  - first:
+      213: -259709790488750571
+    second: Archer_Pixel_art_Movement_idle_63
+  - first:
+      213: -3133403672401674980
+    second: Archer_Pixel_art_Movement_idle_64
+  - first:
+      213: -7351886640643047862
+    second: Archer_Pixel_art_Movement_idle_65
+  - first:
+      213: 565013121234119250
+    second: Archer_Pixel_art_Movement_idle_66
+  - first:
+      213: 4528154545847282039
+    second: Archer_Pixel_art_Movement_idle_67
+  - first:
+      213: 6814990627416904490
+    second: Archer_Pixel_art_Movement_idle_68
+  - first:
+      213: 6454388204323453611
+    second: Archer_Pixel_art_Movement_idle_69
+  - first:
+      213: 8665046757418558060
+    second: Archer_Pixel_art_Movement_idle_70
+  - first:
+      213: 4673141566801686990
+    second: Archer_Pixel_art_Movement_idle_71
+  - first:
+      213: -4525883569288073493
+    second: Archer_Pixel_art_Movement_idle_72
+  - first:
+      213: -6452115177999123166
+    second: Archer_Pixel_art_Movement_idle_73
+  - first:
+      213: -578851182979747483
+    second: Archer_Pixel_art_Movement_idle_74
+  - first:
+      213: 7732107785132978899
+    second: Archer_Pixel_art_Movement_idle_75
+  - first:
+      213: 8394491126093909439
+    second: Archer_Pixel_art_Movement_idle_76
+  - first:
+      213: -8359566727903105867
+    second: Archer_Pixel_art_Movement_idle_77
+  - first:
+      213: 985601694073593676
+    second: Archer_Pixel_art_Movement_idle_78
+  - first:
+      213: 4580458234116157346
+    second: Archer_Pixel_art_Movement_idle_79
+  - first:
+      213: -6209037458650042264
+    second: Archer_Pixel_art_Movement_idle_80
+  - first:
+      213: -2929612966111972572
+    second: Archer_Pixel_art_Movement_idle_81
+  - first:
+      213: -8878235672501417703
+    second: Archer_Pixel_art_Movement_idle_82
+  - first:
+      213: -1161885854382420949
+    second: Archer_Pixel_art_Movement_idle_83
+  - first:
+      213: -5566559088240761935
+    second: Archer_Pixel_art_Movement_idle_84
+  - first:
+      213: -7382867858046553210
+    second: Archer_Pixel_art_Movement_idle_85
+  - first:
+      213: -6757520419639506993
+    second: Archer_Pixel_art_Movement_idle_86
+  - first:
+      213: -2820723061535059478
+    second: Archer_Pixel_art_Movement_idle_87
+  - first:
+      213: -7216170976176056709
+    second: Archer_Pixel_art_Movement_idle_88
+  - first:
+      213: 4470936407413411046
+    second: Archer_Pixel_art_Movement_idle_89
+  - first:
+      213: -3330959337496980294
+    second: Archer_Pixel_art_Movement_idle_90
+  - first:
+      213: -8374371048463382921
+    second: Archer_Pixel_art_Movement_idle_91
+  - first:
+      213: 2101940104192110656
+    second: Archer_Pixel_art_Movement_idle_92
+  - first:
+      213: -5715184985190574056
+    second: Archer_Pixel_art_Movement_idle_93
+  - first:
+      213: 6492792616430971039
+    second: Archer_Pixel_art_Movement_idle_94
+  - first:
+      213: -3170177204735685482
+    second: Archer_Pixel_art_Movement_idle_95
+  - first:
+      213: 936871195245315429
+    second: Archer_Pixel_art_Movement_idle_96
+  - first:
+      213: -590803453693163366
+    second: Archer_Pixel_art_Movement_idle_97
+  - first:
+      213: -6831275746110689933
+    second: Archer_Pixel_art_Movement_idle_98
+  - first:
+      213: -2861012901692265882
+    second: Archer_Pixel_art_Movement_idle_99
+  - first:
+      213: 732266011022551738
+    second: Archer_Pixel_art_Movement_idle_100
+  - first:
+      213: -3466451314698138008
+    second: Archer_Pixel_art_Movement_idle_101
+  - first:
+      213: 5636856038354581903
+    second: Archer_Pixel_art_Movement_idle_102
+  - first:
+      213: -9024444487327503329
+    second: Archer_Pixel_art_Movement_idle_103
+  - first:
+      213: 7499261588396894636
+    second: Archer_Pixel_art_Movement_idle_104
+  - first:
+      213: -1886324669597526713
+    second: Archer_Pixel_art_Movement_idle_105
+  - first:
+      213: -5457883414339058074
+    second: Archer_Pixel_art_Movement_idle_106
+  - first:
+      213: -1837904875852719671
+    second: Archer_Pixel_art_Movement_idle_107
+  - first:
+      213: 7650783105643357693
+    second: Archer_Pixel_art_Movement_idle_108
+  - first:
+      213: 8309088012317756453
+    second: Archer_Pixel_art_Movement_idle_109
+  - first:
+      213: 7328884642787778194
+    second: Archer_Pixel_art_Movement_idle_110
+  - first:
+      213: 5498267283863103557
+    second: Archer_Pixel_art_Movement_idle_111
+  - first:
+      213: -4494157488398008516
+    second: Archer_Pixel_art_Movement_idle_112
+  - first:
+      213: -3898287236544932026
+    second: Archer_Pixel_art_Movement_idle_113
+  - first:
+      213: -303448576950658929
+    second: Archer_Pixel_art_Movement_idle_114
+  - first:
+      213: 6528707154088579058
+    second: Archer_Pixel_art_Movement_idle_115
+  - first:
+      213: 4810639957104947777
+    second: Archer_Pixel_art_Movement_idle_116
+  - first:
+      213: 1769721476467193188
+    second: Archer_Pixel_art_Movement_idle_117
+  - first:
+      213: -5514511463698378972
+    second: Archer_Pixel_art_Movement_idle_118
+  - first:
+      213: -9174449092700513318
+    second: Archer_Pixel_art_Movement_idle_119
+  - first:
+      213: 8495538008485905012
+    second: Archer_Pixel_art_Movement_idle_120
+  - first:
+      213: 5937877174091677145
+    second: Archer_Pixel_art_Movement_idle_121
+  - first:
+      213: 870446098955730243
+    second: Archer_Pixel_art_Movement_idle_122
+  - first:
+      213: 6715565530377432746
+    second: Archer_Pixel_art_Movement_idle_123
+  - first:
+      213: 3264938286572280690
+    second: Archer_Pixel_art_Movement_idle_124
+  - first:
+      213: -6683128261643064923
+    second: Archer_Pixel_art_Movement_idle_125
+  - first:
+      213: 1792042657790870863
+    second: Archer_Pixel_art_Movement_idle_126
+  - first:
+      213: 8606778323923807328
+    second: Archer_Pixel_art_Movement_idle_127
+  - first:
+      213: -9109946207701877435
+    second: Archer_Pixel_art_Movement_idle_128
+  - first:
+      213: -3741727355495665175
+    second: Archer_Pixel_art_Movement_idle_129
+  - first:
+      213: -1939202809542770052
+    second: Archer_Pixel_art_Movement_idle_130
+  - first:
+      213: -8816898020080717572
+    second: Archer_Pixel_art_Movement_idle_131
+  - first:
+      213: 9175564082487030690
+    second: Archer_Pixel_art_Movement_idle_132
+  - first:
+      213: 7656858172035586490
+    second: Archer_Pixel_art_Movement_idle_133
+  - first:
+      213: 6486504781290913371
+    second: Archer_Pixel_art_Movement_idle_134
+  - first:
+      213: 996827509142696614
+    second: Archer_Pixel_art_Movement_idle_135
+  - first:
+      213: 8069340828989712769
+    second: Archer_Pixel_art_Movement_idle_136
+  - first:
+      213: 3741486873855584475
+    second: Archer_Pixel_art_Movement_idle_137
+  - first:
+      213: -6277819701002732331
+    second: Archer_Pixel_art_Movement_idle_138
+  - first:
+      213: 205307327471089437
+    second: Archer_Pixel_art_Movement_idle_139
+  - first:
+      213: -8117549606896042113
+    second: Archer_Pixel_art_Movement_idle_140
+  - first:
+      213: -3439279301139807808
+    second: Archer_Pixel_art_Movement_idle_141
+  - first:
+      213: -6704670110859451124
+    second: Archer_Pixel_art_Movement_idle_142
+  - first:
+      213: -1180098607358693477
+    second: Archer_Pixel_art_Movement_idle_143
+  - first:
+      213: 87620375216740586
+    second: Archer_Pixel_art_Movement_idle_144
+  - first:
+      213: -1130678358531803743
+    second: Archer_Pixel_art_Movement_idle_145
+  - first:
+      213: 1623376436460051967
+    second: Archer_Pixel_art_Movement_idle_146
+  - first:
+      213: 3338352931572484172
+    second: Archer_Pixel_art_Movement_idle_147
+  - first:
+      213: 2379990459438127673
+    second: Archer_Pixel_art_Movement_idle_148
+  - first:
+      213: 5191049242299605105
+    second: Archer_Pixel_art_Movement_idle_149
+  - first:
+      213: 8540904619103353003
+    second: Archer_Pixel_art_Movement_idle_150
+  - first:
+      213: -842399967144665617
+    second: Archer_Pixel_art_Movement_idle_151
+  - first:
+      213: 8124869995542468327
+    second: Archer_Pixel_art_Movement_idle_152
+  - first:
+      213: -7282029231650991498
+    second: Archer_Pixel_art_Movement_idle_153
+  - first:
+      213: 101389903120434826
+    second: Archer_Pixel_art_Movement_idle_154
+  - first:
+      213: 1532936843474699053
+    second: Archer_Pixel_art_Movement_idle_155
+  - first:
+      213: 1199091796420152063
+    second: Archer_Pixel_art_Movement_idle_156
+  - first:
+      213: 8271339487722146828
+    second: Archer_Pixel_art_Movement_idle_157
+  - first:
+      213: -7106924603735412391
+    second: Archer_Pixel_art_Movement_idle_158
+  - first:
+      213: 1196137184442254202
+    second: Archer_Pixel_art_Movement_idle_159
+  - first:
+      213: 4707829242379208169
+    second: Archer_Pixel_art_Movement_idle_160
+  - first:
+      213: 1338943419510700346
+    second: Archer_Pixel_art_Movement_idle_161
+  - first:
+      213: -8415811481796570609
+    second: Archer_Pixel_art_Movement_idle_162
+  - first:
+      213: 613279778889418459
+    second: Archer_Pixel_art_Movement_idle_163
+  - first:
+      213: 6318581753421686184
+    second: Archer_Pixel_art_Movement_idle_164
+  - first:
+      213: 5223297624309835249
+    second: Archer_Pixel_art_Movement_idle_165
+  - first:
+      213: -2409679518516650394
+    second: Archer_Pixel_art_Movement_idle_166
+  - first:
+      213: -94647176218935235
+    second: Archer_Pixel_art_Movement_idle_167
+  - first:
+      213: -3163869106710315003
+    second: Archer_Pixel_art_Movement_idle_168
+  - first:
+      213: -4267958538022588973
+    second: Archer_Pixel_art_Movement_idle_169
+  - first:
+      213: 2769570996548502380
+    second: Archer_Pixel_art_Movement_idle_170
+  - first:
+      213: 3396564521320513780
+    second: Archer_Pixel_art_Movement_idle_171
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_0
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1919
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 305c870cd60cab6e0800000000000000
+      internalID: -1820931521704835837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1919
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b83e348f852b0d30800000000000000
+      internalID: 4398650759386642611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_2
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1919
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f8ede8366f9c6170800000000000000
+      internalID: 8173082685161203961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_3
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 1919
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6256d27d609cdacd0800000000000000
+      internalID: -2545157183177399002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_4
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 1919
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3033232de1768d330800000000000000
+      internalID: 3735849272977011459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_5
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 1919
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2308655804222fc0800000000000000
+      internalID: -3521212340439088342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_6
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1919
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a50b44e91b83d1dd0800000000000000
+      internalID: -2513790681487200166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_7
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 1919
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81fadec4a7d4560d0800000000000000
+      internalID: -3430250353500770536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_8
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 1919
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fac116e01ed5c8da0800000000000000
+      internalID: -5941270587218256721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_9
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 1919
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6410ad35bb6e52730800000000000000
+      internalID: 3973835938464399686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_10
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1791
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 640afb11f79f0d160800000000000000
+      internalID: 7048407740988760134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_11
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1791
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a163c61405ce2d590800000000000000
+      internalID: -7650792987509901798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_12
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1791
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0003d5254d6a3e3d0800000000000000
+      internalID: -3178513481148321792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_13
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 1791
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f90bd9fb5f54d6f00800000000000000
+      internalID: 1111621604814467231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_14
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 1791
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e1ed6933906f0a30800000000000000
+      internalID: 4183668764290441702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_15
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 1791
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c54d98d3463c6ef0800000000000000
+      internalID: -113656225566210624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_16
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1791
+        width: 55
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 128867a949a4fe480800000000000000
+      internalID: -8867787139162142687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_17
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 1791
+        width: 55
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4d3c902f4f118370800000000000000
+      internalID: 8322968011067374923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_18
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 1791
+        width: 55
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea9d6fce545762520800000000000000
+      internalID: 2676955971707132334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_19
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 1791
+        width: 55
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09f19b164ac3aa840800000000000000
+      internalID: 5236064193483448208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_20
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1663
+        width: 55
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9f94611ebabbd080800000000000000
+      internalID: -9161523691456782436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_21
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1663
+        width: 53
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52a41e70e54925770800000000000000
+      internalID: 8598097770183739941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_22
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 1711
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 201c535c1ce5028f0800000000000000
+      internalID: -567349366718349054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_23
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1663
+        width: 53
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d58a3818fc3619400800000000000000
+      internalID: 329153990657026141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_24
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 1712
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d624bc8d84b117300800000000000000
+      internalID: 248009454170882669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_25
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 1663
+        width: 53
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa5e63dc40effba80800000000000000
+      internalID: -8448755079347509841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_26
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 1712
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a937225d667199e0800000000000000
+      internalID: -1616380579347482205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_27
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 1663
+        width: 53
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eadac9fcf9f32b4d0800000000000000
+      internalID: -3120361636198830674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_28
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 1712
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b8f30f8f2f7f21f0800000000000000
+      internalID: -1067494744423925578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_29
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 1663
+        width: 53
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bdab8422ed4945e0800000000000000
+      internalID: -1924921732053094984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_30
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 1712
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b80f67e7765f8d3f0800000000000000
+      internalID: -875680302671400821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_31
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1663
+        width: 53
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b73d35298aefd9400800000000000000
+      internalID: 332701947458212731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_32
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 1712
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e65aeb42d2ed2c840800000000000000
+      internalID: 5242997201684047214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_33
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 1663
+        width: 53
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ad10fbb55f9e45a0800000000000000
+      internalID: -6535110818693898843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_34
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 1712
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 358d5003ed6a76430800000000000000
+      internalID: 3776170285792090195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_35
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 1663
+        width: 53
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3ceb27c437402710800000000000000
+      internalID: 1666410154132499518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_36
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 1712
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9de501551f9f12b0800000000000000
+      internalID: -5611591696777876066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_37
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 1663
+        width: 53
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 443371e6287d91940800000000000000
+      internalID: 5267478194379240260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_38
+      rect:
+        serializedVersion: 2
+        x: 1243
+        y: 1712
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eb42b4e2994bbd60800000000000000
+      internalID: 7906994466029980641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_39
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1535
+        width: 53
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 579403e12abf968c0800000000000000
+      internalID: -4005393719859590795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_40
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1583
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87c3c6545ae9b5a90800000000000000
+      internalID: -7324085936316466056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_41
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1535
+        width: 53
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c7dcf4d6d72f5c40800000000000000
+      internalID: 5503161073319860160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_42
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 1583
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e76c7d98d19411bc0800000000000000
+      internalID: -3814187018190600578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_43
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1535
+        width: 55
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae1c47934266fc7a0800000000000000
+      internalID: -6354748243427671574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_44
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 1535
+        width: 55
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de7ba9ba94cee93b0800000000000000
+      internalID: -5503701893444356115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_45
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 1535
+        width: 55
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e7c8abac5a6e92f0800000000000000
+      internalID: -964216323961206814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_46
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 1535
+        width: 55
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69fba7128fbb17470800000000000000
+      internalID: 8390694255155920790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_47
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1535
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5f8b95159fc22a80800000000000000
+      internalID: -8492997708047741090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_48
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 1535
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c86c4f3fefc44e5b0800000000000000
+      internalID: -5340058600256256372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_49
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 1535
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 281f310bd3ec0ae70800000000000000
+      internalID: 9124519609395048834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_50
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 1535
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c052c44f7b0176050800000000000000
+      internalID: 5793617827899122956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_51
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1407
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c0e6fb41f150af80800000000000000
+      internalID: -8097382033208713019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_52
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1407
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8b62bd8b76c8e800800000000000000
+      internalID: 641981180860853134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_53
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1407
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e552ffe53940af3e0800000000000000
+      internalID: -2019296451921762978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_54
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 1407
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e151286138629e530800000000000000
+      internalID: 3884678498043958558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_55
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 1407
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 290deb7b63c666ac0800000000000000
+      internalID: -3862280648156852078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_56
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 1407
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b90db41da3bf03240800000000000000
+      internalID: 4769588235423436955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_57
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1407
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e2b549ee79171ff0800000000000000
+      internalID: -65555636703350039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_58
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 1407
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6de5f0351bd135860800000000000000
+      internalID: 7517384850451422934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_59
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 1407
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c441c61ea040adf0800000000000000
+      internalID: -171065669389826878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_60
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 1407
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27f966015867de060800000000000000
+      internalID: 6984368910999396210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_61
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1279
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9abe3ecc1dc486f0800000000000000
+      internalID: -683195719850476899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_62
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1279
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c02c2ab1a97ed2780800000000000000
+      internalID: -8706047855562669556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_63
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1279
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5161a315253556cf0800000000000000
+      internalID: -259709790488750571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_64
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 1279
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1df79026f9e384d0800000000000000
+      internalID: -3133403672401674980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_65
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 1279
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4ef7836d0ad8f990800000000000000
+      internalID: -7351886640643047862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_66
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 1279
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25a2890b07457d700800000000000000
+      internalID: 565013121234119250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_67
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1279
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7792c49719c37de30800000000000000
+      internalID: 4528154545847282039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_68
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 1279
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a231dc64ed5b39e50800000000000000
+      internalID: 6814990627416904490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_69
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 1279
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baabb2100e7929950800000000000000
+      internalID: 6454388204323453611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_70
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 1279
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c626512dd1e604870800000000000000
+      internalID: 8665046757418558060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_71
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1151
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec1b352ee755ad040800000000000000
+      internalID: 4673141566801686990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_72
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1151
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beeaec57fd4d031c0800000000000000
+      internalID: -4525883569288073493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_73
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1151
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22db47d2e6b7576a0800000000000000
+      internalID: -6452115177999123166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_74
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 1151
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5617dac7ae187f7f0800000000000000
+      internalID: -578851182979747483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_75
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 1151
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d232e96017fd4b60800000000000000
+      internalID: 7732107785132978899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_76
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 1151
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbd0ff804393f7470800000000000000
+      internalID: 8394491126093909439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_77
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1151
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bc29231a5adcfb80800000000000000
+      internalID: -8359566727903105867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_78
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 1151
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4f9741d48f8dad00800000000000000
+      internalID: 985601694073593676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_79
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 1151
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2afa101ee7e019f30800000000000000
+      internalID: 4580458234116157346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_80
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 1151
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 860f118045115d9a0800000000000000
+      internalID: -6209037458650042264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_81
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1023
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4237481778ce757d0800000000000000
+      internalID: -2929612966111972572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_82
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1023
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9190a5cd1bb2ac480800000000000000
+      internalID: -8878235672501417703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_83
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1023
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2c0cfba8f620efe0800000000000000
+      internalID: -1161885854382420949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_84
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 1023
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b3ef2c800c9fb2b0800000000000000
+      internalID: -5566559088240761935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_85
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 1023
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6837c799cc8ca8990800000000000000
+      internalID: -7382867858046553210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_86
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 1023
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc740f03bf67832a0800000000000000
+      internalID: -6757520419639506993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_87
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1023
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae153730257cad8d0800000000000000
+      internalID: -2820723061535059478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_88
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 1023
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b76da86eab20bdb90800000000000000
+      internalID: -7216170976176056709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_89
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 1023
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eccc3979f4fb0e30800000000000000
+      internalID: 4470936407413411046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_90
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 1023
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab4d837712e06c1d0800000000000000
+      internalID: -3330959337496980294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_91
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 895
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 776460796e148cb80800000000000000
+      internalID: -8374371048463382921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_92
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 895
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 040b48163679b2d10800000000000000
+      internalID: 2101940104192110656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_93
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 895
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 818d11c49859fa0b0800000000000000
+      internalID: -5715184985190574056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_94
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 895
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f98a5aefb780b1a50800000000000000
+      internalID: 6492792616430971039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_95
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 895
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69c40bce0a44104d0800000000000000
+      internalID: -3170177204735685482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_96
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 895
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56584e8636f600d00800000000000000
+      internalID: 936871195245315429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_97
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 895
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a988b8a936b0dc7f0800000000000000
+      internalID: -590803453693163366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_98
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 895
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37da45e07ee6231a0800000000000000
+      internalID: -6831275746110689933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_99
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 895
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66aa2d89ce3ab48d0800000000000000
+      internalID: -2861012901692265882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_100
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 895
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aba671cae08892a00800000000000000
+      internalID: 732266011022551738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_101
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 767
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86e4b3435e0b4efc0800000000000000
+      internalID: -3466451314698138008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_102
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 767
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f89f32893b22a3e40800000000000000
+      internalID: 5636856038354581903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_103
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 767
+        width: 55
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1cac956d8bb2c280800000000000000
+      internalID: -9024444487327503329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_104
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 767
+        width: 55
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca9e02e8eaab21860800000000000000
+      internalID: 7499261588396894636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_105
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 767
+        width: 55
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 745559905bd62d5e0800000000000000
+      internalID: -1886324669597526713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_106
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 767
+        width: 55
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66603d6a3f3b144b0800000000000000
+      internalID: -5457883414339058074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_107
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 767
+        width: 55
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c917d7c0437e76e0800000000000000
+      internalID: -1837904875852719671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_108
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 767
+        width: 55
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df5ae61f2ba0d2a60800000000000000
+      internalID: 7650783105643357693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_109
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 767
+        width: 55
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52c08a5168fcf4370800000000000000
+      internalID: 8309088012317756453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_110
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 767
+        width: 53
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29e5e25a0cd65b560800000000000000
+      internalID: 7328884642787778194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_111
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 815
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 548efcea6f4cd4c40800000000000000
+      internalID: 5498267283863103557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_112
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 639
+        width: 53
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3fff5b439b81a1c0800000000000000
+      internalID: -4494157488398008516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_113
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 688
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 647dc41996086e9c0800000000000000
+      internalID: -3898287236544932026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_114
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 639
+        width: 53
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f881243802fe9cbf0800000000000000
+      internalID: -303448576950658929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_115
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 688
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ff400ae090aa9a50800000000000000
+      internalID: 6528707154088579058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_116
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 639
+        width: 53
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1427a899d83d2c240800000000000000
+      internalID: 4810639957104947777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_117
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 688
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 465f4347e405f8810800000000000000
+      internalID: 1769721476467193188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_118
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 639
+        width: 53
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42f40787a058873b0800000000000000
+      internalID: -5514511463698378972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_119
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 688
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adb5ea3982fcda080800000000000000
+      internalID: -9174449092700513318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_120
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 639
+        width: 53
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 472c1a3bec636e570800000000000000
+      internalID: 8495538008485905012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_121
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 688
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dd72a164d3976250800000000000000
+      internalID: 5937877174091677145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_122
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 639
+        width: 53
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34d716c7d12741c00800000000000000
+      internalID: 870446098955730243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_123
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 687
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aae2100f44b723d50800000000000000
+      internalID: 6715565530377432746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_124
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 639
+        width: 55
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27b96b0c2146f4d20800000000000000
+      internalID: 3264938286572280690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_125
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 639
+        width: 55
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a924683142c043a0800000000000000
+      internalID: -6683128261643064923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_126
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 639
+        width: 55
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f45c8f77d4d9ed810800000000000000
+      internalID: 1792042657790870863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_127
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 639
+        width: 55
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06ca202f84b617770800000000000000
+      internalID: 8606778323923807328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_128
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 511
+        width: 55
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54d330fc038f29180800000000000000
+      internalID: -9109946207701877435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_129
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 511
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e1b1517bc6b21cc0800000000000000
+      internalID: -3741727355495665175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_130
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 511
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7283cda1519615e0800000000000000
+      internalID: -1939202809542770052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_131
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 511
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf07e34f6f514a580800000000000000
+      internalID: -8816898020080717572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_132
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 511
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a3f8763be6265f70800000000000000
+      internalID: 9175564082487030690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_133
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 511
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab95abf80ff924a60800000000000000
+      internalID: 7656858172035586490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_134
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 511
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5eb7ba4bb1b40a50800000000000000
+      internalID: 6486504781290913371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_135
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 511
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a2b9c0965175dd00800000000000000
+      internalID: 996827509142696614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_136
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 511
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 189ec731bbe0cff60800000000000000
+      internalID: 8069340828989712769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_137
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 511
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd8e2ff0d7e6ce330800000000000000
+      internalID: 3741486873855584475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_138
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 383
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dc78c54e34b0e8a0800000000000000
+      internalID: -6277819701002732331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_139
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 383
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d17f2b33de569d200800000000000000
+      internalID: 205307327471089437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_140
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 383
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7f795224aba85f80800000000000000
+      internalID: -8117549606896042113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_141
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 383
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c1453c92b93540d0800000000000000
+      internalID: -3439279301139807808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_142
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 383
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c052b0a9e0a34f2a0800000000000000
+      internalID: -6704670110859451124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_143
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 383
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9fa37ca1927f9fe0800000000000000
+      internalID: -1180098607358693477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_144
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 383
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae851eb544a473100800000000000000
+      internalID: 87620375216740586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_145
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 383
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a57d7406060f40f0800000000000000
+      internalID: -1130678358531803743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_146
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 383
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffdd0f79444678610800000000000000
+      internalID: 1623376436460051967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_147
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 383
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c48034dcd46345e20800000000000000
+      internalID: 3338352931572484172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_148
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 255
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93ad0af86bc670120800000000000000
+      internalID: 2379990459438127673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_149
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 255
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17024d258cf4a0840800000000000000
+      internalID: 5191049242299605105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_150
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 255
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba8f52adf73678670800000000000000
+      internalID: 8540904619103353003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_151
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 255
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fed9a8f61b13f44f0800000000000000
+      internalID: -842399967144665617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_152
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 255
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e6d98aa63651c070800000000000000
+      internalID: 8124869995542468327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_153
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 255
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6729e63eef801fa90800000000000000
+      internalID: -7282029231650991498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_154
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 255
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a860e476495386100800000000000000
+      internalID: 101389903120434826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_155
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 255
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d230b62ffe5164510800000000000000
+      internalID: 1532936843474699053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_156
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 255
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffa45b2c2a704a010800000000000000
+      internalID: 1199091796420152063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_157
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 255
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0c075ec073b9c270800000000000000
+      internalID: 8271339487722146828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_158
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 127
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 951fddc1ab12f5d90800000000000000
+      internalID: -7106924603735412391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_159
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 127
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a73015d8e68899010800000000000000
+      internalID: 1196137184442254202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_160
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 127
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e58537b0c1955140800000000000000
+      internalID: 4707829242379208169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_161
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 127
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a39384e22f1e49210800000000000000
+      internalID: 1338943419510700346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_162
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 127
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f029cd2db08053b80800000000000000
+      internalID: -8415811481796570609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_163
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 127
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd642a8a5bec28800800000000000000
+      internalID: 613279778889418459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_164
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 127
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a5e6f0a0ac10b750800000000000000
+      internalID: 6318581753421686184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_165
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 127
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f5212dd381ec7840800000000000000
+      internalID: 5223297624309835249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_166
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 127
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66ed744be391f8ed0800000000000000
+      internalID: -2409679518516650394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_167
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 127
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d300a7a05eebfaef0800000000000000
+      internalID: -94647176218935235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_168
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 0
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50003b27fcda714d0800000000000000
+      internalID: -3163869106710315003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_169
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 0
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dd6111825a25c4c0800000000000000
+      internalID: -4267958538022588973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_170
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 0
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c638f75c52e7f6620800000000000000
+      internalID: 2769570996548502380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer_Pixel_art_Movement_idle_171
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 0
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f00106bf65032f20800000000000000
+      internalID: 3396564521320513780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Archer_Pixel_art_Movement_idle_0: -1820931521704835837
+      Archer_Pixel_art_Movement_idle_1: 4398650759386642611
+      Archer_Pixel_art_Movement_idle_10: 7048407740988760134
+      Archer_Pixel_art_Movement_idle_100: 732266011022551738
+      Archer_Pixel_art_Movement_idle_101: -3466451314698138008
+      Archer_Pixel_art_Movement_idle_102: 5636856038354581903
+      Archer_Pixel_art_Movement_idle_103: -9024444487327503329
+      Archer_Pixel_art_Movement_idle_104: 7499261588396894636
+      Archer_Pixel_art_Movement_idle_105: -1886324669597526713
+      Archer_Pixel_art_Movement_idle_106: -5457883414339058074
+      Archer_Pixel_art_Movement_idle_107: -1837904875852719671
+      Archer_Pixel_art_Movement_idle_108: 7650783105643357693
+      Archer_Pixel_art_Movement_idle_109: 8309088012317756453
+      Archer_Pixel_art_Movement_idle_11: -7650792987509901798
+      Archer_Pixel_art_Movement_idle_110: 7328884642787778194
+      Archer_Pixel_art_Movement_idle_111: 5498267283863103557
+      Archer_Pixel_art_Movement_idle_112: -4494157488398008516
+      Archer_Pixel_art_Movement_idle_113: -3898287236544932026
+      Archer_Pixel_art_Movement_idle_114: -303448576950658929
+      Archer_Pixel_art_Movement_idle_115: 6528707154088579058
+      Archer_Pixel_art_Movement_idle_116: 4810639957104947777
+      Archer_Pixel_art_Movement_idle_117: 1769721476467193188
+      Archer_Pixel_art_Movement_idle_118: -5514511463698378972
+      Archer_Pixel_art_Movement_idle_119: -9174449092700513318
+      Archer_Pixel_art_Movement_idle_12: -3178513481148321792
+      Archer_Pixel_art_Movement_idle_120: 8495538008485905012
+      Archer_Pixel_art_Movement_idle_121: 5937877174091677145
+      Archer_Pixel_art_Movement_idle_122: 870446098955730243
+      Archer_Pixel_art_Movement_idle_123: 6715565530377432746
+      Archer_Pixel_art_Movement_idle_124: 3264938286572280690
+      Archer_Pixel_art_Movement_idle_125: -6683128261643064923
+      Archer_Pixel_art_Movement_idle_126: 1792042657790870863
+      Archer_Pixel_art_Movement_idle_127: 8606778323923807328
+      Archer_Pixel_art_Movement_idle_128: -9109946207701877435
+      Archer_Pixel_art_Movement_idle_129: -3741727355495665175
+      Archer_Pixel_art_Movement_idle_13: 1111621604814467231
+      Archer_Pixel_art_Movement_idle_130: -1939202809542770052
+      Archer_Pixel_art_Movement_idle_131: -8816898020080717572
+      Archer_Pixel_art_Movement_idle_132: 9175564082487030690
+      Archer_Pixel_art_Movement_idle_133: 7656858172035586490
+      Archer_Pixel_art_Movement_idle_134: 6486504781290913371
+      Archer_Pixel_art_Movement_idle_135: 996827509142696614
+      Archer_Pixel_art_Movement_idle_136: 8069340828989712769
+      Archer_Pixel_art_Movement_idle_137: 3741486873855584475
+      Archer_Pixel_art_Movement_idle_138: -6277819701002732331
+      Archer_Pixel_art_Movement_idle_139: 205307327471089437
+      Archer_Pixel_art_Movement_idle_14: 4183668764290441702
+      Archer_Pixel_art_Movement_idle_140: -8117549606896042113
+      Archer_Pixel_art_Movement_idle_141: -3439279301139807808
+      Archer_Pixel_art_Movement_idle_142: -6704670110859451124
+      Archer_Pixel_art_Movement_idle_143: -1180098607358693477
+      Archer_Pixel_art_Movement_idle_144: 87620375216740586
+      Archer_Pixel_art_Movement_idle_145: -1130678358531803743
+      Archer_Pixel_art_Movement_idle_146: 1623376436460051967
+      Archer_Pixel_art_Movement_idle_147: 3338352931572484172
+      Archer_Pixel_art_Movement_idle_148: 2379990459438127673
+      Archer_Pixel_art_Movement_idle_149: 5191049242299605105
+      Archer_Pixel_art_Movement_idle_15: -113656225566210624
+      Archer_Pixel_art_Movement_idle_150: 8540904619103353003
+      Archer_Pixel_art_Movement_idle_151: -842399967144665617
+      Archer_Pixel_art_Movement_idle_152: 8124869995542468327
+      Archer_Pixel_art_Movement_idle_153: -7282029231650991498
+      Archer_Pixel_art_Movement_idle_154: 101389903120434826
+      Archer_Pixel_art_Movement_idle_155: 1532936843474699053
+      Archer_Pixel_art_Movement_idle_156: 1199091796420152063
+      Archer_Pixel_art_Movement_idle_157: 8271339487722146828
+      Archer_Pixel_art_Movement_idle_158: -7106924603735412391
+      Archer_Pixel_art_Movement_idle_159: 1196137184442254202
+      Archer_Pixel_art_Movement_idle_16: -8867787139162142687
+      Archer_Pixel_art_Movement_idle_160: 4707829242379208169
+      Archer_Pixel_art_Movement_idle_161: 1338943419510700346
+      Archer_Pixel_art_Movement_idle_162: -8415811481796570609
+      Archer_Pixel_art_Movement_idle_163: 613279778889418459
+      Archer_Pixel_art_Movement_idle_164: 6318581753421686184
+      Archer_Pixel_art_Movement_idle_165: 5223297624309835249
+      Archer_Pixel_art_Movement_idle_166: -2409679518516650394
+      Archer_Pixel_art_Movement_idle_167: -94647176218935235
+      Archer_Pixel_art_Movement_idle_168: -3163869106710315003
+      Archer_Pixel_art_Movement_idle_169: -4267958538022588973
+      Archer_Pixel_art_Movement_idle_17: 8322968011067374923
+      Archer_Pixel_art_Movement_idle_170: 2769570996548502380
+      Archer_Pixel_art_Movement_idle_171: 3396564521320513780
+      Archer_Pixel_art_Movement_idle_18: 2676955971707132334
+      Archer_Pixel_art_Movement_idle_19: 5236064193483448208
+      Archer_Pixel_art_Movement_idle_2: 8173082685161203961
+      Archer_Pixel_art_Movement_idle_20: -9161523691456782436
+      Archer_Pixel_art_Movement_idle_21: 8598097770183739941
+      Archer_Pixel_art_Movement_idle_22: -567349366718349054
+      Archer_Pixel_art_Movement_idle_23: 329153990657026141
+      Archer_Pixel_art_Movement_idle_24: 248009454170882669
+      Archer_Pixel_art_Movement_idle_25: -8448755079347509841
+      Archer_Pixel_art_Movement_idle_26: -1616380579347482205
+      Archer_Pixel_art_Movement_idle_27: -3120361636198830674
+      Archer_Pixel_art_Movement_idle_28: -1067494744423925578
+      Archer_Pixel_art_Movement_idle_29: -1924921732053094984
+      Archer_Pixel_art_Movement_idle_3: -2545157183177399002
+      Archer_Pixel_art_Movement_idle_30: -875680302671400821
+      Archer_Pixel_art_Movement_idle_31: 332701947458212731
+      Archer_Pixel_art_Movement_idle_32: 5242997201684047214
+      Archer_Pixel_art_Movement_idle_33: -6535110818693898843
+      Archer_Pixel_art_Movement_idle_34: 3776170285792090195
+      Archer_Pixel_art_Movement_idle_35: 1666410154132499518
+      Archer_Pixel_art_Movement_idle_36: -5611591696777876066
+      Archer_Pixel_art_Movement_idle_37: 5267478194379240260
+      Archer_Pixel_art_Movement_idle_38: 7906994466029980641
+      Archer_Pixel_art_Movement_idle_39: -4005393719859590795
+      Archer_Pixel_art_Movement_idle_4: 3735849272977011459
+      Archer_Pixel_art_Movement_idle_40: -7324085936316466056
+      Archer_Pixel_art_Movement_idle_41: 5503161073319860160
+      Archer_Pixel_art_Movement_idle_42: -3814187018190600578
+      Archer_Pixel_art_Movement_idle_43: -6354748243427671574
+      Archer_Pixel_art_Movement_idle_44: -5503701893444356115
+      Archer_Pixel_art_Movement_idle_45: -964216323961206814
+      Archer_Pixel_art_Movement_idle_46: 8390694255155920790
+      Archer_Pixel_art_Movement_idle_47: -8492997708047741090
+      Archer_Pixel_art_Movement_idle_48: -5340058600256256372
+      Archer_Pixel_art_Movement_idle_49: 9124519609395048834
+      Archer_Pixel_art_Movement_idle_5: -3521212340439088342
+      Archer_Pixel_art_Movement_idle_50: 5793617827899122956
+      Archer_Pixel_art_Movement_idle_51: -8097382033208713019
+      Archer_Pixel_art_Movement_idle_52: 641981180860853134
+      Archer_Pixel_art_Movement_idle_53: -2019296451921762978
+      Archer_Pixel_art_Movement_idle_54: 3884678498043958558
+      Archer_Pixel_art_Movement_idle_55: -3862280648156852078
+      Archer_Pixel_art_Movement_idle_56: 4769588235423436955
+      Archer_Pixel_art_Movement_idle_57: -65555636703350039
+      Archer_Pixel_art_Movement_idle_58: 7517384850451422934
+      Archer_Pixel_art_Movement_idle_59: -171065669389826878
+      Archer_Pixel_art_Movement_idle_6: -2513790681487200166
+      Archer_Pixel_art_Movement_idle_60: 6984368910999396210
+      Archer_Pixel_art_Movement_idle_61: -683195719850476899
+      Archer_Pixel_art_Movement_idle_62: -8706047855562669556
+      Archer_Pixel_art_Movement_idle_63: -259709790488750571
+      Archer_Pixel_art_Movement_idle_64: -3133403672401674980
+      Archer_Pixel_art_Movement_idle_65: -7351886640643047862
+      Archer_Pixel_art_Movement_idle_66: 565013121234119250
+      Archer_Pixel_art_Movement_idle_67: 4528154545847282039
+      Archer_Pixel_art_Movement_idle_68: 6814990627416904490
+      Archer_Pixel_art_Movement_idle_69: 6454388204323453611
+      Archer_Pixel_art_Movement_idle_7: -3430250353500770536
+      Archer_Pixel_art_Movement_idle_70: 8665046757418558060
+      Archer_Pixel_art_Movement_idle_71: 4673141566801686990
+      Archer_Pixel_art_Movement_idle_72: -4525883569288073493
+      Archer_Pixel_art_Movement_idle_73: -6452115177999123166
+      Archer_Pixel_art_Movement_idle_74: -578851182979747483
+      Archer_Pixel_art_Movement_idle_75: 7732107785132978899
+      Archer_Pixel_art_Movement_idle_76: 8394491126093909439
+      Archer_Pixel_art_Movement_idle_77: -8359566727903105867
+      Archer_Pixel_art_Movement_idle_78: 985601694073593676
+      Archer_Pixel_art_Movement_idle_79: 4580458234116157346
+      Archer_Pixel_art_Movement_idle_8: -5941270587218256721
+      Archer_Pixel_art_Movement_idle_80: -6209037458650042264
+      Archer_Pixel_art_Movement_idle_81: -2929612966111972572
+      Archer_Pixel_art_Movement_idle_82: -8878235672501417703
+      Archer_Pixel_art_Movement_idle_83: -1161885854382420949
+      Archer_Pixel_art_Movement_idle_84: -5566559088240761935
+      Archer_Pixel_art_Movement_idle_85: -7382867858046553210
+      Archer_Pixel_art_Movement_idle_86: -6757520419639506993
+      Archer_Pixel_art_Movement_idle_87: -2820723061535059478
+      Archer_Pixel_art_Movement_idle_88: -7216170976176056709
+      Archer_Pixel_art_Movement_idle_89: 4470936407413411046
+      Archer_Pixel_art_Movement_idle_9: 3973835938464399686
+      Archer_Pixel_art_Movement_idle_90: -3330959337496980294
+      Archer_Pixel_art_Movement_idle_91: -8374371048463382921
+      Archer_Pixel_art_Movement_idle_92: 2101940104192110656
+      Archer_Pixel_art_Movement_idle_93: -5715184985190574056
+      Archer_Pixel_art_Movement_idle_94: 6492792616430971039
+      Archer_Pixel_art_Movement_idle_95: -3170177204735685482
+      Archer_Pixel_art_Movement_idle_96: 936871195245315429
+      Archer_Pixel_art_Movement_idle_97: -590803453693163366
+      Archer_Pixel_art_Movement_idle_98: -6831275746110689933
+      Archer_Pixel_art_Movement_idle_99: -2861012901692265882
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
