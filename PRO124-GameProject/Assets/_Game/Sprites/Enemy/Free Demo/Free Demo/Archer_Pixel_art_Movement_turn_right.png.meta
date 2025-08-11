@@ -205,6 +205,45 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -947,7 +986,40 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Archer_Pixel_art_Movement_turn_right_0: -5772370707760088145
+      Archer_Pixel_art_Movement_turn_right_1: 2599496249652653427
+      Archer_Pixel_art_Movement_turn_right_10: 2988835046438333133
+      Archer_Pixel_art_Movement_turn_right_11: -1472663496212979634
+      Archer_Pixel_art_Movement_turn_right_12: -8891247394849692476
+      Archer_Pixel_art_Movement_turn_right_13: -6196695708579993146
+      Archer_Pixel_art_Movement_turn_right_14: 3367906903868008831
+      Archer_Pixel_art_Movement_turn_right_15: -823752906045664792
+      Archer_Pixel_art_Movement_turn_right_16: -6147930704434169340
+      Archer_Pixel_art_Movement_turn_right_17: -2014650675289232808
+      Archer_Pixel_art_Movement_turn_right_18: -4110452856233710144
+      Archer_Pixel_art_Movement_turn_right_19: 6815019391541422332
+      Archer_Pixel_art_Movement_turn_right_2: -5171274125422983526
+      Archer_Pixel_art_Movement_turn_right_20: 1406074368929056729
+      Archer_Pixel_art_Movement_turn_right_21: 5710594770054886482
+      Archer_Pixel_art_Movement_turn_right_22: -7034257767902381529
+      Archer_Pixel_art_Movement_turn_right_23: -7301243664293274084
+      Archer_Pixel_art_Movement_turn_right_24: 3899232106048366183
+      Archer_Pixel_art_Movement_turn_right_25: 1465866605928002020
+      Archer_Pixel_art_Movement_turn_right_26: -2790686362869851693
+      Archer_Pixel_art_Movement_turn_right_27: -6139861285522594983
+      Archer_Pixel_art_Movement_turn_right_28: -6853233131413060557
+      Archer_Pixel_art_Movement_turn_right_29: -4980454028385795092
+      Archer_Pixel_art_Movement_turn_right_3: -1396928706163943316
+      Archer_Pixel_art_Movement_turn_right_30: -3878110829068656282
+      Archer_Pixel_art_Movement_turn_right_31: -5430968473573993161
+      Archer_Pixel_art_Movement_turn_right_32: 356007731998332033
+      Archer_Pixel_art_Movement_turn_right_4: 444149754464691878
+      Archer_Pixel_art_Movement_turn_right_5: 7610402845382886976
+      Archer_Pixel_art_Movement_turn_right_6: 2667543659371120204
+      Archer_Pixel_art_Movement_turn_right_7: 1918401584633475026
+      Archer_Pixel_art_Movement_turn_right_8: 6106228985887150478
+      Archer_Pixel_art_Movement_turn_right_9: -7108203523236026119
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
