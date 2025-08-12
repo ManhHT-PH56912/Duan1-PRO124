@@ -15,8 +15,14 @@ EditorBuildSettings:
     path: Assets/_Game/_Screne/MainMenu.unity
     guid: 361f8bef3c07ca347ba32221ff7743bb
   - enabled: 1
-    path: Assets/_Game/_Screne/Manh.unity
-    guid: 8ca53c45c1fe273459875352da0ba1af
+    path: Assets/_Game/_Screne/Map1.unity
+    guid: 9b5f4387c7b745e40b886502493ebe3d
+  - enabled: 1
+    path: Assets/_Game/_Screne/Map2.unity
+    guid: 902eff3147d15b1419a5b6d5a7689ba1
+  - enabled: 1
+    path: Assets/_Game/_Screne/MapBoss.unity
+    guid: 176805e9db5421b438015a95820e4e91
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
