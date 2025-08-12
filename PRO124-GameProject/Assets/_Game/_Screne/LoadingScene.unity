@@ -331,6 +331,10 @@ PrefabInstance:
       propertyPath: playerDataSO
       value: 
       objectReference: {fileID: 11400000, guid: 5a2c944aa1da53c4aa4e33ce11063e30, type: 2}
+    - target: {fileID: 2115984498785100708, guid: 9dfc567bd372b2345a27ae8618237536, type: 3}
+      propertyPath: playerData.inventory.items.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3599565350514456872, guid: 9dfc567bd372b2345a27ae8618237536, type: 3}
       propertyPath: m_Name
       value: FirebaseManager

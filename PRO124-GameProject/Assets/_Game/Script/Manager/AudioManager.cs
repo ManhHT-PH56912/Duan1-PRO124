@@ -16,7 +16,7 @@ public class AudioManager : Singleton<AudioManager>
     public AudioSource soundEffectSource;
 
     [Header("Audio Clips")]
-    public List<AudioClip> soundEffects;
+    public AudioClip soundEffects;
     public List<AudioClip> backgroundMusic;
 
     public PlayerDataModel playerData;
@@ -59,6 +59,13 @@ public class AudioManager : Singleton<AudioManager>
         if (musicTransitionCoroutine != null)
             StopCoroutine(musicTransitionCoroutine);
         musicTransitionCoroutine = StartCoroutine(FadeAndSwitchMusic(newClip));
+    }
+
+    public void PlaySound(AudioClip clip)
+    {
+        if (clip == null || soundEffectSource == null) return;
+
+        soundEffectSource.PlayOneShot(clip);
     }
 
     private IEnumerator FadeAndSwitchMusic(AudioClip newClip)

@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2262365454334619745}
   - component: {fileID: 3195198780515267737}
+  - component: {fileID: 9063550688217505494}
   m_Layer: 0
   m_Name: UImanager
   m_TagString: Untagged
@@ -46,3 +47,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthManaBar: {fileID: 0}
   monnyUI: {fileID: 0}
+--- !u!114 &9063550688217505494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6756276229893592785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75630a39766345e4b86cfcdef6e0d28e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

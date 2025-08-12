@@ -9,7 +9,6 @@ using Firebase.Database;
 using Firebase.Extensions;
 using UnityEngine;
 using Newtonsoft.Json;
-using System;
 
 public class FirebaseManager : Singleton<FirebaseManager>
 {
@@ -75,10 +74,25 @@ public class FirebaseManager : Singleton<FirebaseManager>
             playerData.userId = user.UserId;
             playerData.email = email;
 
-            ReadData();
-            ListenToRealtimeData();
+            // Đọc dữ liệu từ server trước khi tạo mặc định
+            db.Child("users").Child(playerData.userId).GetValueAsync().ContinueWithOnMainThread(readTask =>
+            {
+                if (!readTask.IsFaulted && readTask.Result.Exists)
+                {
+                    string json = readTask.Result.GetRawJsonValue();
+                    playerData = JsonConvert.DeserializeObject<PlayerDataModel>(json);
+                    playerData.EnsureDefaultItems();
+                }
+                else
+                {
+                    playerData.ResetDefaultData(user.UserId, email);
+                    WriteData();
+                }
 
-            callback(true, "Login successfully!");
+                ListenToRealtimeData();
+                SyncAudioManager();
+                callback(true, "Login successfully!");
+            });
         });
     }
 

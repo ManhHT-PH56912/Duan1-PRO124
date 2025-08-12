@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:PRO124-GameProject/Assets/Resources/FireZone/FireZone.controller.meta
 guid: df79f72ece4d78a47af7377631d0fbc9
+========
+guid: 074d1a67be9beff41a53ac9a1356c84b
+>>>>>>>> ducanh:PRO124-GameProject/Assets/Assets123/DarkForest_Background_0.controller.meta
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 9100000

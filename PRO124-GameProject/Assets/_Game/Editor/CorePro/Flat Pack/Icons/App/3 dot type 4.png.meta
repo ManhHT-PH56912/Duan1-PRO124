@@ -221,11 +221,15 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+<<<<<<< HEAD
+      Group 7 - 2_4_0: -7842336920398870565
+=======
 <<<<<<< HEAD:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Floored/fire asset blue floored/Group 6 - 4/Group 6 - 4_5.png.meta
       Group 6 - 4_5_0: 3385023695250502558
 =======
       Group 7 - 2_4_0: -7842336920398870565
 >>>>>>> 1ab7842eaf12245c550ef89afe5f342b23b0dac0:PRO124-GameProject/Assets/_Game/Editor/CorePro/Flat Pack/Icons/App/3 dot type 4.png.meta
+>>>>>>> ducanh
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:PRO124-GameProject/Assets/Resources/Effect/EffectFireBomb.prefab.meta
+guid: f413fe5b3dd6a1b4e8ac04fe07d3136f
+PrefabImporter:
+========
 guid: 5d3563a4277cf494c9da41af6afa7364
 TextScriptImporter:
+>>>>>>>> ducanh:PRO124-GameProject/Assets/Assets123/License.txt.meta
   externalObjects: {}
   userData: 
   assetBundleName: 

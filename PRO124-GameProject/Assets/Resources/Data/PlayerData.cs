@@ -44,6 +44,9 @@ public class PlayerDataModel
         public bool isSfxOn;
     }
 
+    /// <summary>
+    /// Resets the player data to default values.
+    /// </summary>
     public void ResetDefaultData(string userId, string email)
     {
         this.userId = userId;
@@ -76,24 +79,24 @@ public class PlayerDataModel
             isSfxOn = true
         };
     }
-
+    /// <summary>
+    /// Ensure default items are present in the inventory.
+    /// </summary>
     public void EnsureDefaultItems()
     {
         var defaultItems = new List<Item>
-        {
-            new Item { id = "potion_hp", name = "Thuốc Hồi Máu", quantity = 0 },
-            new Item { id = "potion_mana", name = "Thuốc Hồi Mana", quantity = 0 }
-        };
+    {
+        new Item { id = "potion_hp", name = "Thuốc Hồi Máu", quantity = 0 },
+        new Item { id = "potion_mana", name = "Thuốc Hồi Mana", quantity = 0 }
+    };
 
         foreach (var def in defaultItems)
         {
             var existing = inventory.items.Find(i => i.id == def.id);
-            if (existing != null)
+            if (existing == null)
             {
-                def.quantity = existing.quantity;
+                inventory.items.Add(def);
             }
         }
-
-        inventory.items = defaultItems;
     }
 }
