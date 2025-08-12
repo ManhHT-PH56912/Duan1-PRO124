@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:PRO124-GameProject/Assets/_Game/Anamtions/Boss/Atk3.anim.meta
 guid: 66c91358705ecbe4b891424d2902351b
+========
+guid: 2b40bb6e200dd124a8e2abde7cf250b3
+>>>>>>>> ducanh:PRO124-GameProject/Assets/_Game/Anamtions/Boss/Atk1.anim.meta
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 7400000

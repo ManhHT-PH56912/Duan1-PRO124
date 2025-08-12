@@ -684,8 +684,8 @@ public class PlayerController : MonoBehaviour
     {
         //NOTE: create a "Ledge" layer and set all "Ledge" objects to that layer instead of using the "Default" layer. 
         int ledgeLayer = LayerMask.GetMask("Default");
-        float rayLength = 0.22f;
-        float angleDegrees = 45;  // Adjust the angle for diagonal rays
+        float rayLength = 0.5f;
+        float angleDegrees = 60;  // Adjust the angle for diagonal rays
 
         // Calculate direction vectors for diagonal rays
         Vector2 leftUp = Quaternion.Euler(0, 0, angleDegrees) * Vector2.left;
@@ -756,7 +756,7 @@ public class PlayerController : MonoBehaviour
         yield return new WaitForSeconds(0.66f); // Adjust time based on your animation
 
         // Calculate the new position to make sure the character ends up on top of the ledge
-        float newYPosition = ledgeBounds.max.y + (1f / 2); // Character height
+        float newYPosition = ledgeBounds.max.y + (3f / 2); // Character height
         float newXPosition = transform.position.x + (direction == 0 ? 0.5f : -0.5f); // Adjust sideways position if needed
 
         transform.position = new Vector3(newXPosition, newYPosition, transform.position.z);

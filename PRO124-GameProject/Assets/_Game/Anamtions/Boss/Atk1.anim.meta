@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:PRO124-GameProject/Assets/_Game/Anamtions/Boss/Atk1.anim.meta
 guid: 2b40bb6e200dd124a8e2abde7cf250b3
+========
+guid: 5496732f71c1bb64e923912263184df9
+>>>>>>>> ducanh:PRO124-GameProject/Assets/Resources/FireZone/FireZone.anim.meta
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 7400000

@@ -166,6 +166,45 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites: []
@@ -183,8 +222,17 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+<<<<<<< HEAD
       img_16_0: -3008514610742158328
       img_16_1: 8742190166962392539
+=======
+<<<<<<< HEAD:PRO124-GameProject/Assets/_Game/Sprites/Effect/Pixel fire asset pack v1.2/Pixel fire asset pack v1.2/Pixel Fire Asset Pack Colored/fire asset purple/Group 6 - 1/Group 6 - 1_2.png.meta
+      Group 6 - 1_2_0: 37582541041752671
+=======
+      img_16_0: -3008514610742158328
+      img_16_1: 8742190166962392539
+>>>>>>> 1ab7842eaf12245c550ef89afe5f342b23b0dac0:PRO124-GameProject/Assets/_Game/Editor/CorePro/Flat Pack/Shapes/Rectangle 512x512 white  frame/Rectangle 512x512 I Round 40px/Rectangle 40r  25t  5s.png.meta
+>>>>>>> ducanh
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

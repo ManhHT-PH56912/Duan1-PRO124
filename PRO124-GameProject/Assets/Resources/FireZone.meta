@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:PRO124-GameProject/Assets/Resources/FireZone.meta
 guid: 9ce913e332f271749bcb4db773eb8719
+========
+guid: eed95951e1cfe90469f768546571ba1a
+>>>>>>>> ducanh:PRO124-GameProject/Assets/Assets123/Ocean_2.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

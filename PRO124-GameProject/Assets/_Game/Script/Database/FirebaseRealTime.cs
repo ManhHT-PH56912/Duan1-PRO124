@@ -1,3 +1,7 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Data.Common;
 using DesignPatterns.Singleton;
 using Firebase;
 using Firebase.Auth;
@@ -5,7 +9,6 @@ using Firebase.Database;
 using Firebase.Extensions;
 using UnityEngine;
 using Newtonsoft.Json;
-using System;
 
 public class FirebaseManager : Singleton<FirebaseManager>
 {
